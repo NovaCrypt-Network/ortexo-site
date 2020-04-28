@@ -1,0 +1,17 @@
+.about {
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+
+    height: 100%;
+
+    &-left {
+      background-color: $color-primary;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

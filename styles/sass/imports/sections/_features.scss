@@ -1,0 +1,19 @@
+.features-section {
+
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+
+    .feature {
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      grid-gap: 15px;
+
+      &-icon {
+        width: 100%;
+      }
+    }
+  }
+}

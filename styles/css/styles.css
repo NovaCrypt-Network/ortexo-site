@@ -12,6 +12,9 @@ section {
 .section-container {
   padding: 50px 0; }
 
+.container {
+  height: 100%; }
+
 .flipped-wave {
   transform: rotate(180deg); }
 
@@ -35,17 +38,39 @@ section {
       width: 100%;
       height: 100%; }
 
-.our-partners-header {
-  position: relative; }
-  .our-partners-header .see-more {
-    position: absolute;
-    top: 15px;
-    right: 0; }
+.partners-section {
+  height: auto; }
+  .partners-section-header {
+    position: relative; }
+    .partners-section-header .see-more {
+      position: absolute;
+      top: 15px;
+      right: 0; }
+  .partners-section .partners {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px; }
+  .partners-section .partner {
+    width: 100%; }
 
-.our-partners .partners {
+.about-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 50px; }
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  align-items: center;
+  height: 100%; }
+  .about-grid-left {
+    background-color: #00154F;
+    height: 100%;
+    width: 100%; }
 
-.our-partners .partner {
-  width: 100%; }
+.features-section .features {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px; }
+  .features-section .features .feature {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-gap: 15px; }
+    .features-section .features .feature-icon {
+      width: 100%; }
