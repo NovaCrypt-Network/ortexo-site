@@ -1,0 +1,23 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "compile:sass": "node-sass styles/sass/main.scss styles/css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calixo888/launch-tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calixo888/launch-tech/issues"
+  },
+  "homepage": "https://github.com/calixo888/launch-tech#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
