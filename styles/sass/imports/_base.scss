@@ -1,5 +1,5 @@
-$color-blue: #00154F;
-$color-yellow: #F4AF1B;
+$color-primary: #00154F;   // BLUE
+$color-secondary: #F4AF1B; // YELLOW
 
 * {
   padding: 0;
@@ -7,6 +7,7 @@ $color-yellow: #F4AF1B;
   box-sizing: border-box;
 }
 
-h1 {
-  background-color: red;
+section {
+  height: 90vh;
+  background-color: #eee;
 }
