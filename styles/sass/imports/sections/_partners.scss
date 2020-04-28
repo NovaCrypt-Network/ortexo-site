@@ -1,0 +1,21 @@
+.our-partners {
+  &-header {
+    position: relative;
+
+    .see-more {
+      position: absolute;
+      top: 15px;
+      right: 0;
+    }
+  }
+
+  .partners {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+  }
+
+  .partner {
+    width: 100%;
+  }
+}

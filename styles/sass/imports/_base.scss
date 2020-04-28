@@ -7,7 +7,14 @@ $color-secondary: #F4AF1B; // YELLOW
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eee;
+}
+
 section {
   height: 90vh;
-  background-color: #eee;
+}
+
+.section-container {
+  padding: 50px 0;
 }
