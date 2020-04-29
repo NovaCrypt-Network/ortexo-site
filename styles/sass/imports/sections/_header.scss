@@ -18,6 +18,18 @@
 
     height: 100%;
 
+    &-left {
+
+      &-main-header {
+        font-size: 65px;
+        font-weight: bold;
+      }
+
+      &-sub-header {
+        line-height: 2rem;
+      }
+    }
+
     &-right {
       background-color: white;
       width: 100%;

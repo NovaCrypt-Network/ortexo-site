@@ -1,5 +1,7 @@
-$color-primary: #00154F;   // BLUE
-$color-secondary: #F4AF1B; // YELLOW
+$color-primary: #00154F;         // BLUE
+$color-secondary: #F4AF1B;       // YELLOW
+$color-primary-dark: #021037;         // DARK BLUE
+$color-secondary-dark: #c99117;  // DARK YELLOW
 
 * {
   padding: 0;
@@ -9,10 +11,6 @@ $color-secondary: #F4AF1B; // YELLOW
 
 body {
   background-color: #eee;
-}
-
-section {
-  // height: 90vh;
 }
 
 .section-container {
@@ -26,4 +24,10 @@ section {
 
 .container {
   height: 100%;
+}
+
+.cta-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
 }

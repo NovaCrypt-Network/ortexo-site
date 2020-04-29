@@ -16,6 +16,56 @@ body {
 .container {
   height: 100%; }
 
+.cta-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px; }
+
+.button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all .2s;
+  text-align: center; }
+  .button:hover {
+    color: white;
+    text-decoration: none; }
+
+.solid-cta-button-light {
+  color: white;
+  border: 2px solid #F4AF1B;
+  background-color: #F4AF1B; }
+  .solid-cta-button-light:hover {
+    border: 2px solid #c99117;
+    background-color: #c99117; }
+
+.solid-cta-button-dark {
+  color: white;
+  border: 2px solid #00154F;
+  background-color: #00154F; }
+  .solid-cta-button-dark:hover {
+    border: 2px solid #021037;
+    background-color: #021037; }
+
+.ghost-cta-button {
+  padding: 10px 15px;
+  border-radius: 4px; }
+  .ghost-cta-button-light {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent; }
+    .ghost-cta-button-light:hover {
+      background-color: white;
+      color: black; }
+  .ghost-cta-button-dark {
+    color: #00154F;
+    border: 2px solid #00154F;
+    background-color: transparent; }
+    .ghost-cta-button-dark:hover {
+      background-color: #00154F;
+      color: white; }
+
 .flipped-wave {
   transform: rotate(180deg); }
 
@@ -35,6 +85,11 @@ body {
     grid-gap: 100px;
     align-items: center;
     height: 100%; }
+    .header-grid-left-main-header {
+      font-size: 65px;
+      font-weight: bold; }
+    .header-grid-left-sub-header {
+      line-height: 2rem; }
     .header-grid-right {
       background-color: white;
       width: 100%;
@@ -81,7 +136,7 @@ body {
 .get-started .steps {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 50px; }
+  grid-gap: 30px; }
   .get-started .steps .step {
     position: relative;
     padding-top: 50px; }
