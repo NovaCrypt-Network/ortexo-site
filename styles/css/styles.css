@@ -134,13 +134,15 @@ body {
   .features-section .features {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 15px; }
+    grid-gap: 50px; }
     .features-section .features .feature {
       display: grid;
       grid-template-columns: 40px 1fr;
       grid-gap: 15px; }
       .features-section .features .feature-icon {
         width: 100%; }
+      .features-section .features .feature-content small {
+        font-size: 14px; }
 
 .get-started .steps {
   display: grid;
