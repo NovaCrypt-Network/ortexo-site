@@ -1,5 +1,9 @@
 .features-section {
+  background-color: $color-primary;
 
+  * {
+    color: white;
+  }
 
   .features {
     display: grid;
