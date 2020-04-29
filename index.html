@@ -9,11 +9,13 @@
 
     <!-- SWIPERJS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <title>Launch Tech LLC - A student venture incubator</title>
   </head>
   <body>
 
     <!-- HEADER -->
-    <section class="header">
+    <section class="header" id="header">
       <div class="section-container container">
         <div class="header-grid">
           <div class="header-grid-left">
@@ -22,8 +24,8 @@
               Launch Tech is a project incubator that helps design, build, market, and grow student-run projects/ventures into legal corporations/startups.
             </h5>
             <div class="cta-buttons mt-4">
-              <a href="#" class="button ghost-cta-button-light">Learn More</a>
-              <a href="#" class="button solid-cta-button-light">Get Started!</a>
+              <button class="button ghost-cta-button-light" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Learn More</button>
+              <button class="button solid-cta-button-light" onclick="document.getElementById('get-started').scrollIntoView({behavior: 'smooth'});">Get Started!</button>
             </div>
           </div>
           <div class="header-grid-right"></div>
@@ -37,7 +39,7 @@
     </div>
 
     <!-- PARTNERS -->
-    <section class="partners-section">
+    <section class="partners-section" id="partners">
       <div class="container">
         <div class="swiper-container partners-container">
           <div class="partners swiper-wrapper">
@@ -86,7 +88,7 @@
     </section>
 
     <!-- ABOUT -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="section-container container">
         <div class="about-grid">
           <div class="about-grid-left"></div>
@@ -99,7 +101,7 @@
             </p>
             <div class="cta-buttons mt-4">
               <a href="#" class="button ghost-cta-button-dark">Our Projects</a>
-              <a href="#" class="button solid-cta-button-dark">Get Started!</a>
+              <button class="solid-cta-button-dark button"  onclick="document.getElementById('get-started').scrollIntoView({behavior: 'smooth'});">Get Started!</button>
             </div>
           </div>
         </div>
@@ -107,7 +109,7 @@
     </section>
 
     <!-- FEATURES -->
-    <section class="features-section">
+    <section class="features-section" id="features">
       <div class="section-container container">
         <h1 class="section-header">Features</h1>
         <div class="features mt-5">
@@ -179,7 +181,7 @@
     </section>
 
     <!-- GET STARTED -->
-    <section class="get-started">
+    <section class="get-started" id="get-started">
       <div class="section-container container">
         <h1 class="section-header">Get Started Today!</h1>
         <div class="steps">
@@ -226,7 +228,7 @@
     </div>
 
     <!-- FOOTER/CONTACT -->
-    <section class="footer">
+    <section class="footer" id="footer">
       <div class="section-container container">
         <div class="footer-grid">
 
@@ -294,7 +296,13 @@
     </section>
   </body>
 
+  <!-- GENERAL -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" charset="utf-8"></script>
+
   <!-- SWIPERJS -->
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="js/swiper.js" charset="utf-8"></script>
+
+  <!-- CUSTOM -->
+  <script src="js/script.js" charset="utf-8"></script>
 </html>
