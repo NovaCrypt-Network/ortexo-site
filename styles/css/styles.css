@@ -108,6 +108,8 @@ body {
     width: 100%;
     height: 150px; }
     .partners-section .partners-container .partner {
+      display: flex;
+      align-items: center;
       padding: 0 15px; }
       .partners-section .partners-container .partner img {
         width: 100%;
