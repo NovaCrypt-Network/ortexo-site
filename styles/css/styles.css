@@ -97,19 +97,22 @@ body {
 
 .partners-section {
   height: auto;
-  padding-bottom: 50px; }
+  padding: 50px 0; }
   .partners-section-header {
     position: relative; }
     .partners-section-header .see-more {
       position: absolute;
       top: 15px;
       right: 0; }
-  .partners-section .partners {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 50px; }
-  .partners-section .partner {
-    width: 100%; }
+  .partners-section .partners-container {
+    width: 100%;
+    height: 150px; }
+    .partners-section .partners-container .partner {
+      padding: 0 15px; }
+      .partners-section .partners-container .partner img {
+        width: 100%;
+        filter: grayscale(100%);
+        opacity: .2; }
 
 .about-grid {
   display: grid;

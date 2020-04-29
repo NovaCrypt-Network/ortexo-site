@@ -6,6 +6,9 @@
 
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- SWIPERJS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   </head>
   <body>
 
@@ -34,12 +37,27 @@
     <!-- PARTNERS -->
     <section class="partners-section">
       <div class="container">
-        <div class="partners mt-5">
-          <img src="img/logos/test-logo.png" alt="" class="partner">
-          <img src="img/logos/test-logo.png" alt="" class="partner">
-          <img src="img/logos/test-logo.png" alt="" class="partner">
-          <img src="img/logos/test-logo.png" alt="" class="partner">
-          <img src="img/logos/test-logo.png" alt="" class="partner">
+        <div class="swiper-container partners-container">
+          <div class="partners swiper-wrapper">
+              <div class="partner swiper-slide">
+                <img src="img/logos/test-logo.png" alt="">
+              </div>
+              <div class="partner swiper-slide">
+                <img src="img/logos/test-logo.png" alt="">
+              </div>
+              <div class="partner swiper-slide">
+                <img src="img/logos/test-logo.png" alt="">
+              </div>
+              <div class="partner swiper-slide">
+                <img src="img/logos/test-logo.png" alt="">
+              </div>
+              <div class="partner swiper-slide">
+                <img src="img/logos/test-logo.png" alt="">
+              </div>
+              <div class="partner swiper-slide">
+                <img src="img/logos/test-logo.png" alt="">
+              </div>
+          </div>
         </div>
       </div>
     </section>
@@ -235,4 +253,8 @@
       </div>
     </section>
   </body>
+
+  <!-- SWIPERJS -->
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/swiper.js" charset="utf-8"></script>
 </html>
