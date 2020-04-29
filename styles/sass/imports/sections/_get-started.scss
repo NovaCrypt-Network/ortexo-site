@@ -1,0 +1,31 @@
+.get-started {
+
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 50px;
+
+    .step {
+      position: relative;
+      padding-top: 50px;
+
+      &-number {
+        position: absolute;
+        line-height: 10rem;
+        opacity: .15;
+        font-size: 250px;
+        font-weight: bold;
+      }
+
+      &-content {
+        padding-top: 25px;
+        margin-left: 75px;
+
+        &-points {
+          margin-left: 25px;
+        }
+      }
+    }
+  }
+}

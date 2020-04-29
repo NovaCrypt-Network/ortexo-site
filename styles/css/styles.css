@@ -9,6 +9,10 @@ body {
 .section-container {
   padding: 100px 0; }
 
+.section-header {
+  font-size: 50px;
+  font-weight: bold; }
+
 .container {
   height: 100%; }
 
@@ -37,7 +41,8 @@ body {
       height: 100%; }
 
 .partners-section {
-  height: auto; }
+  height: auto;
+  padding-bottom: 50px; }
   .partners-section-header {
     position: relative; }
     .partners-section-header .see-more {
@@ -72,6 +77,25 @@ body {
     grid-gap: 15px; }
     .features-section .features .feature-icon {
       width: 100%; }
+
+.get-started .steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 50px; }
+  .get-started .steps .step {
+    position: relative;
+    padding-top: 50px; }
+    .get-started .steps .step-number {
+      position: absolute;
+      line-height: 10rem;
+      opacity: .15;
+      font-size: 250px;
+      font-weight: bold; }
+    .get-started .steps .step-content {
+      padding-top: 25px;
+      margin-left: 75px; }
+      .get-started .steps .step-content-points {
+        margin-left: 25px; }
 
 .footer {
   position: relative;
