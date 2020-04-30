@@ -212,7 +212,9 @@ body {
     .about-grid-left {
       text-align: center; }
       .about-grid-left-illustration {
-        width: 50%; } }
+        width: 50%; }
+  .about-us .persons {
+    grid-template-columns: repeat(auto-fill, 100%); } }
 
 .features-section {
   background-color: #00154F; }

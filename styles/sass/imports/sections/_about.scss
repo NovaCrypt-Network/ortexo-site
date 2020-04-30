@@ -88,4 +88,11 @@
       }
     }
   }
+
+  .about-us {
+
+    .persons {
+      grid-template-columns: repeat(auto-fill, 100%);
+    }
+  }
 }
