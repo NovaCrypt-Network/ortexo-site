@@ -127,9 +127,9 @@ body {
   align-items: center;
   height: 100%; }
   .about-grid-left {
-    background-color: #00154F;
-    height: 100%;
-    width: 100%; }
+    padding-right: 50px; }
+    .about-grid-left-illustration {
+      width: 100%; }
 
 .features-section {
   background-color: #00154F; }

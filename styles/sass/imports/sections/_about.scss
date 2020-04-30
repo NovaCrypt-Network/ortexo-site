@@ -9,9 +9,10 @@
     height: 100%;
 
     &-left {
-      background-color: $color-primary;
-      height: 100%;
-      width: 100%;
+      padding-right: 50px;
+      &-illustration {
+        width: 100%;
+      }
     }
   }
 }

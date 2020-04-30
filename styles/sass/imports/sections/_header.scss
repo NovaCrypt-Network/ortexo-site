@@ -34,13 +34,13 @@
       overflow: visible;
       height: 500px;
 
+      background-image: url("../../../../img/blobs/blob1.svg"), url("../../../../img/blobs/blob2.svg"), url("../../../../img/blobs/blob3.svg");
+      background-position: center;
+
       &-illustration {
         width: 50%;
         transform: translate(15px, 15px);
       }
-
-      background-image: url("../../../../img/blobs/blob1.svg"), url("../../../../img/blobs/blob2.svg"), url("../../../../img/blobs/blob3.svg");
-      background-position: center;
     }
   }
 }
