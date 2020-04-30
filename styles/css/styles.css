@@ -143,11 +143,11 @@ body {
       .partners-section .partners-container .partner img {
         width: 100%;
         filter: grayscale(100%);
-        opacity: .2; }
+        opacity: .3; }
 
 .our-partners .partners-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
   grid-gap: 50px;
   align-items: center; }
   .our-partners .partners-grid .partner {
