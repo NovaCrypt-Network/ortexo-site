@@ -52,3 +52,11 @@ body {
   border-radius: 50%;
   border: 3px solid $color-primary;
 }
+
+
+
+@media (max-width: 800px) {
+  .section-container {
+    padding: 50px 0;
+  }
+}

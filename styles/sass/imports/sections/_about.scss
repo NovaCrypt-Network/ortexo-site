@@ -1,6 +1,6 @@
 .about {
   .section-container {
-    padding: 0 0 50px 0;
+    padding-bottom: 50px;
   }
 
   &-grid {
@@ -66,6 +66,25 @@
 
       &-description {
         line-height: 1rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+  .about {
+
+    &-grid {
+      grid-template-columns: repeat(auto-fill, 100%);
+      grid-gap: 15px;
+
+      &-left {
+        text-align: center;
+
+        &-illustration {
+          width: 50%;
+        }
       }
     }
   }

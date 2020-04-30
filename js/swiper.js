@@ -5,4 +5,17 @@ var mySwiper = new Swiper ('.partners-container', {
   autoplay: {
     delay: 1500
   },
+
+  // RESPONSIVENESS
+  breakpoints: {
+    1000: {
+      slidesPerView: 8
+    },
+    600: {
+      slidesPerView: 6
+    },
+    0: {
+      slidesPerView: 4
+    }
+  }
 })
