@@ -10,11 +10,15 @@ $color-secondary-dark: #c99117;  // DARK YELLOW
 }
 
 body {
-  background-color: #eee;
+  background-color: #eee !important;
 }
 
 .section-container {
   padding: 100px 0;
+}
+
+.page-container {
+  padding-bottom: 50px;
 }
 
 .section-header {
@@ -38,4 +42,13 @@ body {
 
 .navbar-brand-image {
   width: 100px;
+}
+
+.image-cropper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid $color-primary;
 }

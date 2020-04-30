@@ -4,10 +4,13 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #eee; }
+  background-color: #eee !important; }
 
 .section-container {
   padding: 100px 0; }
+
+.page-container {
+  padding-bottom: 50px; }
 
 .section-header {
   font-size: 50px;
@@ -26,6 +29,14 @@ body {
 
 .navbar-brand-image {
   width: 100px; }
+
+.image-cropper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #00154F; }
 
 .button {
   padding: 10px 15px;
@@ -155,6 +166,36 @@ body {
     padding-right: 50px; }
     .about-grid-left-illustration {
       width: 100%; }
+
+.about-us .persons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 15px; }
+  .about-us .persons .person {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-gap: 20px;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
+    .about-us .persons .person-info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
+      .about-us .persons .person-info-links {
+        justify-self: flex-end;
+        display: grid;
+        grid-template-columns: repeat(3, 25px);
+        grid-gap: 5px; }
+        .about-us .persons .person-info-links img {
+          width: 100%; }
+    .about-us .persons .person-image {
+      width: 100%; }
+    .about-us .persons .person-name {
+      font-weight: bold; }
+    .about-us .persons .person-description {
+      line-height: 1rem; }
 
 .features-section {
   background-color: #00154F; }

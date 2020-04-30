@@ -19,3 +19,54 @@
     }
   }
 }
+
+
+// ABOUT PAGE
+.about-us {
+
+  .persons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 15px;
+
+    .person {
+      display: grid;
+      grid-template-columns: 75px 1fr;
+      grid-gap: 20px;
+      align-items: flex-start;
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 5px 30px rgba(0,0,0,.1);
+
+      &-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        &-links {
+          justify-self: flex-end;
+
+          display: grid;
+          grid-template-columns: repeat(3, 25px);
+          grid-gap: 5px;
+
+          & img {
+            width: 100%;
+          }
+        }
+      }
+
+      &-image {
+        width: 100%;
+      }
+
+      &-name {
+        font-weight: bold;
+      }
+
+      &-description {
+        line-height: 1rem;
+      }
+    }
+  }
+}
