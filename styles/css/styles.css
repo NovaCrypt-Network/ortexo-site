@@ -67,14 +67,13 @@ body {
       color: white; }
 
 .flipped-wave {
-  transform: rotate(180deg); }
+  transform: rotate(180deg) translateY(1px); }
 
 .waves, .wave {
   width: 100%; }
 
 .header {
-  background-color: #00154F;
-  height: 90vh; }
+  background-color: #00154F; }
   .header * {
     color: white; }
   .header .container {
@@ -91,9 +90,14 @@ body {
     .header-grid-left-sub-header {
       line-height: 2rem; }
     .header-grid-right {
-      background-color: white;
-      width: 100%;
-      height: 100%; }
+      text-align: center;
+      overflow: visible;
+      height: 500px;
+      background-image: url("../../../../img/blobs/blob1.svg"), url("../../../../img/blobs/blob2.svg"), url("../../../../img/blobs/blob3.svg");
+      background-position: center; }
+      .header-grid-right-illustration {
+        width: 50%;
+        transform: translate(15px, 15px); }
 
 .partners-section {
   height: auto;
