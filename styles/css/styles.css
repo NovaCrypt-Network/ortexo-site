@@ -21,6 +21,12 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px; }
 
+.navbar {
+  background-color: #00154F; }
+
+.navbar-brand-image {
+  width: 100px; }
+
 .button {
   padding: 10px 15px;
   border-radius: 4px;
@@ -74,6 +80,8 @@ body {
 
 .header {
   background-color: #00154F; }
+  .header .section-container {
+    padding: 0 0 50px 0; }
   .header * {
     color: white; }
   .header .container {
@@ -119,6 +127,9 @@ body {
         width: 100%;
         filter: grayscale(100%);
         opacity: .2; }
+
+.about .section-container {
+  padding: 0 0 50px 0; }
 
 .about-grid {
   display: grid;
