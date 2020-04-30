@@ -75,9 +75,9 @@ body {
 .flipped-wave {
   transform: rotate(180deg) translateY(1px); }
 
-.waves .thingie {
+.waves .waves-container {
   background-color: #00154F; }
-  .waves .thingie .section-header {
+  .waves .waves-container .section-header {
     margin-bottom: 0;
     color: white; }
 
