@@ -195,7 +195,8 @@ body {
         justify-self: flex-end;
         display: grid;
         grid-template-columns: repeat(3, 25px);
-        grid-gap: 5px; }
+        grid-gap: 5px;
+        justify-content: flex-end; }
         .about-us .persons .person-info-links img {
           width: 100%; }
     .about-us .persons .person-image {

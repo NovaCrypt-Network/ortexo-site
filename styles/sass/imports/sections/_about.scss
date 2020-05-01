@@ -49,6 +49,7 @@
           display: grid;
           grid-template-columns: repeat(3, 25px);
           grid-gap: 5px;
+          justify-content: flex-end;
 
           & img {
             width: 100%;
