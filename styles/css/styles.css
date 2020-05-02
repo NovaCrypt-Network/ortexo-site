@@ -289,8 +289,8 @@ body {
     text-align: center; }
     .footer .copyright-container .social-media {
       display: grid;
-      grid-template-columns: repeat(3, 30px);
-      grid-gap: 15px;
+      grid-template-columns: repeat(4, 30px);
+      grid-gap: 10px;
       justify-content: center;
       margin-bottom: 15px; }
       .footer .copyright-container .social-media-icon {
