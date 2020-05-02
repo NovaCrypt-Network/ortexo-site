@@ -87,6 +87,22 @@ body {
       background-color: #00154F;
       color: white; }
 
+.ghost-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 2px solid #00154F;
+  border-radius: 4px;
+  transition: all .2s; }
+  .ghost-input:focus {
+    outline: none;
+    background-color: rgba(0, 21, 79, 0.5);
+    color: white; }
+    .ghost-input:focus::placeholder {
+      color: white; }
+
 .flipped-wave {
   transform: rotate(180deg) translateY(1px); }
 
@@ -234,24 +250,22 @@ body {
       .features-section .features .feature-content small {
         font-size: 14px; }
 
-.get-started .steps {
+.contact-us-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 30px; }
-  .get-started .steps .step {
-    position: relative;
-    padding-top: 50px; }
-    .get-started .steps .step-number {
-      position: absolute;
-      line-height: 10rem;
-      opacity: .15;
-      font-size: 250px;
-      font-weight: bold; }
-    .get-started .steps .step-content {
-      padding-top: 25px;
-      margin-left: 75px; }
-      .get-started .steps .step-content-points {
-        margin-left: 25px; }
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px; }
+  .contact-us-grid-left-contact-item a {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-gap: 15px;
+    align-items: center;
+    color: #00154F; }
+    .contact-us-grid-left-contact-item a img {
+      width: 100%; }
+
+@media (max-width: 800px) {
+  .contact-us-grid {
+    grid-template-columns: repeat(auto-fill, 100%); } }
 
 .footer {
   position: relative;

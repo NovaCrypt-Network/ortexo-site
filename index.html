@@ -12,7 +12,7 @@
     <!-- SWIPERJS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 
-    <title>Launch Tech LLC - A student venture incubator</title>
+    <title>Launch Tech LLC - A SaaS product holding company</title>
   </head>
   <body>
 
@@ -58,8 +58,6 @@
             </h4>
             <div class="cta-buttons mt-4">
               <button class="button ghost-cta-button-light" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Learn More</button>
-              <!-- <button class="button solid-cta-button-light" onclick="document.getElementById('get-started').scrollIntoView({behavior: 'smooth'});">Get Started!</button> -->
-              <!-- <a href="https://forms.gle/13MXBFQBydRiGUCm8" class="button solid-cta-button-light" target="_">Apply for our Internship!</a> -->
               <a href="/projects" class="button solid-cta-button-light" target="_">Check out our Projects!</a>
             </div>
           </div>
@@ -128,7 +126,7 @@
               Launch Tech is a SaaS (Software as a Service) product holding company, created for launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We try to build, market, and deploy software through partnerships, events, and sponsors.
             </p>
             <div class="cta-buttons mt-4">
-              <a href="/about" class="button ghost-cta-button-dark">Contact us!</a>
+              <button class="button ghost-cta-button-dark" onclick="document.getElementById('contact-us').scrollIntoView({behavior: 'smooth'});">Contact us</button>
               <a href="/projects" class="button solid-cta-button-dark">Our Projects</a>
             </div>
           </div>
@@ -208,8 +206,57 @@
       </div>
     </section>
 
+    <!-- CONTACT US -->
+    <section class="contact-us" id="contact-us">
+      <div class="section-container container">
+        <h1 class="section-header">Contact Us!</h1>
+        <div class="contact-us-grid">
+          <div class="contact-us-grid-left">
+            <form action="https://formspree.io/hello@launchtechllc.com" method="post">
+              <label>Name:</label>
+              <input class="ghost-input" type="text" name="Name" placeholder="Name">
+
+              <label>Email:</label>
+              <input class="ghost-input" type="email" name="Email" placeholder="Email">
+
+              <label>Message:</label>
+              <textarea class="ghost-input" name="Message" rows="5" placeholder="Message"></textarea>
+              <input type="submit" class="button solid-cta-button-dark w-100" value="Contact Us!">
+            </form>
+          </div>
+          <div class="contact-us-grid-right">
+            <h4>We're completely open to:</h4>
+            <ul class="ml-5">
+              <li>Community/Corporate partnerships</li>
+              <li>Collaborating on events</li>
+              <li>Helping you build your website/application</li>
+              <li>Inquiries and questions</li>
+            </ul>
+            <p>
+              <strong>We promise to respond within 24-48 hours after you email us!</strong>
+            </p>
+
+            <div class="ml-4">
+              <p class="contact-us-grid-left-contact-item">
+                <a href="mailto:hello@launchtechllc.com" target="_">
+                  <img src="img/icons/contact/email-dark.svg" alt="">
+                  <span>hello@launchtechllc.com</span>
+                </a>
+              </p>
+              <p class="contact-us-grid-left-contact-item">
+                <a href="https://calendly.com/launch-tech" target="_">
+                  <img src="img/icons/contact/calendar-dark.svg" alt="">
+                  <span>Schedule a Call</span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- GET STARTED -->
-    <section class="get-started" id="get-started">
+    <!-- <section class="get-started" id="get-started">
       <div class="section-container container">
         <h1 class="section-header">Get Started Today!</h1>
         <div class="steps">
@@ -250,7 +297,7 @@
           <a href="https://calendly.com/launch-tech" class="button solid-cta-button-dark" style="font-size: 25px;" target="_">Schedule a Call</a>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- WAVES -->
     <div class="waves">
