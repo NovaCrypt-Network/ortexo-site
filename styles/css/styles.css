@@ -233,22 +233,14 @@ body {
   .about-us .persons {
     grid-template-columns: repeat(auto-fill, 100%); } }
 
-.features-section {
+.calendar-section {
   background-color: #00154F; }
-  .features-section * {
+  .calendar-section * {
     color: white; }
-  .features-section .features {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 50px; }
-    .features-section .features .feature {
-      display: grid;
-      grid-template-columns: 40px 1fr;
-      grid-gap: 15px; }
-      .features-section .features .feature-icon {
-        width: 100%; }
-      .features-section .features .feature-content small {
-        font-size: 14px; }
+  .calendar-section .fc-today {
+    background: rgba(255, 255, 255, 0.2) !important; }
+  .calendar-section .fc-popover * {
+    color: #282828; }
 
 .contact-us-grid {
   display: grid;

@@ -9,6 +9,10 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- CALENDARJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.css">
+
     <!-- SWIPERJS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 
@@ -124,6 +128,8 @@
             <h1 class="section-header">About Launch Tech</h1>
             <p style="font-size: 20px;">
               Launch Tech is a SaaS (Software as a Service) product holding company, created for launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We try to build, market, and deploy software through partnerships, events, and sponsors.
+              <br><br>
+              Though we are a SaaS product company, we try to open with our processes, builds, and deadlines. We have a calendar that shares all of the things we're working on, and when certain events/product-builds will start, end, and be deployed.
             </p>
             <div class="cta-buttons mt-4">
               <button class="button ghost-cta-button-dark" onclick="document.getElementById('contact-us').scrollIntoView({behavior: 'smooth'});">Contact us</button>
@@ -135,7 +141,7 @@
     </section>
 
     <!-- FEATURES -->
-    <section class="features-section" id="features">
+    <!-- <section class="features-section" id="features">
       <div class="section-container container">
         <h1 class="section-header">Features</h1>
         <div class="features mt-5">
@@ -204,6 +210,14 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <!-- CALENDAR -->
+    <section class="calendar-section" id="calendar-section">
+      <div class="section-container container">
+        <h1 class="section-header">Calendar</h1>
+        <div id="calendar"></div>
+      </div>
     </section>
 
     <!-- CONTACT US -->
@@ -254,50 +268,6 @@
         </div>
       </div>
     </section>
-
-    <!-- GET STARTED -->
-    <!-- <section class="get-started" id="get-started">
-      <div class="section-container container">
-        <h1 class="section-header">Get Started Today!</h1>
-        <div class="steps">
-          <div class="step">
-            <span class="step-number">1</span>
-            <div class="step-content">
-              <h3 class="step-content-header">Schedule a call!</h3>
-              <ul class="step-content-points">
-                <li>Explore your idea</li>
-                <li>Get to know each other!</li>
-              </ul>
-            </div>
-          </div>
-          <div class="step">
-            <span class="step-number">2</span>
-            <div class="step-content">
-              <h3 class="step-content-header">Review key documents</h3>
-              <ul class="step-content-points">
-                <li>Non-disclosure agreements</li>
-                <li>Privacy policy</li>
-                <li>Terms of Service</li>
-              </ul>
-            </div>
-          </div>
-          <div class="step">
-            <span class="step-number">3</span>
-            <div class="step-content">
-              <h3 class="step-content-header">Welcome to the team!</h3>
-              <ul class="step-content-points">
-                <li>Join our Slack</li>
-                <li>Meet your cohort</li>
-                <li>Launch your product!</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="text-center mt-5">
-          <a href="https://calendly.com/launch-tech" class="button solid-cta-button-dark" style="font-size: 25px;" target="_">Schedule a Call</a>
-        </div>
-      </div>
-    </section> -->
 
     <!-- WAVES -->
     <div class="waves">
@@ -393,10 +363,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+  <!-- CALENDARJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.js" charset="utf-8"></script>
+
   <!-- SWIPERJS -->
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="js/swiper.js" charset="utf-8"></script>
 
   <!-- CUSTOM -->
   <script src="js/script.js" charset="utf-8"></script>
+  <script src="js/calendar.js" charset="utf-8"></script>
 </html>

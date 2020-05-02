@@ -1,0 +1,15 @@
+.calendar-section {
+  background-color: $color-primary;
+
+  * {
+    color: white;
+  }
+
+  .fc-today {
+    background: rgba(255,255,255,.2) !important;
+  }
+
+  .fc-popover * {
+    color: rgb(40,40,40);
+  }
+}
