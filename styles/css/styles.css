@@ -162,12 +162,12 @@ body {
     width: 100%; }
     .partners-section .partners-container .partner {
       display: flex;
-      align-items: center;
+      align-self: center;
       padding: 0 15px; }
       .partners-section .partners-container .partner img {
         width: 100%;
         filter: grayscale(100%);
-        opacity: .3; }
+        opacity: .4; }
 
 .our-partners .partners-grid {
   display: grid;
