@@ -1,4 +1,6 @@
-const eventColor = "#F4AF1B";
+const projectEventColor = "#1db0f0";
+const regularEventColor = "#F4AF1B";
+const deadlineEventColor = "#f05e48";
 
 document.addEventListener('DOMContentLoaded', function() {
   var calendarEl = document.getElementById('calendar');
@@ -19,47 +21,47 @@ document.addEventListener('DOMContentLoaded', function() {
         title: 'Re-design and re-launch Launch Tech website',
         start: '2020-05-01',
         end: '2020-05-03',
-        color: eventColor
+        color: projectEventColor
       },
       {
         title: 'Build and launch our HS organization hub!',
         start: '2020-05-03',
         end: '2020-05-07',
-        color: eventColor
+        color: projectEventColor
       },
       {
         title: 'Revamp and improve on the w3Hacks platform',
         start: '2020-05-03',
         end: '2020-05-07',
-        color: eventColor
+        color: projectEventColor
       },
       {
         title: 'Applications close!',
         start: '2020-05-06T21:00:00',
-        color: eventColor
+        color: deadlineEventColor
       },
       {
         title: 'First-round applications are analyzed',
         start: '2020-05-07',
         end: '2020-05-15',
-        color: eventColor
+        color: regularEventColor
       },
       {
         title: 'Second-round interview results are revealed!',
         start: '2020-05-15',
         end: '2020-05-17',
-        color: eventColor
+        color: deadlineEventColor
       },
       {
         title: 'Second-round interviews',
         start: '2020-05-18',
         end: '2020-05-23',
-        color: eventColor
+        color: regularEventColor
       },
       {
         title: 'Final results released!',
         start: '2020-05-30',
-        color: eventColor
+        color: deadlineEventColor
       }
     ]
   });
