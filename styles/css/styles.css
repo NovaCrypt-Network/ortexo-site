@@ -177,6 +177,10 @@ body {
   .our-partners .partners-grid .partner {
     width: 100%; }
 
+@media (max-width: 500px) {
+  .partners-section {
+    display: none; } }
+
 .about .section-container {
   padding-bottom: 50px; }
 
