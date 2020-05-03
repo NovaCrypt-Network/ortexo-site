@@ -191,6 +191,9 @@ body {
     .about-grid-left-illustration {
       width: 100%; }
 
+.about-us .advisors {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important; }
+
 .about-us .persons {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
