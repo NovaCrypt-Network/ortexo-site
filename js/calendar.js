@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         color: projectEventColor
       },
       {
-        title: 'Build and launch our HS organization hub!',
+        title: 'Build and launch NPOCore!',
         start: '2020-05-03',
         end: '2020-05-07',
         color: projectEventColor
