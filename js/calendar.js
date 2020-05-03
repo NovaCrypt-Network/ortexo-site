@@ -26,6 +26,17 @@ document.addEventListener('DOMContentLoaded', function() {
         start: '2020-05-03',
         end: '2020-05-05',
         color: eventColor
+      },
+      {
+        title: 'Applications close!',
+        start: '2020-05-06',
+        color: eventColor
+      },
+      {
+        title: 'Second-round interview results are revealed!',
+        start: '2020-05-15',
+        end: '2020-05-17',
+        color: eventColor
       }
     ]
   });
