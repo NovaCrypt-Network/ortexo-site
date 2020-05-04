@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         title: 'Build and launch NPOCore!',
         start: '2020-05-03',
-        end: '2020-05-07',
+        end: '2020-05-05',
         color: projectEventColor
       },
       {
         title: 'Revamp and improve on the w3Hacks platform',
-        start: '2020-05-03',
+        start: '2020-05-04',
         end: '2020-05-07',
         color: projectEventColor
       },
