@@ -187,13 +187,11 @@ body {
 .about-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
+  grid-gap: 100px;
   align-items: center;
   height: 100%; }
-  .about-grid-left {
-    padding-right: 50px; }
-    .about-grid-left-illustration {
-      width: 100%; }
+  .about-grid-left-illustration {
+    width: 100%; }
 
 .about-us .advisors {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important; }
@@ -235,8 +233,6 @@ body {
     grid-gap: 15px; }
     .about-grid-left {
       text-align: center; }
-      .about-grid-left-illustration {
-        width: 50%; }
   .about-us .persons {
     grid-template-columns: repeat(auto-fill, 100%); } }
 
