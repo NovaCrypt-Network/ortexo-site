@@ -31,19 +31,30 @@
     }
 
     &-right {
-      text-align: center;
-      overflow: visible;
-      height: 500px;
-
-      background-image: url("../../../../img/blobs/blob1.svg"), url("../../../../img/blobs/blob2.svg"), url("../../../../img/blobs/blob3.svg");
-      background-position: center;
+      // background-image: url("../../../../img/blobs/blob1.svg"), url("../../../../img/blobs/blob2.svg"), url("../../../../img/blobs/blob3.svg");
+      // background-position: center;
 
       &-illustration {
-        width: 50%;
-        transform: translate(15px, 15px);
+        width: 100%;
+        animation: float 6s ease-in-out infinite;
+        // width: 50%;
+        // transform: translate(15px, 15px);
       }
     }
   }
+}
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 
 
@@ -51,11 +62,13 @@
   .header {
 
     &-grid {
-      display: block;
+      // display: block;
 
-      &-right {
-        display: none;
-      }
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
+
+      // &-right {
+      //   display: none;
+      // }
     }
   }
 }

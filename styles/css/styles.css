@@ -133,21 +133,21 @@ body {
       font-weight: bold; }
     .header-grid-left-sub-header {
       line-height: 2rem; }
-    .header-grid-right {
-      text-align: center;
-      overflow: visible;
-      height: 500px;
-      background-image: url("../../../../img/blobs/blob1.svg"), url("../../../../img/blobs/blob2.svg"), url("../../../../img/blobs/blob3.svg");
-      background-position: center; }
-      .header-grid-right-illustration {
-        width: 50%;
-        transform: translate(15px, 15px); }
+    .header-grid-right-illustration {
+      width: 100%;
+      animation: float 6s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    transform: translatey(0px); }
+  50% {
+    transform: translatey(-20px); }
+  100% {
+    transform: translatey(0px); } }
 
 @media (max-width: 1000px) {
   .header-grid {
-    display: block; }
-    .header-grid-right {
-      display: none; } }
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important; } }
 
 .partners-section {
   height: auto;
