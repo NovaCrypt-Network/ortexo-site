@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', function() {
         color: projectEventColor
       },
       {
+        title: 'NPO Core - Implement security features',
+        start: '2020-05-05',
+        end: '2020-05-07',
+        color: projectEventColor
+      },
+      {
         title: 'Revamp and improve on the w3Hacks platform',
         start: '2020-05-04',
         end: '2020-05-07',
