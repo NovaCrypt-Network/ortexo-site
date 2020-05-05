@@ -8,6 +8,9 @@
     <!-- GOOGLE SEARCH CONSOLE -->
     <meta name="google-site-verification" content="vbJIiVW2eeS2cBkP-gysxwVg7swck8zzi4ZURi1QZG4" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="icon" href="img/logos/launchtech.png">
     <link rel="stylesheet" href="./styles/css/styles.css">
 
@@ -60,7 +63,7 @@
     <section class="header" id="header">
       <div class="container">
         <div class="header-grid">
-          <div class="header-grid-left">
+          <div class="header-grid-left" data-aos="fade-right">
             <h1 class="header-grid-left-main-header">Launch something great.</h1>
             <h4 class="header-grid-left-sub-header mt-3">
               Launch Tech is a SaaS product holding company, dedicated to launching real-world software applications.
@@ -70,7 +73,7 @@
               <a href="/projects" class="button solid-cta-button-light" target="_">Check out our Projects!</a>
             </div>
           </div>
-          <div class="header-grid-right">
+          <div class="header-grid-right" data-aos="zoom-in">
             <img src="img/illustrations/header.png" alt="Launch Tech LLC header illustration - floating building" class="header-grid-right-illustration">
           </div>
         </div>
@@ -135,7 +138,7 @@
     <section class="about" id="about">
       <div class="section-container container">
         <div class="about-grid">
-          <div class="about-grid-left">
+          <div class="about-grid-left" data-aos="zoom-in">
             <img src="img/illustrations/about.png" alt="Launch Tech LLC digital marketing illustration" class="about-grid-left-illustration">
           </div>
           <div class="about-grid-right">
@@ -156,7 +159,7 @@
 
     <!-- CALENDAR -->
     <section class="calendar-section" id="calendar-section">
-      <div class="section-container container">
+      <div class="section-container container" data-aos="zoom-in">
         <h1 class="section-header">Calendar</h1>
         <div id="calendar"></div>
       </div>
@@ -167,7 +170,7 @@
       <div class="section-container container">
         <h1 class="section-header">Contact Us!</h1>
         <div class="contact-us-grid">
-          <div class="contact-us-grid-left">
+          <div class="contact-us-grid-left" data-aos="flip-left">
             <form action="https://formspree.io/hello@launchtechllc.com" method="post">
               <label>Name:</label>
               <input class="ghost-input" type="text" name="Name" placeholder="Name">
@@ -180,7 +183,7 @@
               <input type="submit" class="button solid-cta-button-dark w-100" value="Contact Us!">
             </form>
           </div>
-          <div class="contact-us-grid-right">
+          <div class="contact-us-grid-right" data-aos="flip-right">
             <h4>We're completely open to:</h4>
             <ul class="ml-5">
               <li>Community/Corporate partnerships</li>
@@ -318,6 +321,12 @@
   <!-- SWIPERJS -->
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="js/swiper.js" charset="utf-8"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
 
   <!-- CUSTOM -->
   <script src="js/script.js" charset="utf-8"></script>
