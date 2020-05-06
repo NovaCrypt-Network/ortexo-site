@@ -109,7 +109,8 @@ $stroke-step: 7%;
   stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
   stroke-width: 3px;
 
-  animation: stroke-offset 2s linear;
+  animation: stroke-offset 2s;
+  animation-timing-function: ease-out;
 
   @for $item from 1 through $max {
     $stroke-color: nth($colors, $item);
@@ -126,4 +127,19 @@ $stroke-step: 7%;
     stroke-dashoffset: $stroke-step * $max;
     stroke-dasharray: 0 $stroke-step * $max*2.5;
   }
+}
+
+@keyframes fill-text {
+  from {
+    fill: rgba(255,255,255,0);
+  }
+
+  to {
+    fill: rgba(255,255,255,1);
+  }
+}
+
+.fill-svg {
+  fill: white;
+  animation: fill-text 2s linear;
 }

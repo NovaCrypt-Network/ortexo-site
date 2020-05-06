@@ -64,8 +64,7 @@
       <div class="container">
         <div class="header-grid">
           <div class="header-grid-left" data-aos="fade-right">
-            <!-- <h1 class="header-grid-left-main-header">Launch something great.</h1> -->
-            <svg viewBox="0 0 1800 700">
+            <svg class="text-svg svg" viewBox="0 0 1800 700">
               <symbol id="s-text">
                 <text text-anchor="middle"
                       x="50%"
@@ -351,6 +350,13 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init()
+  </script>
+
+  <!-- SVG -->
+  <script>
+    setTimeout(function() {
+      document.querySelector("use").style.fill = "white";
+    }, 2100);
   </script>
 
   <!-- CUSTOM -->
