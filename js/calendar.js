@@ -53,6 +53,18 @@ document.addEventListener('DOMContentLoaded', function() {
         color: regularEventColor
       },
       {
+        title: 'Improve SEO of NPO Core!',
+        start: '2020-05-07',
+        end: '2020-05-09',
+        color: projectEventColor
+      },
+      {
+        title: 'Launch Acquisition Program!',
+        start: '2020-05-08',
+        end: '2020-05-10',
+        color: deadlineEventColor
+      },
+      {
         title: 'Second-round interview results are revealed!',
         start: '2020-05-15',
         end: '2020-05-17',
