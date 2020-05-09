@@ -165,7 +165,8 @@ svg {
   stroke: white;
   stroke-dasharray: 7% 28%;
   stroke-width: 3px;
-  animation: stroke-offset 2s linear; }
+  animation: stroke-offset 2s;
+  animation-timing-function: ease-out; }
   .text-copy:nth-child(1) {
     stroke: white;
     stroke-dashoffset: 7%; }
@@ -186,6 +187,16 @@ svg {
   0% {
     stroke-dashoffset: 35%;
     stroke-dasharray: 0 87.5%; } }
+
+@keyframes fill-text {
+  from {
+    fill: rgba(255, 255, 255, 0); }
+  to {
+    fill: white; } }
+
+.fill-svg {
+  fill: white;
+  animation: fill-text 2s linear; }
 
 .partners-section {
   height: auto;
@@ -304,7 +315,7 @@ svg {
   position: relative;
   background-color: #00154F;
   padding-bottom: 100px; }
-  .footer * {
+  .footer *:not(a) {
     color: white; }
   .footer-grid {
     display: grid;
@@ -312,15 +323,15 @@ svg {
     grid-gap: 50px; }
     .footer-grid h3 {
       margin-bottom: 15px; }
-    .footer-grid a, .footer-grid span {
-      color: #ccc; }
-      .footer-grid a:hover, .footer-grid span:hover {
-        color: white;
-        text-decoration: none; }
-    .footer-grid-links {
+    .footer-grid-links, .footer-grid-contact {
       list-style: none; }
-      .footer-grid-links-item {
+      .footer-grid-links-item, .footer-grid-contact-item {
         margin-bottom: 5px; }
+      .footer-grid-links a, .footer-grid-links span, .footer-grid-contact a, .footer-grid-contact span {
+        color: #ccc; }
+        .footer-grid-links a:hover, .footer-grid-links span:hover, .footer-grid-contact a:hover, .footer-grid-contact span:hover {
+          color: white;
+          text-decoration: none; }
     .footer-grid-contact-item a {
       display: grid;
       grid-template-columns: 30px 1fr;

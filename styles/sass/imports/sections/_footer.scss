@@ -3,7 +3,7 @@
   background-color: $color-primary;
   padding-bottom: 100px;
 
-  * {
+  *:not(a) {
     color: white;
   }
 
@@ -16,20 +16,20 @@
       margin-bottom: 15px;
     }
 
-    & a, span {
-      color: #ccc;
-
-      &:hover {
-        color: white;
-        text-decoration: none;
-      }
-    }
-
-    &-links {
+    &-links, &-contact {
       list-style: none;
 
       &-item {
         margin-bottom: 5px;
+      }
+
+      & a, span {
+        color: #ccc;
+
+        &:hover {
+          color: white;
+          text-decoration: none;
+        }
       }
     }
 
