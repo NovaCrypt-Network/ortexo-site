@@ -11,9 +11,12 @@
 // SECTIONS
 @import "imports/sections/header";
 @import "imports/sections/partners";
-@import "imports/sections/about";
 @import "imports/sections/calendar";
 @import "imports/sections/contact-us";
 @import "imports/sections/footer";
 
-@import "imports/sections/projects";
+
+// PAGES
+@import "imports/pages/about";
+@import "imports/pages/projects";
+@import "imports/pages/programs";

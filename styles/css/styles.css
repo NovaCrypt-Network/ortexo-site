@@ -230,61 +230,6 @@ svg {
   .partners-section {
     display: none; } }
 
-.about .section-container {
-  padding-bottom: 50px; }
-
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 100px;
-  align-items: center;
-  height: 100%; }
-  .about-grid-left-illustration {
-    width: 100%; }
-
-.about-us .advisors {
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important; }
-
-.about-us .persons {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 15px; }
-  .about-us .persons .person {
-    display: grid;
-    grid-template-columns: 75px 1fr;
-    grid-gap: 20px;
-    align-items: flex-start;
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
-    .about-us .persons .person-info {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); }
-      .about-us .persons .person-info-links {
-        justify-self: flex-end;
-        display: grid;
-        grid-template-columns: repeat(3, 25px);
-        grid-gap: 5px;
-        justify-content: flex-end; }
-        .about-us .persons .person-info-links img {
-          width: 100%; }
-    .about-us .persons .person-image {
-      width: 100%; }
-    .about-us .persons .person-name {
-      font-weight: bold; }
-    .about-us .persons .person-description {
-      line-height: 1rem; }
-
-@media (max-width: 800px) {
-  .about-grid {
-    grid-template-columns: repeat(auto-fill, 100%);
-    grid-gap: 15px; }
-    .about-grid-left {
-      text-align: center; }
-  .about-us .persons {
-    grid-template-columns: repeat(auto-fill, 100%); } }
-
 .calendar-section {
   background-color: #00154F; }
   .calendar-section * {
@@ -360,6 +305,61 @@ svg {
     .footer-grid {
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); } }
 
+.about .section-container {
+  padding-bottom: 50px; }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  align-items: center;
+  height: 100%; }
+  .about-grid-left-illustration {
+    width: 100%; }
+
+.about-us .advisors {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important; }
+
+.about-us .persons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 15px; }
+  .about-us .persons .person {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-gap: 20px;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
+    .about-us .persons .person-info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
+      .about-us .persons .person-info-links {
+        justify-self: flex-end;
+        display: grid;
+        grid-template-columns: repeat(3, 25px);
+        grid-gap: 5px;
+        justify-content: flex-end; }
+        .about-us .persons .person-info-links img {
+          width: 100%; }
+    .about-us .persons .person-image {
+      width: 100%; }
+    .about-us .persons .person-name {
+      font-weight: bold; }
+    .about-us .persons .person-description {
+      line-height: 1rem; }
+
+@media (max-width: 800px) {
+  .about-grid {
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-gap: 15px; }
+    .about-grid-left {
+      text-align: center; }
+  .about-us .persons {
+    grid-template-columns: repeat(auto-fill, 100%); } }
+
 .projects-section .projects .project {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -432,3 +432,17 @@ svg {
     margin: 50px 0 !important; }
     .project-images {
       height: 200px; } }
+
+.programs-section .programs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px; }
+  .programs-section .programs .program {
+    background-color: white;
+    padding: 15px;
+    border-radius: 7.5px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
+    .programs-section .programs .program ul {
+      margin-left: 30px; }
+  .programs-section .programs .featured {
+    transform: translateY(-30px); }
