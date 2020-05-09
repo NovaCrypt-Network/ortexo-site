@@ -446,3 +446,14 @@ svg {
       margin-left: 30px; }
   .programs-section .programs .featured {
     transform: translateY(-30px); }
+
+.our-program {
+  background-color: #00154F; }
+  .our-program * {
+    color: white; }
+  .our-program-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px; }
+    .our-program-info ul, .our-program-info ol {
+      margin-left: 30px; }
