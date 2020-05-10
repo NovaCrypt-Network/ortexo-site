@@ -457,3 +457,6 @@ svg {
     grid-gap: 30px; }
     .our-program-info ul, .our-program-info ol {
       margin-left: 30px; }
+  .our-program a {
+    color: #007bff !important;
+    text-decoration: underline; }
