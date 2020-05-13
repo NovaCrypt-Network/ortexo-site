@@ -8,6 +8,11 @@
       grid-gap: 50px;
       margin-bottom: 100px;
 
+      &-logo {
+        display: flex;
+        align-items: center;
+      }
+
       &-images {
         position: relative;
 
