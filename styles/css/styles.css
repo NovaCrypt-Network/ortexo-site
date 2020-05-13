@@ -365,6 +365,8 @@ svg {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   margin-bottom: 100px; }
+  .projects-section .projects .project .creator-image {
+    width: 50px; }
   .projects-section .projects .project-logo {
     display: flex;
     align-items: center; }
