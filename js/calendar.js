@@ -77,6 +77,28 @@ document.addEventListener('DOMContentLoaded', function() {
         color: regularEventColor
       },
       {
+        title: 'Work on first beta release of AveryBot!',
+        start: '2020-05-23',
+        end: '2020-05-29',
+        color: projectEventColor
+      },
+      {
+        title: 'Work on first beta release of Coscript!',
+        start: '2020-05-23',
+        end: '2020-05-29',
+        color: projectEventColor
+      },
+      {
+        title: 'AveryBot beta released!',
+        start: '2020-05-29',
+        color: deadlineEventColor
+      },
+      {
+        title: 'Coscript beta released!',
+        start: '2020-05-29',
+        color: deadlineEventColor
+      },
+      {
         title: 'Final results released!',
         start: '2020-05-30',
         color: deadlineEventColor
