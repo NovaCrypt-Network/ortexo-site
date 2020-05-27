@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         title: 'Work on first beta release of Coscript!',
         start: '2020-05-23',
-        end: '2020-05-29',
+        end: '2020-06-06',
         color: projectEventColor
       },
       {
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         title: 'Coscript beta released!',
-        start: '2020-05-29',
+        start: '2020-06-06',
         color: deadlineEventColor
       },
       {
