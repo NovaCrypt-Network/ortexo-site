@@ -45,7 +45,7 @@
 
       &-info {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 70% 1fr;
 
         &-links {
           justify-self: flex-end;

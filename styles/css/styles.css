@@ -335,7 +335,7 @@ svg {
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
     .about-us .persons .person-info {
       display: grid;
-      grid-template-columns: repeat(2, 1fr); }
+      grid-template-columns: 70% 1fr; }
       .about-us .persons .person-info-links {
         justify-self: flex-end;
         display: grid;
