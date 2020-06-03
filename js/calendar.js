@@ -83,24 +83,36 @@ document.addEventListener('DOMContentLoaded', function() {
         color: projectEventColor
       },
       {
-        title: 'Work on first beta release of Coscript!',
-        start: '2020-05-23',
-        end: '2020-06-06',
-        color: projectEventColor
-      },
-      {
         title: 'AveryBot beta released!',
         start: '2020-05-29',
         color: deadlineEventColor
       },
       {
-        title: 'Coscript beta released!',
-        start: '2020-06-06',
+        title: 'Final results released!',
+        start: '2020-05-30',
         color: deadlineEventColor
       },
       {
-        title: 'Final results released!',
-        start: '2020-05-30',
+        title: 'Work on first beta release of Coscript!',
+        start: '2020-05-23',
+        end: '2020-05-31',
+        color: projectEventColor
+      },
+      {
+        title: 'Work on v2.0 release of NPO Core',
+        start: '2020-05-29',
+        end: '2020-06-03',
+        color: projectEventColor
+      },
+      {
+        title: 'Undergo beta testing for NPO Core v2.0',
+        start: '2020-06-03',
+        end: '2020-06-06',
+        color: regularEventColor
+      },
+      {
+        title: 'NPO Core v2.0 released!',
+        start: '2020-06-06',
         color: deadlineEventColor
       }
     ]
