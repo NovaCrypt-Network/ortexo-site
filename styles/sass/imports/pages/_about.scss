@@ -45,7 +45,7 @@
 
       &-info {
         display: grid;
-        grid-template-columns: 70% 1fr;
+        grid-template-columns: 70% 30%;
 
         &-links {
           justify-self: flex-end;
@@ -86,10 +86,6 @@
 
       &-left {
         text-align: center;
-
-        // &-illustration {
-        //   width: 50%;
-        // }
       }
     }
   }
