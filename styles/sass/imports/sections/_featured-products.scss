@@ -30,9 +30,8 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .products-grid {
     grid-template-columns: repeat(auto-fill, 100%) !important;
-    grid-auto-rows: 800px;
   }
 }

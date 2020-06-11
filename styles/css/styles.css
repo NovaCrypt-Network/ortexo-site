@@ -258,10 +258,9 @@ svg {
       .featured-products-section .products-grid .product-link:hover .product-image {
         transform: scale(1.1); }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .products-grid {
-    grid-template-columns: repeat(auto-fill, 100%) !important;
-    grid-auto-rows: 800px; } }
+    grid-template-columns: repeat(auto-fill, 100%) !important; } }
 
 .contact-us-grid {
   display: grid;
