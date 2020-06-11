@@ -239,6 +239,30 @@ svg {
   .calendar-section .fc-popover * {
     color: #282828; }
 
+.featured-products-section {
+  background-color: #00154F; }
+  .featured-products-section * {
+    color: white;
+    transition: all .2s; }
+  .featured-products-section .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    justify-items: center;
+    grid-gap: 50px; }
+    .featured-products-section .products-grid .product-link .product-image {
+      width: 100%;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+      border-radius: 4px; }
+    .featured-products-section .products-grid .product-link:hover {
+      text-decoration: none; }
+      .featured-products-section .products-grid .product-link:hover .product-image {
+        transform: scale(1.1); }
+
+@media (max-width: 1000px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+    grid-auto-rows: 800px; } }
+
 .contact-us-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -357,85 +381,87 @@ svg {
     grid-gap: 15px; }
     .about-grid-left {
       text-align: center; }
+      .about-grid-left-illustration {
+        display: none; }
   .about-us .persons {
     grid-template-columns: repeat(auto-fill, 100%); } }
 
-.projects-section .projects .project {
+.product {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   margin-bottom: 100px; }
-  .projects-section .projects .project .creator-image {
+  .product .creator-image {
     width: 50px; }
-  .projects-section .projects .project-logo {
+  .product-logo {
     display: flex;
     align-items: center; }
-  .projects-section .projects .project-images {
+  .product-images {
     position: relative; }
-    .projects-section .projects .project-images img {
+    .product-images img {
       position: absolute;
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
       border-radius: 4px; }
-    .projects-section .projects .project-images-1 {
+    .product-images-1 {
       bottom: 0;
       left: 0;
       width: 80%; }
-    .projects-section .projects .project-images-2 {
+    .product-images-2 {
       bottom: 0;
       left: 70%;
       width: 20%; }
-    .projects-section .projects .project-images-3 {
+    .product-images-3 {
       bottom: 0;
       left: 85%;
       width: 10%; }
-  .projects-section .projects .project-content-hidden {
+  .product-content-hidden {
     display: none; }
-  .projects-section .projects .project-content-cta {
+  .product-content-cta {
     display: grid;
     grid-template-columns: 70% 1fr; }
-    .projects-section .projects .project-content-cta-left {
+    .product-content-cta-left {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
-      .projects-section .projects .project-content-cta-left span {
+      .product-content-cta-left span {
         background-color: #00154F;
         color: white;
         padding: 5px 10px;
         border-radius: 3px;
         margin: 3px; }
-    .projects-section .projects .project-content-cta-right {
+    .product-content-cta-right {
       justify-self: flex-end;
       display: flex;
       align-items: center; }
-      .projects-section .projects .project-content-cta-right a {
+      .product-content-cta-right a {
         margin-right: 10px; }
-        .projects-section .projects .project-content-cta-right a:hover {
+        .product-content-cta-right a:hover {
           text-decoration: none; }
-        .projects-section .projects .project-content-cta-right a:last-child {
+        .product-content-cta-right a:last-child {
           transform: translateY(-2px); }
-        .projects-section .projects .project-content-cta-right a img {
+        .product-content-cta-right a img {
           width: 30px; }
 
 @media (max-width: 1000px) {
-  .project {
+  .product {
     grid-template-columns: repeat(auto-fill, 100%) !important;
     grid-gap: 30px !important;
     margin-bottom: 75px 0 !important; }
-    .project-images {
+    .product-images {
       height: 300px; }
-    .project-content {
+    .product-content {
       height: auto !important; }
-      .project-content-show {
+      .product-content-show {
         display: none;
         height: auto !important; }
-      .project-content-hidden {
+      .product-content-hidden {
         display: block !important;
         height: auto !important; } }
 
 @media (max-width: 550px) {
-  .project {
+  .product {
     margin: 50px 0 !important; }
-    .project-images {
+    .product-images {
       height: 200px; } }
 
 .opportunities {

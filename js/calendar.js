@@ -1,4 +1,4 @@
-const projectEventColor = "#1db0f0";
+const productEventColor = "#1db0f0";
 const regularEventColor = "#F4AF1B";
 const deadlineEventColor = "#f05e48";
 
@@ -21,25 +21,25 @@ document.addEventListener('DOMContentLoaded', function() {
         title: 'Re-design and re-launch Launch Tech website',
         start: '2020-05-01',
         end: '2020-05-03',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'Build and launch NPOCore!',
         start: '2020-05-03',
         end: '2020-05-05',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'NPO Core - Implement security features',
         start: '2020-05-05',
         end: '2020-05-07',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'Revamp and improve on the w3Hacks platform',
         start: '2020-05-04',
         end: '2020-05-07',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'Applications close!',
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         title: 'Improve SEO of NPO Core!',
         start: '2020-05-07',
         end: '2020-05-09',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'Launch Acquisition Program!',
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
         title: 'Work on first beta release of AveryBot!',
         start: '2020-05-23',
         end: '2020-05-29',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'AveryBot beta released!',
@@ -96,13 +96,13 @@ document.addEventListener('DOMContentLoaded', function() {
         title: 'Work on first beta release of Coscript!',
         start: '2020-05-23',
         end: '2020-05-31',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'Work on v2.0 release of NPO Core',
         start: '2020-05-29',
         end: '2020-06-03',
-        color: projectEventColor
+        color: productEventColor
       },
       {
         title: 'Undergo beta testing for NPO Core v2.0',
