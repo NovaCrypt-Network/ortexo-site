@@ -224,7 +224,10 @@ svg {
   grid-gap: 20px;
   align-items: center; }
   .our-partners .partners-grid .partner img {
-    width: 100%; }
+    width: 100%;
+    transition: all .2s; }
+    .our-partners .partners-grid .partner img:hover {
+      transform: scale(1.2); }
 
 @media (max-width: 500px) {
   .partners-section {
