@@ -36,8 +36,8 @@
 
   .partners-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
-    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    grid-gap: 20px;
     align-items: center;
 
     .partner {
@@ -53,5 +53,10 @@
 @media (max-width: 500px) {
   .partners-section {
     display: none;
+  }
+
+  .partners-grid {
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr)) !important;
+    grid-gap: 20px !important;
   }
 }
