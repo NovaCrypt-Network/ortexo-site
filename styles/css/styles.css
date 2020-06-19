@@ -223,7 +223,7 @@ svg {
   grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
   grid-gap: 50px;
   align-items: center; }
-  .our-partners .partners-grid .partner {
+  .our-partners .partners-grid .partner img {
     width: 100%; }
 
 @media (max-width: 500px) {

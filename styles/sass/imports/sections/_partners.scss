@@ -41,7 +41,10 @@
     align-items: center;
 
     .partner {
-      width: 100%;
+
+      & img {
+        width: 100%;
+      }
     }
   }
 }
