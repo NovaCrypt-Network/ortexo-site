@@ -104,13 +104,13 @@ export default ({ children }) => {
             <h3>Contact</h3>
             <p className="footer-grid-contact-item">
               <a href="mailto:hello@launchtechllc.com" target="_blank">
-                <img src="img/icons/contact/email-light.svg" />
+                <img src="/img/icons/contact/email-light.svg" />
                 <span>hello@launchtechllc.com</span>
               </a>
             </p>
             <p className="footer-grid-contact-item">
               <a href="https://calendly.com/launch-tech" target="_blank">
-                <img src="img/icons/contact/calendar.svg" />
+                <img src="/img/icons/contact/calendar.svg" />
                 <span>Schedule a Call</span>
               </a>
             </p>
@@ -118,24 +118,24 @@ export default ({ children }) => {
 
           <div className="copyright-container">
             <div className="text-center">
-              <img style={{ width: '100px' }} src="img/logos/launchtech.png" alt="Launch Tech LLC logo" />
+              <img style={{ width: '100px' }} src="/img/logos/launchtech.png" alt="Launch Tech LLC logo" />
             </div>
 
             <div className="social-media">
               <a href="https://www.linkedin.com/company/launch-tech-llc/" target="_blank">
-                <img src="img/icons/social-media/linkedin-light.svg" alt="Launch Tech LLC LinkedIn" className="social-media-icon" />
+                <img src="/img/icons/social-media/linkedin-light.svg" alt="Launch Tech LLC LinkedIn" className="social-media-icon" />
               </a>
               <a href="https://github.com/launchtechllc" target="_blank">
-                <img src="img/icons/social-media/github-light.svg" alt="Launch Tech LLC GitHub organization" className="social-media-icon" />
+                <img src="/img/icons/social-media/github-light.svg" alt="Launch Tech LLC GitHub organization" className="social-media-icon" />
               </a>
               <a href="https://www.instagram.com/launchtechllc/" target="_blank">
-                <img src="img/icons/social-media/instagram-light.svg" alt="Launch Tech LLC Instagram" className="social-media-icon" />
+                <img src="/img/icons/social-media/instagram-light.svg" alt="Launch Tech LLC Instagram" className="social-media-icon" />
               </a>
               <a href="https://trello.com/launchtechllc/home" target="_blank">
-                <img src="img/icons/social-media/trello-light.svg" alt="Launch Tech LLC Trello organization" className="social-media-icon" />
+                <img src="/img/icons/social-media/trello-light.svg" alt="Launch Tech LLC Trello organization" className="social-media-icon" />
               </a>
               <a href="mailto:hello@launchtechllc.com" target="_blank">
-                <img src="img/icons/contact/email-light.svg" alt="Launch Tech LLC Email" className="social-media-icon" />
+                <img src="/img/icons/contact/email-light.svg" alt="Launch Tech LLC Email" className="social-media-icon" />
               </a>
             </div>
 
