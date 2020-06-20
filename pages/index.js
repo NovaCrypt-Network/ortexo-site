@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/Layout.js'
+import Link from 'next/link'
 
 export default () => {
   return (
@@ -11,13 +12,17 @@ export default () => {
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left" data-aos="fade-right">
-              <h1>Launch Tech LLC</h1>
+              <h1 style={{ "font-size": "60px", "font-weight": "bold" }}>Launch Tech LLC</h1>
               <h4 className="header-grid-left-sub-header">
                 Launch Tech is a SaaS product holding company, dedicated to launching real-world software applications.
               </h4>
               <div className="cta-buttons mt-4">
-                <button className="button ghost-cta-button-light">Learn More</button>
-                <a href="/products" className="button solid-cta-button-light">Check out our products!</a>
+                <Link href="/opportunities">
+                  <button className="button ghost-cta-button-light">Job Opportunities</button>
+                </Link>
+                <Link href="/products">
+                  <a className="button solid-cta-button-light">Check out our products!</a>
+                </Link>
               </div>
             </div>
             <div className="header-grid-right" data-aos="zoom-in">
@@ -45,8 +50,12 @@ export default () => {
                 Though we are a SaaS product company, we try to open with our processes, builds, and deadlines. We have a calendar that shares all of the things we're working on, and when certain events/product-builds will start, end, and be deployed.
               </p>
               <div className="cta-buttons mt-4">
-                <a className="button ghost-cta-button-dark" href="/opportunities">Job Opportunities</a>
-                <a href="/products" className="button solid-cta-button-dark">Our Products</a>
+                <Link href="/opportunities">
+                  <button className="button ghost-cta-button-dark">Job Opportunities</button>
+                </Link>
+                <Link href="/products">
+                  <a className="button solid-cta-button-dark">Check out our products!</a>
+                </Link>
               </div>
             </div>
           </div>
