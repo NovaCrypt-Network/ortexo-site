@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/modules/layout.module.scss'
 
 export default ({ children }) => {
@@ -5,28 +6,40 @@ export default ({ children }) => {
     <>
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
-          <a href="https://www.launchtechllc.com" className="navbar-brand">
-            <img className="navbar-brand-image" src="/img/logos/launchtech.png" alt="Launch Tech LLC logo" />
-          </a>
+          <Link className="nav-link" href="/">
+            <a className="navbar-brand">
+              <img className="navbar-brand-image" src="/img/logos/launchtech.png" alt="Launch Tech LLC logo" />
+            </a>
+          </Link>
           <button className="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbar-target">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                  <a className="nav-link" href="/">Home</a>
+                <Link href="/">
+                  <a className="nav-link">Home</a>
+                </Link>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="/about">About</a>
+                <Link href="/about">
+                  <a className="nav-link">About</a>
+                </Link>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="/partners">Partners</a>
+                <Link href="/partners">
+                  <a className="nav-link">Partners</a>
+                </Link>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="/products">Products</a>
+                <Link href="/products">
+                  <a className="nav-link">Products</a>
+                </Link>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="/opportunities">Opportunities</a>
+                <Link href="/opportunities">
+                  <a className="nav-link">Opportunities</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -42,32 +55,48 @@ export default ({ children }) => {
           <div className="footer-grid-links">
             <h3>Navigate</h3>
             <li className="footer-grid-links-item">
-              <a href="/">Home</a>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li className="footer-grid-links-item">
-              <a href="/about">About</a>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
             </li>
             <li className="footer-grid-links-item">
-              <a href="/partners">Partners</a>
+              <Link href="/partners">
+                <a>Partners</a>
+              </Link>
             </li>
             <li className="footer-grid-links-item">
-              <a href="/products">Products</a>
+              <Link href="/products">
+                <a>Products</a>
+              </Link>
             </li>
             <li className="footer-grid-links-item">
-              <a href="/opportunities">Opportunities</a>
+              <Link href="/opportunities">
+                <a>Opportunities</a>
+              </Link>
             </li>
           </div>
 
           <div className="footer-grid-links">
             <h3>Legal</h3>
             <li className="footer-grid-links-item">
-              <a href="corporate/privacy-policy">Privacy Policy</a>
+              <Link href="/corporate/privacy-policy">
+                <a>Privacy Policy</a>
+              </Link>
             </li>
             <li className="footer-grid-links-item">
-              <a href="corporate/terms-of-service">Terms of Service</a>
+              <Link href="/corporate/terms-of-service">
+                <a>Terms of Service</a>
+              </Link>
             </li>
             <li className="footer-grid-links-item">
-              <a href="corporate/credits">Credits</a>
+              <Link href="/corporate/credits">
+                <a>Credits</a>
+              </Link>
             </li>
           </div>
 
