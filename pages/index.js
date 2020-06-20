@@ -6,7 +6,7 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Index</title>
+        <title>Launch Tech LLC - A SaaS product holding company</title>
       </Head>
       <section className="header" id="header">
         <div className="container">

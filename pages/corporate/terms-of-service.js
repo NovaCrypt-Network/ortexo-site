@@ -1,8 +1,13 @@
+import Head from 'next/head'
 import Layout from '../../components/Layout.js'
 
 export default () => {
   return (
     <Layout>
+      <Head>
+        <title>Launch Tech LLC - Terms of Service</title>
+      </Head>
+
       <div className="waves">
         <div className="waves-container">
           <div className="container">
