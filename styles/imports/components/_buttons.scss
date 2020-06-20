@@ -1,0 +1,64 @@
+.button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all .2s;
+  text-align: center;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.solid-cta-button {
+  &-light {
+    color: white;
+    border: 2px solid $color-secondary;
+    background-color: $color-secondary;
+
+    &:hover {
+      border: 2px solid $color-secondary-dark;
+      background-color: $color-secondary-dark;
+    }
+  }
+
+  &-dark {
+    color: white;
+    border: 2px solid $color-primary;
+    background-color: $color-primary;
+
+    &:hover {
+      border: 2px solid $color-primary-dark;
+      background-color: $color-primary-dark;
+    }
+  }
+}
+
+.ghost-cta-button {
+  padding: 10px 15px;
+  border-radius: 4px;
+
+  &-light {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  &-dark {
+    color: $color-primary;
+    border: 2px solid $color-primary;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $color-primary;
+      color: white;
+    }
+  }
+}

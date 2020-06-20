@@ -1,0 +1,145 @@
+.header {
+  background-color: $color-primary;
+  padding: 30px 0;
+
+  * {
+    color: white;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    align-items: center;
+
+    height: 100%;
+
+    &-left {
+
+      &-main-header {
+        font-size: 65px;
+        font-weight: bold;
+      }
+
+      &-sub-header {
+        line-height: 2rem;
+      }
+    }
+
+    &-right {
+      // background-image: url("../../../../img/blobs/blob1.svg"), url("../../../../img/blobs/blob2.svg"), url("../../../../img/blobs/blob3.svg");
+      // background-position: center;
+
+      &-illustration {
+        width: 100%;
+        animation: float 6s ease-in-out infinite;
+        // width: 50%;
+        // transform: translate(15px, 15px);
+      }
+    }
+  }
+}
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+@media (max-width: 1000px) {
+  .header {
+
+    &-grid {
+      // display: block;
+
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)) !important;
+
+      // &-right {
+      //   display: none;
+      // }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+// $colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
+$colors: white, white, white, white, white;
+
+.header-grid-left {
+  // background-size: .12em 100%;
+  font: 40em/1 Arial;
+}
+
+.text--line {
+  font-size: .5em;
+  }
+
+svg {
+  transform: translateY(60px);
+  display: block;
+  width: 100%;
+}
+
+$max: 5;
+$stroke-step: 7%;
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+  stroke-width: 3px;
+
+  animation: stroke-offset 2s;
+  animation-timing-function: ease-out;
+
+  @for $item from 1 through $max {
+    $stroke-color: nth($colors, $item);
+
+    &:nth-child(#{$item}) {
+      stroke: $stroke-color;
+      stroke-dashoffset: $stroke-step * $item;
+      }
+    }
+  }
+
+@keyframes stroke-offset {
+  0% {
+    stroke-dashoffset: $stroke-step * $max;
+    stroke-dasharray: 0 $stroke-step * $max*2.5;
+  }
+}
+
+@keyframes fill-text {
+  from {
+    fill: rgba(255,255,255,0);
+  }
+
+  to {
+    fill: rgba(255,255,255,1);
+  }
+}
+
+.fill-svg {
+  fill: white;
+  animation: fill-text 2s linear;
+}

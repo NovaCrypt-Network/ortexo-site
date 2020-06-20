@@ -1,0 +1,67 @@
+.partners-section {
+  height: auto;
+  padding: 25px 0 50px 0;
+
+  &-header {
+    position: relative;
+
+    .see-more {
+      position: absolute;
+      top: 15px;
+      right: 0;
+    }
+  }
+
+  .partners-container {
+    width: 100%;
+
+    .partner {
+      display: flex;
+      align-self: center;
+
+      padding: 0 15px;
+
+      & img {
+        width: 100%;
+        filter: grayscale(100%);
+        opacity: .4;
+      }
+    }
+  }
+}
+
+
+// PARTNERS PAGE
+.our-partners {
+
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+
+    .partner {
+
+      & img {
+        width: 100%;
+        transition: all .2s;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 500px) {
+  .partners-section {
+    display: none;
+  }
+
+  .partners-grid {
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr)) !important;
+    grid-gap: 20px !important;
+  }
+}

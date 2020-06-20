@@ -1,0 +1,32 @@
+.contact-us {
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+
+    &-left {
+      &-contact {
+
+        &-item a {
+          display: grid;
+          grid-template-columns: 30px 1fr;
+          grid-gap: 15px;
+          align-items: center;
+          color: $color-primary;
+
+          & img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+  .contact-us-grid {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}

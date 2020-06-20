@@ -1,0 +1,18 @@
+.flipped-wave {
+  transform: rotate(180deg) translateY(1px);
+}
+
+.waves {
+  .waves-container {
+    background-color: $color-primary;
+
+    .section-header {
+      margin-bottom: 0;
+      color: white;
+    }
+  }
+}
+
+.waves, .wave {
+  width: 100%;
+}
