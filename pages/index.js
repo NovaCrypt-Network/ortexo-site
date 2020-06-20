@@ -7,7 +7,9 @@ export default () => {
     <Layout>
       <Head>
         <title>Launch Tech LLC - A SaaS product holding company</title>
+        <meta name="description" content="Launch Tech is a SaaS (Software as a Service) product holding company, created for launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We try to build, market, and deploy software through partnerships, events, and sponsors." />
       </Head>
+
       <section className="header" id="header">
         <div className="container">
           <div className="header-grid">

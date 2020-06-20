@@ -6,6 +6,7 @@ export default () => {
     <Layout>
       <Head>
         <title>Launch Tech LLC - Our Partners</title>
+        <meta name="description" content="Launch Tech cannot be possible without all of our amazing partners! We build our SaaS products and software applications with the help of our partnerships!" />
       </Head>
 
       <div className="waves">
