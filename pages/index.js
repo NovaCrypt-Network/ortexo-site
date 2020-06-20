@@ -47,9 +47,9 @@ export default () => {
             <div className="about-grid-right">
               <h1 className="section-header">About Launch Tech</h1>
               <p>
-                Launch Tech LLC is a SaaS (Software as a Service) product holding company, dedicated to launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world, and we partner with other organizations to make this into a reality!
+                Launch Tech LLC is a SaaS (Software as a Service) product holding company, dedicated to launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We also partner with other organizations to make this into a reality!
                 <br/><br/>
-                Though we are a SaaS product company, we try to open with our processes, builds, and deadlines. We have a calendar that shares all of the things we're working on, and when certain events/product-builds will start, end, and be deployed.
+                Though we are a SaaS product company, we try to be open with our processes, builds, and deadlines. We have a calendar that shares all of the things we're working on, and when certain events/product-builds will start, end, and be deployed.
               </p>
               <div className="cta-buttons mt-4">
                 <Link href="/opportunities">
@@ -106,7 +106,7 @@ export default () => {
             <div className="contact-us-grid-right" data-aos="flip-right">
               <h4>We're completely open to:</h4>
               <ul className="ml-5">
-                <li><strong>Product Partnerships</strong></li>
+                <li>Product Partnerships</li>
                 <li>Community/Corporate partnerships</li>
                 <li>Collaborating on events</li>
                 <li>Product ideas/requests</li>
