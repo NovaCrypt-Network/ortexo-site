@@ -1,8 +1,9 @@
 import Head from 'next/head'
+import Layout from '../components/Layout.js'
 
-export default function Home() {
+export default () => {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Index</title>
       </Head>
@@ -126,6 +127,6 @@ export default function Home() {
       <div className="waves">
         <img src="img/waves/header-wave.png" className="wave" />
       </div>
-    </>
+    </Layout>
   )
 }
