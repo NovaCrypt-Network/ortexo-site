@@ -27,7 +27,7 @@ export default () => {
             <a className="partner" href="https://www.leangap.org" target="_blank">
               <img src="img/logos/leangap.png" />
             </a>
-            <a className="partner" href="https://linktr.ee/fmn20" target="_blank">
+            <a className="partner" href="https://www.futuremindsnetwork.org/" target="_blank">
               <img src="img/logos/future-minds.png" />
             </a>
             <a className="partner" href="https://simplyneuroscience.org/" target="_blank">
@@ -39,7 +39,7 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/youngminds.global/" target="_blank">
               <img src="img/logos/ymg.png" />
             </a>
-            <a className="partner" href="https://www.instagram.com/norcalhacks/" target="_blank">
+            <a className="partner" href="https://norcalhacks.weebly.com/" target="_blank">
               <img src="img/logos/norcalhacks.png" />
             </a>
             <a className="partner" href="https://planethacks.tech/" target="_blank">
@@ -51,7 +51,7 @@ export default () => {
             <a className="partner" href="https://www.healthhacks.tech/" target="_blank">
               <img src="img/logos/healthhacks.png" />
             </a>
-            <a className="partner" href="https://dvhacks.tech/" target="_blank">
+            <a className="partner" href="http://dvhacks.tech/" target="_blank">
               <img src="img/logos/dvhacks.png" />
             </a>
             <a className="partner" href="https://atlashacks.tech/" target="_blank">
