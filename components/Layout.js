@@ -1,7 +1,17 @@
+import { React, useEffect } from 'react'
 import Link from 'next/link'
 import styles from '../styles/modules/layout.module.scss'
+import { initGA, logPageView } from '../utils/analytics'
 
 export default ({ children }) => {
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA()
+      window.GA_INITIALIZED = true
+    }
+    logPageView()
+  }, []);
+
   return (
     <>
       <nav className="navbar navbar-expand-sm navbar-dark">
