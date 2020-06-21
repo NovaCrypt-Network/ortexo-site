@@ -1,7 +1,7 @@
-import { React, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import Link from 'next/link'
 import styles from '../styles/modules/layout.module.scss'
-import { initGA, logPageView } from '../utils/analytics'
+import { initGA, logPageView } from '../utils/analytics.js'
 
 export default ({ children }) => {
   useEffect(() => {
@@ -10,7 +10,7 @@ export default ({ children }) => {
       window.GA_INITIALIZED = true
     }
     logPageView()
-  }, []);
+  });
 
   return (
     <>
