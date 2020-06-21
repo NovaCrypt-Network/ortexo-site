@@ -90,6 +90,9 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/zenerations/" target="_blank">
               <img src="img/logos/zenerations.png" />
             </a>
+            <a className="partner" href="https://linktr.ee/operationceos" target="_blank">
+              <img src="img/logos/operationsceos.png" />
+            </a>
             <a className="partner" href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank">
               <img src="img/logos/plannrconsulting.png" />
             </a>
@@ -104,6 +107,9 @@ export default () => {
             </a>
             <a className="partner" href="https://linktr.ee/medicalwonders" target="_blank">
               <img src="img/logos/medicalwonders.png" />
+            </a>
+            <a className="partner" href="https://teamcreaitivity.wixsite.com/creaitivity" target="_blank">
+              <img src="img/logos/creaitivity.png" />
             </a>
             <a className="partner" href="https://heartofreview.wixsite.com/home" target="_blank">
               <img src="img/logos/heartofreview.png" />
@@ -129,20 +135,23 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/feminists4equality/" target="_blank">
               <img src="img/logos/femminists4equality.png" />
             </a>
+            <a className="partner p-4" href="http://thestudentperiodmovement.org/" target="_blank">
+              <img src="img/logos/tspm.png" />
+            </a>
+            <a className="partner p-2" href="https://helloo-world.com/" target="_blank">
+              <img src="img/logos/helloo.png" />
+            </a>
             <a className="partner p-2" href="https://linktr.ee/melodiesformath" target="_blank">
               <img src="img/logos/melodiesformath.png" />
             </a>
             <a className="partner" href="https://motivatetoeducatet.wixsite.com/site" target="_blank">
               <img src="img/logos/motivatetoeducate.png" />
             </a>
-            <a className="partner" href="https://ycwalameda.weebly.com/" target="_blank">
+            <a className="partner p-3" href="https://ycwalameda.weebly.com/" target="_blank">
               <img src="img/logos/ycw.png" />
             </a>
             <a className="partner p-3" href="https://www.instagram.com/stemupodcast/" target="_blank">
               <img src="img/logos/from_the_stem_up.png" />
-            </a>
-            <a className="partner" href="https://helloo-world.com/" target="_blank">
-              <img src="img/logos/helloo.png" />
             </a>
             <a className="partner p-3" href="https://www.moderndivergence.com/" target="_blank">
               <img src="img/logos/moderndivergence.png" />
