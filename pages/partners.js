@@ -87,6 +87,9 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/intern_net/" target="_blank">
               <img src="img/logos/intern_net.png" />
             </a>
+            <a className="partner" href="https://www.eeinj.org/" target="_blank">
+              <img src="img/logos/eei.png" />
+            </a>
             <a className="partner" href="https://www.irvinelights.org/" target="_blank">
               <img src="img/logos/irvinelights.png" />
             </a>
@@ -104,6 +107,9 @@ export default () => {
             </a>
             <a className="partner" href="https://www.instagram.com/citizensenlightened/" target="_blank">
               <img src="img/logos/citizens_enlightened.png" />
+            </a>
+            <a className="partner" href="https://www.innovate-x.org/" target="_blank">
+              <img src="img/logos/innovatex.png" />
             </a>
             <a className="partner" href="https://www.vitalityvolunteers.com/" target="_blank">
               <img src="img/logos/vitality_volunteers.png" />
@@ -135,11 +141,17 @@ export default () => {
             <a className="partner" href="https://tinyurl.com/sampofficial" target="_blank">
               <img src="img/logos/sampofficial.png" />
             </a>
+            <a className="partner" href="https://www.instagram.com/girlsinwhitecoats/" target="_blank">
+              <img src="img/logos/girlsinwhitecoats.png" />
+            </a>
             <a className="partner" href="https://www.instagram.com/feminists4equality/" target="_blank">
               <img src="img/logos/femminists4equality.png" />
             </a>
             <a className="partner p-4" href="http://thestudentperiodmovement.org/" target="_blank">
               <img src="img/logos/tspm.png" />
+            </a>
+            <a className="partner p-4" href="https://www.linkedin.com/company/tech-4-u/" target="_blank">
+              <img src="img/logos/tech4u.png" />
             </a>
             <a className="partner p-2" href="https://helloo-world.com/" target="_blank">
               <img src="img/logos/helloo.png" />
