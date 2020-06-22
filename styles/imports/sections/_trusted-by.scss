@@ -10,3 +10,14 @@
     filter: alpha(opacity=40);
   }
 }
+
+@media (max-width: 800px) {
+  .trusted-by-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+
+  #girlswhocode {
+    display: none;
+  }
+}

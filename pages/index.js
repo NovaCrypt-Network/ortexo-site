@@ -39,11 +39,11 @@ export default () => {
       </div>
 
       <section className="trusted-by" id="trusted-by">
-        <div className="container">
+        <div className="container py-3">
           <div className="trusted-by-grid">
-            <img className="p-2" src="/img/logos/trusted-by/tks.png" alt="" />
+            <img className="px-2" src="/img/logos/trusted-by/tks.png" alt="" />
             <img className="" src="/img/logos/trusted-by/launchx.png" alt="" />
-            <img className="p-4" src="/img/logos/trusted-by/girlswhocode.png" alt="" />
+            <img id="girlswhocode" className="px-4" src="/img/logos/trusted-by/girlswhocode.png" alt="" />
             <img className="" src="/img/logos/trusted-by/codeninjas.png" alt="" />
             <img className="" src="/img/logos/trusted-by/deca.png" alt="" />
           </div>
