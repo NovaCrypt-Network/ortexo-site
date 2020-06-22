@@ -13,10 +13,10 @@ export default ({ children }) => {
   });
 
   return (
-    <>
+    <div>
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
-          <Link className="nav-link" href="/">
+          <Link href="/">
             <a className="navbar-brand">
               <img className="navbar-brand-image" src="/img/logos/launchtech.png" alt="Launch Tech LLC logo" />
             </a>
@@ -156,6 +156,6 @@ export default ({ children }) => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
