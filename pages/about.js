@@ -33,13 +33,13 @@ export default () => {
                   </div>
                   <div className="person-info-links">
                     <a href="https://www.instagram.com/calix_huang/" target="_blank">
-                      <img src="img/icons/social-media/instagram-dark.svg" alt="Launch Tech LLC - Calix Huang - Instagram" />
+                      <img src="img/icons/social-media/instagram-dark.svg" />
                     </a>
                     <a href="https://www.linkedin.com/in/calix-huang/" target="_blank">
-                      <img src="img/icons/social-media/linkedin-dark.svg" alt="Launch Tech LLC - Calix Huang - LinkedIn" />
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
                     <a href="mailto:calix@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" alt="Launch Tech LLC - Calix Huang - Email" />
+                      <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
                 </div>
@@ -61,16 +61,91 @@ export default () => {
                   <div className="person-info-links">
                     <div></div>
                     <a href="https://www.linkedin.com/in/nehawashikar/" target="_blank">
-                      <img src="img/icons/social-media/linkedin-dark.svg" alt="Launch Tech LLC - Neha Washikar - Instagram" />
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
                     <a href="mailto:neha@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" alt="Launch Tech LLC - Neha Washikar - Email" />
+                      <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
                 </div>
                 <p className="person-title">Outreach, Social Media</p>
                 <small className="person-description">
                   Neha Washikar works with the Outreach/ Social Media team in Launch Tech. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/angela.png" alt="Launch Tech LLC - Angela Chen" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Angela Chen</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/angela-chen-8235521a9/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:angela@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">QA Tester</p>
+                <small className="person-description">
+                  Angela Chen is the Outreach Coordinator at Project Tech Conferences, a student NPO that runs technology events for students, and hopes to further her own programming knowledge. In her free time, Angela enjoys running, hurdling and listening to music.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/rex.png" alt="Launch Tech LLC - Rex Liu" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Rex Liu</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/rexliu3/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:rex@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">QA Tester</p>
+                <small className="person-description">
+                  Rex Liu is an independent software engineer developing web and mobile applications for clients and creating personal projects to dive deeper into the world of CS. He is also an avid badminton and tennis player.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/molly.png" alt="Launch Tech LLC - Molly Xu" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Molly Xu</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/mollyxu9/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:neha@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">QA Tester</p>
+                <small className="person-description">
+                  Molly is a prospective Computer Science and Business Administration double degree student at the University of Waterloo. When she isn’t coding, you can find her listening to Latin pop or binge-watching La Casa de Papel (Money Heist).
                 </small>
               </div>
             </div>
