@@ -76,6 +76,31 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
+                <img src="img/people/mitchell.png" alt="Launch Tech LLC - Mitchell Artz" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Mitchell Artz</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/mitchellartz/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:mitchell@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Lead QA Tester</p>
+                <small className="person-description">
+                Mitchell Artz is a QA tester and security enthusiast, currently studying to get his High School diploma online. He loves testing for security flaws in cloud-based services. Mitchell enjoys playing curling and flying drones.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
                 <img src="img/people/angela.png" alt="Launch Tech LLC - Angela Chen" className="person-image" />
               </div>
               <div className="person-content">
