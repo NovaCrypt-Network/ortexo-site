@@ -96,6 +96,9 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/zenerations/" target="_blank">
               <img src="img/logos/zenerations.png" />
             </a>
+            <a className="partner" href="https://sanjitap2003.wixsite.com/connectandcompute" target="_blank">
+              <img src="img/logos/connect&compute.png" />
+            </a>
             <a className="partner" href="https://linktr.ee/operationceos" target="_blank">
               <img src="img/logos/operationsceos.png" />
             </a>
@@ -155,6 +158,9 @@ export default () => {
             </a>
             <a className="partner p-4" href="http://thestudentperiodmovement.org/" target="_blank">
               <img src="img/logos/tspm.png" />
+            </a>
+            <a className="partner p-4" href="https://www.instagram.com/heartcare.llc/" target="_blank">
+              <img src="img/logos/heartcare.png" />
             </a>
             <a className="partner p-4" href="https://www.linkedin.com/company/tech-4-u/" target="_blank">
               <img src="img/logos/tech4u.png" />
