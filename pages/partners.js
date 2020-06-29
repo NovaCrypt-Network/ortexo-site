@@ -90,6 +90,9 @@ export default () => {
             <a className="partner" href="https://www.eeinj.org/" target="_blank">
               <img src="img/logos/eei.png" />
             </a>
+            <a className="partner" href="https://www.dt4t.org/" target="_blank">
+              <img src="img/logos/dt4t.png" />
+            </a>
             <a className="partner" href="https://www.irvinelights.org/" target="_blank">
               <img src="img/logos/irvinelights.png" />
             </a>
@@ -143,6 +146,9 @@ export default () => {
             </a>
             <a className="partner" href="https://www.instagram.com/stemdays/" target="_blank">
               <img src="img/logos/stemdays.png" />
+            </a>
+            <a className="partner" href="https://tutortoempower.ari.tf/" target="_blank">
+              <img src="img/logos/tutortoempower.png" />
             </a>
             <a className="partner" href="https://tinyurl.com/sampofficial" target="_blank">
               <img src="img/logos/sampofficial.png" />
