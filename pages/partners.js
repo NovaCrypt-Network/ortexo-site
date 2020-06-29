@@ -149,7 +149,7 @@ export default () => {
             </a>
             <a className="partner" href="https://tutortoempower.ari.tf/" target="_blank">
               <img src="img/logos/tutortoempower.png" />
-            </a>
+            </a> 
             <a className="partner" href="https://tinyurl.com/sampofficial" target="_blank">
               <img src="img/logos/sampofficial.png" />
             </a>
