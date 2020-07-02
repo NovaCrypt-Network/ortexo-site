@@ -43,9 +43,36 @@ export default () => {
                     </a>
                   </div>
                 </div>
-                <p className="person-title">Founder, Technology</p>
+                <p className="person-title">Founder, CEO, CTO</p>
                 <small className="person-description">
                   Calix Huang is a self-taught software engineer who specializes in full-stack development and is employed by multiple SaaS companies. After delivering many influential speeches several major hackathons, his goal is to create his own successful SaaS company.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/kenny.png" alt="Launch Tech LLC - Kenny Wu - COO" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Kenny Wu</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <a href="https://www.instagram.com/kenny.wu/" target="_blank">
+                      <img src="img/icons/social-media/instagram-dark.svg" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/kennywuconnect/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:kenny@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Chief Operating Officer</p>
+                <small className="person-description">
+                  Kenny Wu is an operations executive and marketing specialist. He is highly involved with the entrepreneurship community and excels in planning and implementing business operations. On the side, he loves to cook, write articles, and play sports with friends.
                 </small>
               </div>
             </div>
@@ -68,7 +95,7 @@ export default () => {
                     </a>
                   </div>
                 </div>
-                <p className="person-title">Outreach, Social Media</p>
+                <p className="person-title">Chief Marketing Officer</p>
                 <small className="person-description">
                   Neha Washikar works with the Outreach/ Social Media team in Launch Tech. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
                 </small>
