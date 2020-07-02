@@ -43,7 +43,7 @@ export default () => {
                     </a>
                   </div>
                 </div>
-                <p className="person-title">Founder, CEO, CTO</p>
+                <p className="person-title">Founder</p>
                 <small className="person-description">
                   Calix Huang is a self-taught software engineer who specializes in full-stack development and is employed by multiple SaaS companies. After delivering many influential speeches several major hackathons, his goal is to create his own successful SaaS company.
                 </small>

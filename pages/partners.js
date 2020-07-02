@@ -159,6 +159,9 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/feminists4equality/" target="_blank">
               <img src="img/logos/femminists4equality.png" />
             </a>
+            <a className="partner p-4" href="https://www.instagram.com/the.tidbit/" target="_blank">
+              <img src="img/logos/thetidbit.png" />
+            </a>
             <a className="partner p-4" href="https://empoweringeconomic.wixsite.com/empoweringeconomics" target="_blank">
               <img src="img/logos/empowering-economics.png" />
             </a>
