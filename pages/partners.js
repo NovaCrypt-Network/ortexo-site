@@ -30,6 +30,9 @@ export default () => {
             <a className="partner" href="https://www.futuremindsnetwork.org/" target="_blank">
               <img src="img/logos/future-minds.png" />
             </a>
+            <a className="partner p-2" href="https://www.projsnapshot.org/" target="_blank">
+              <img src="img/logos/projectsnapshot.png" />
+            </a>
             <a className="partner" href="https://simplyneuroscience.org/" target="_blank">
               <img src="img/logos/simplyneuroscience.png" />
             </a>
