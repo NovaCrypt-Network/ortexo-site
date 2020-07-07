@@ -128,7 +128,7 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/neha.png" alt="Launch Tech LLC - Jasmine Cho" className="person-image" />
+                <img src="img/people/jasmine.png" alt="Launch Tech LLC - Jasmine Cho" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -147,7 +147,7 @@ export default () => {
                 </div>
                 <p className="person-title">Design</p>
                 <small className="person-description">
-                  Neha Washikar works with the Outreach/ Social Media team in Launch Tech. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
+                  Jasmine Cho is a prospective computer science major, and is currently the team captain of her Varsity tennis team and the Concertmaster for the Symphony Orchestra. Aside from academics, you can find her food adventuring, paddle boarding or hiking.
                 </small>
               </div>
             </div>
