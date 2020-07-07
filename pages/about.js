@@ -103,7 +103,7 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/neha.png" alt="Launch Tech LLC - Adelyn Chen" className="person-image" />
+                <img src="img/people/adelyn.png" alt="Launch Tech LLC - Adelyn Chen" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -122,7 +122,7 @@ export default () => {
                 </div>
                 <p className="person-title">Director of Outreach</p>
                 <small className="person-description">
-                  Neha Washikar works with the Outreach/ Social Media team in Launch Tech. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
+                  Adelyn Chen is a student at the Wharton School and works on Launch Tech's outreach team. She loves navigating the intersection of business and computer science. Her hobbies are calligraphy, bullet journaling, drinking bubble tea, and watching Korean dramas.
                 </small>
               </div>
             </div>
