@@ -103,6 +103,56 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
+                <img src="img/people/neha.png" alt="Launch Tech LLC - Adelyn Chen" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Adelyn Chen</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/adelynchen/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:adelyn@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Director of Outreach</p>
+                <small className="person-description">
+                  Neha Washikar works with the Outreach/ Social Media team in Launch Tech. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/neha.png" alt="Launch Tech LLC - Jasmine Cho" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Jasmine Cho</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/eunsuh-jasmine-cho-408874166/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:jasmine@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Design</p>
+                <small className="person-description">
+                  Neha Washikar works with the Outreach/ Social Media team in Launch Tech. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
                 <img src="img/people/mitchell.png" alt="Launch Tech LLC - Mitchell Artz" className="person-image" />
               </div>
               <div className="person-content">
