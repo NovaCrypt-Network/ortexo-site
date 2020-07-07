@@ -145,7 +145,7 @@ export default () => {
                     </a>
                   </div>
                 </div>
-                <p className="person-title">Design</p>
+                <p className="person-title">Graphic Design</p>
                 <small className="person-description">
                   Jasmine Cho is a prospective computer science major, and is currently the team captain of her Varsity tennis team and the Concertmaster for the Symphony Orchestra. Aside from academics, you can find her food adventuring, paddle boarding or hiking.
                 </small>
