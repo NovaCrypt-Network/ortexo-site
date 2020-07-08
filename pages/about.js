@@ -178,6 +178,31 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
+                <img src="img/people/jinhao.png" alt="Launch Tech LLC - Jinhao Xie" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Jinhao Xie</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/jinhaoxie/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:jinhao@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Software Engineer</p>
+                <small className="person-description">
+                Jinhao Xie is a HS student in Toronto working on developing Launch Tech's software products. He enjoys listening to music, playing basketball, and gaming on occasion. He hopes to pursue a degree computer science and eventually work in software/web development.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
                 <img src="img/people/angela.png" alt="Launch Tech LLC - Angela Chen" className="person-image" />
               </div>
               <div className="person-content">
