@@ -66,6 +66,9 @@ export default () => {
             <a className="partner p-3" href="https://www.bithacks.io/" target="_blank">
               <img src="img/logos/bithacks.png" />
             </a>
+            <a className="partner p-3" href="#" target="_blank">
+              <img src="img/logos/horizonhacks.png" />
+            </a>
             <a className="partner p-3" href="http://www.bytehacks.tech/" target="_blank">
               <img src="img/logos/bytehacks.png" />
             </a>
