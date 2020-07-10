@@ -28,10 +28,23 @@ export default () => {
                 <br/>
                 <small>Remote</small>
               </div>
+              <div>
+                <br/>
+                <h6>Duties</h6>
+              </div>
               <ul className="ml-4 mt-2">
-                <li>Work on the real-world products provided by Launch Tech LLC</li>
-                <li>Work with Launch Tech LLC's corporate and community partners, as well as clients to build an optimal product</li>
-                <li>Learn, build, and deploy new technologies</li>
+                <li>Assist in development on SaaS projects</li>
+                <li>Communicate with development team and CTO</li>
+                <li>Send application updates to QA Testers</li>
+                <li>Implement infrastructure changes</li>
+              </ul>
+              <div>
+                <h6>Skill Requirements</h6>
+              </div>
+              <ul className="ml-4 mt-2" style={{marginBottom: "72%"}}>
+                <li>Ability to work on a deadline and communicate with other teams</li>
+                <li>Strong understanding of software development processes</li>
+                <li>Coding languages</li>
               </ul>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
@@ -39,31 +52,131 @@ export default () => {
             </div>
             <div className="opportunity" data-aos="zoom-in">
               <div>
-                <h3>QA Tester</h3>
+                <h3>Director of SaaS Development</h3>
                 <small><strong>Launch Tech LLC</strong></small>
                 <br/>
                 <small>Remote</small>
               </div>
+              <div>
+                <br/>
+                <h6>Duties</h6>
+              </div>
               <ul className="ml-4 mt-2">
-                <li>Test the quality and usability of Launch Tech LLC products before release</li>
-                <li>Work with other QA testers to point out and report bugs and critical errors</li>
-                <li>Regularly test the performance of currently deployed software launched in production</li>
+                <li>Must be very active, big time commitment</li>
+                <li>Manage current projects</li>
+                <li>Oversee and lead development team</li>
+                <li>Work closely with executives to reach company goals</li>
+                <li>Strong leadership and interpersonal skills</li>
+                <li>Must be responsible, in charge of team productivity</li>
+              </ul>
+              <div>
+                <h6>Skill Requirements</h6>
+              </div>
+              <ul className="ml-4 mt-2" style={{marginBottom: "32%"}}>
+                <li>Expertise in full stack development</li>
+                <li>Prior experience in GitHub</li>
+                <li>Good communication skills</li>
+                <li>Ability to lead a team and plan weekly objectives</li>
               </ul>
               <div className="text-right">
-                <a className="button solid-cta-button-dark" href="https://forms.gle/8ay2tpTRUgcd4xiu6" target="_blank">Apply!</a>
+                <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
               </div>
             </div>
             <div className="opportunity" data-aos="zoom-in">
               <div>
-                <h3>Product Designer</h3>
+                <h3>Public Relations (PR)</h3>
                 <small><strong>Launch Tech LLC</strong></small>
                 <br/>
                 <small>Remote</small>
               </div>
+              <div>
+                <br/>
+                <h6>Duties</h6>
+              </div>
               <ul className="ml-4 mt-2">
-                <li>Work with the development and marketing teams to design a product roadmap stemming from an idea</li>
-                <li>Help oversee/advise the development process as the product is being built</li>
-                <li>Ensure a good user experience with our user interfaces</li>
+                <li>Must be very active and responsive</li>
+                <li>Work closely with the executives and marketing team</li>
+                <li>Excellent communication skills, professional</li>
+                <li>Reach out to newspaper companies and blogs to promote Launch Tech</li>
+                <li>Partner with content platforms to have cross-written guest articles</li>
+                <li>Find feature opportunities for social media platforms and podcast</li>
+                <li>Work with CEO to increase engagement</li>
+              </ul>
+              <div>
+                <h6>Skill Requirements</h6>
+              </div>
+              <ul className="ml-4 mt-2">
+                <li>Strong oral and written communication skills</li>
+                <li>Basic understanding of technical terminology</li>
+                <li>Familiar with cold emailing</li>
+                <li>Professional work demeanor when representing company</li>
+              </ul>
+              <div className="text-right">
+                <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
+              </div>
+            </div>
+            <div className="opportunity" data-aos="zoom-in">
+              <div>
+                <h3>Outreach Officer</h3>
+                <small><strong>Launch Tech LLC</strong></small>
+                <br/>
+                <small>Remote</small>
+              </div>
+              <div>
+                <br/>
+                <h6>Duties</h6>
+              </div>
+              <ul className="ml-4 mt-2">
+                <li>Must be very active</li>
+                <li>Work closely with the Head of Marketing</li>
+                <li>Excellent communication skills, professional</li>
+                <li>Familiar with cold emailing</li>
+                <li>Plan and implement various marketing strategies</li>
+                <li>Build connections with the community</li>
+                <li>Deals with market research and branding</li>
+                <li>Should be well-versed with various marketing strategies</li>
+              </ul>
+              <div>
+                <h6>Skill Requirements</h6>
+              </div>
+              <ul className="ml-4 mt-2" style={{marginBottom: "71%"}}>
+                <li>Written and oral communication</li>
+                <li>Active listening</li>
+                <li>Social perceptiveness</li>
+                <li>Works well under deadlines</li>
+                <li>Strategic thinking</li>
+              </ul>
+              <div className="text-right">
+                <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
+              </div>
+            </div>
+            <div className="opportunity" data-aos="zoom-in">
+              <div>
+                <h3>UX Designer</h3>
+                <small><strong>Launch Tech LLC</strong></small>
+                <br/>
+                <small>Remote</small>
+              </div>
+              <div>
+                <br/>
+                <h6>Duties</h6>
+              </div>
+              <ul className="ml-4 mt-2">
+                <li>Must be very active and responsive</li>
+                <li>Create product prototypes and design UX projects</li>
+                <li>Collaborate with executives and development team to develop a core understanding of user personas</li>
+                <li>Assist with Content Development</li>
+                <li>Conduct competitor and customer analysis</li>
+              </ul>
+              <div>
+                <h6>Skill Requirements</h6>
+              </div>
+              <ul className="ml-4 mt-2" style={{marginBottom: "86%"}}>
+                <li>Software prototyping</li>
+                <li>Visual communication</li>
+                <li>Website wireframe</li>
+                <li>Interaction design</li>
+                <li>Use research</li>
               </ul>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
@@ -76,7 +189,7 @@ export default () => {
                 <br/>
                 <small>Remote</small>
               </div>
-              <ul className="ml-4 mt-2">
+              <ul className="ml-4 mt-2" style={{marginBottom: "179%"}}>
                 <li>Help contribute web animations to <a href="http://anojs.com" target="_blank">Ano.js</a></li>
                 <li>Communicate with other contributors on the <a href="https://discord.gg/xkdRm7E" target="_blank">Ano.js discord server</a></li>
                 <li>Add to your portfolio, LinkedIn, and resume!</li>
