@@ -41,7 +41,7 @@ export default () => {
               <div>
                 <h6>Skill Requirements</h6>
               </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "72%"}}>
+              <ul className="ml-4 mt-2" style={{marginBottom: "71%"}}>
                 <li>Ability to work on a deadline and communicate with other teams</li>
                 <li>Strong understanding of software development processes</li>
                 <li>Coding languages</li>
@@ -72,7 +72,7 @@ export default () => {
               <div>
                 <h6>Skill Requirements</h6>
               </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "32%"}}>
+              <ul className="ml-4 mt-2" style={{marginBottom: "31%"}}>
                 <li>Expertise in full stack development</li>
                 <li>Prior experience in GitHub</li>
                 <li>Good communication skills</li>
@@ -139,7 +139,7 @@ export default () => {
               <div>
                 <h6>Skill Requirements</h6>
               </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "71%"}}>
+              <ul className="ml-4 mt-2">
                 <li>Written and oral communication</li>
                 <li>Active listening</li>
                 <li>Social perceptiveness</li>
@@ -171,7 +171,7 @@ export default () => {
               <div>
                 <h6>Skill Requirements</h6>
               </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "86%"}}>
+              <ul className="ml-4 mt-2" style={{marginBottom: "19%"}}>
                 <li>Software prototyping</li>
                 <li>Visual communication</li>
                 <li>Website wireframe</li>
@@ -189,7 +189,7 @@ export default () => {
                 <br/>
                 <small>Remote</small>
               </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "179%"}}>
+              <ul className="ml-4 mt-2" style={{marginBottom: "112%"}}>
                 <li>Help contribute web animations to <a href="http://anojs.com" target="_blank">Ano.js</a></li>
                 <li>Communicate with other contributors on the <a href="https://discord.gg/xkdRm7E" target="_blank">Ano.js discord server</a></li>
                 <li>Add to your portfolio, LinkedIn, and resume!</li>
