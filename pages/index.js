@@ -75,14 +75,14 @@ export default () => {
                 <img className="product-image" src="img/products/npocore/desktop.png" alt="Launch Tech LLC - NPO Core - Website Image" />
                 <div className="text-center mt-3">
                   <h2>NPO Core</h2>
-                  <p>Your one-stop shop for all things nonprofits</p>
+                  <p>Your one-stop shop for all things non-profits</p>
                 </div>
               </a>
               <a className="product-link" href="http://anojs.com" target="_blank">
                 <img className="product-image" src="img/products/anojs/desktop.png" alt="Launch Tech LLC - Ano.js - Website Image" />
                 <div className="text-center mt-3">
                   <h2>Ano.js</h2>
-                  <p>Web Animation made Easy</p>
+                  <p>Web Animation made easy</p>
                 </div>
               </a>
             </div>

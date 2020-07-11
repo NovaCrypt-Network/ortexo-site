@@ -30,54 +30,41 @@ export default () => {
               </div>
               <div>
                 <br/>
-                <h6>Duties</h6>
+                <h6>Responsibilities</h6>
               </div>
               <ul className="ml-4 mt-2">
                 <li>Assist in development on SaaS projects</li>
                 <li>Communicate with development team and CTO</li>
-                <li>Send application updates to QA Testers</li>
-                <li>Implement infrastructure changes</li>
+                <li>Send development updates to QA Testers</li>
+                <li>Implement infrastructure changes to current software products</li>
+                <li>Applying best practices and standard operating procedures</li>
+                <li>Troubleshoot, debug, and upgrade existing products</li>
               </ul>
-              <div>
-                <h6>Skill Requirements</h6>
-              </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "71%"}}>
-                <li>Ability to work on a deadline and communicate with other teams</li>
-                <li>Strong understanding of software development processes</li>
-                <li>Coding languages</li>
-              </ul>
+              <br/>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
               </div>
             </div>
             <div className="opportunity" data-aos="zoom-in">
               <div>
-                <h3>Director of SaaS Development</h3>
+                <h3>Director of Development</h3>
                 <small><strong>Launch Tech LLC</strong></small>
                 <br/>
                 <small>Remote</small>
               </div>
               <div>
                 <br/>
-                <h6>Duties</h6>
+                <h6>Responsibilities</h6>
               </div>
               <ul className="ml-4 mt-2">
-                <li>Must be very active, big time commitment</li>
                 <li>Manage current projects</li>
+                <li>Direct development and delivery of software products</li>
                 <li>Oversee and lead development team</li>
                 <li>Work closely with executives to reach company goals</li>
-                <li>Strong leadership and interpersonal skills</li>
+                <li>Strong leadership, communication, and interpersonal skills</li>
                 <li>Must be responsible, in charge of team productivity</li>
               </ul>
-              <div>
-                <h6>Skill Requirements</h6>
-              </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "31%"}}>
-                <li>Expertise in full stack development</li>
-                <li>Prior experience in GitHub</li>
-                <li>Good communication skills</li>
-                <li>Ability to lead a team and plan weekly objectives</li>
-              </ul>
+              <br/>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
               </div>
@@ -91,26 +78,17 @@ export default () => {
               </div>
               <div>
                 <br/>
-                <h6>Duties</h6>
+                <h6>Responsibilities</h6>
               </div>
               <ul className="ml-4 mt-2">
-                <li>Must be very active and responsive</li>
+                <li>Be very active and responsive</li>
                 <li>Work closely with the executives and marketing team</li>
-                <li>Excellent communication skills, professional</li>
                 <li>Reach out to newspaper companies and blogs to promote Launch Tech</li>
                 <li>Partner with content platforms to have cross-written guest articles</li>
                 <li>Find feature opportunities for social media platforms and podcast</li>
                 <li>Work with CEO to increase engagement</li>
               </ul>
-              <div>
-                <h6>Skill Requirements</h6>
-              </div>
-              <ul className="ml-4 mt-2">
-                <li>Strong oral and written communication skills</li>
-                <li>Basic understanding of technical terminology</li>
-                <li>Familiar with cold emailing</li>
-                <li>Professional work demeanor when representing company</li>
-              </ul>
+              <br/>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
               </div>
@@ -124,28 +102,18 @@ export default () => {
               </div>
               <div>
                 <br/>
-                <h6>Duties</h6>
+                <h6>Responsibilities</h6>
               </div>
               <ul className="ml-4 mt-2">
-                <li>Must be very active</li>
+                <li>Be very active and responsive</li>
                 <li>Work closely with the Head of Marketing</li>
-                <li>Excellent communication skills, professional</li>
-                <li>Familiar with cold emailing</li>
+                <li>Be familiar with cold emailing</li>
                 <li>Plan and implement various marketing strategies</li>
                 <li>Build connections with the community</li>
-                <li>Deals with market research and branding</li>
-                <li>Should be well-versed with various marketing strategies</li>
+                <li>Direct market research and branding</li>
+                <li>Be well-versed with various marketing strategies</li>
               </ul>
-              <div>
-                <h6>Skill Requirements</h6>
-              </div>
-              <ul className="ml-4 mt-2">
-                <li>Written and oral communication</li>
-                <li>Active listening</li>
-                <li>Social perceptiveness</li>
-                <li>Works well under deadlines</li>
-                <li>Strategic thinking</li>
-              </ul>
+              <br/>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
               </div>
@@ -159,25 +127,16 @@ export default () => {
               </div>
               <div>
                 <br/>
-                <h6>Duties</h6>
+                <h6>Responsibilities</h6>
               </div>
               <ul className="ml-4 mt-2">
-                <li>Must be very active and responsive</li>
+                <li>Be very active and responsive</li>
                 <li>Create product prototypes and design UX projects</li>
                 <li>Collaborate with executives and development team to develop a core understanding of user personas</li>
                 <li>Assist with Content Development</li>
                 <li>Conduct competitor and customer analysis</li>
               </ul>
-              <div>
-                <h6>Skill Requirements</h6>
-              </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "19%"}}>
-                <li>Software prototyping</li>
-                <li>Visual communication</li>
-                <li>Website wireframe</li>
-                <li>Interaction design</li>
-                <li>Use research</li>
-              </ul>
+              <br/>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="https://www.launchtechllc.com/#contact-us" target="_blank">Apply!</a>
               </div>
@@ -189,11 +148,19 @@ export default () => {
                 <br/>
                 <small>Remote</small>
               </div>
-              <ul className="ml-4 mt-2" style={{marginBottom: "112%"}}>
+              <div>
+                <br/>
+                <h6>Responsibilities</h6>
+              </div>
+              <ul className="ml-4 mt-2">
                 <li>Help contribute web animations to <a href="http://anojs.com" target="_blank">Ano.js</a></li>
                 <li>Communicate with other contributors on the <a href="https://discord.gg/xkdRm7E" target="_blank">Ano.js discord server</a></li>
-                <li>Add to your portfolio, LinkedIn, and resume!</li>
+                <li>Provide technical support where needed</li>
+                <li>Help promote Ano.js to other developers and contributors</li>
+                <li>Test, report, and fix bugs</li>
+                <li>Great to add to your portfolio, LinkedIn, and resume!</li>
               </ul>
+              <br/>
               <div className="text-right">
                 <a className="button solid-cta-button-dark" href="http://anojs.com/join-us" target="_blank">Apply!</a>
               </div>
