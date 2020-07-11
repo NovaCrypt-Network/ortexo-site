@@ -85,6 +85,13 @@ export default () => {
                   <p>Web Animation made easy</p>
                 </div>
               </a>
+              <a className="product-link" href="https://www.w3hacks.com/" target="_blank">
+                <img className="product-image" src="img/products/w3hacks/desktop2.png" alt="Launch Tech LLC - W3Hacks - Website Image" />
+                <div className="text-center mt-3">
+                  <h2>W3Hacks</h2>
+                  <p>Learn by doing</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
