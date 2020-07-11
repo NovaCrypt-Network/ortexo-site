@@ -75,16 +75,23 @@ export default () => {
                 <img className="product-image" src="img/products/npocore/desktop.png" alt="Launch Tech LLC - NPO Core - Website Image" />
                 <div className="text-center mt-3">
                   <h2>NPO Core</h2>
-                  <p>Your one-stop shop for all things nonprofits</p>
+                  <p>Your one-stop shop for all things non-profits</p>
                 </div>
               </a>
               <a className="product-link" href="http://anojs.com" target="_blank">
                 <img className="product-image" src="img/products/anojs/desktop.png" alt="Launch Tech LLC - Ano.js - Website Image" />
                 <div className="text-center mt-3">
                   <h2>Ano.js</h2>
-                  <p>Web Animation made Easy</p>
+                  <p>Web Animation made easy</p>
                 </div>
               </a>
+              <a className="product-link" href="https://www.w3hacks.com/" target="_blank">
+                <img className="product-image" style={{marginLeft: "50%", marginRight: "50%"}} src="img/products/w3hacks/desktop2.png" alt="Launch Tech LLC - W3Hacks - Website Image" />
+              </a>
+            </div>
+            <div className="text-center mt-3">
+              <h2 style={{marginLeft: "43%", marginRight: "50%"}}>W3Hacks</h2>
+              <p style={{marginLeft: "1%", marginRight: "3%"}}>Learn by doing</p>
             </div>
           </div>
         </div>

@@ -307,42 +307,6 @@ export default () => {
                 <p className="person-title">Founder + CEO @ Simply Neuroscience</p>
               </div>
             </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
-                <img src="img/people/skyler.png" alt="Launch Tech LLC - Skyler Basco" className="person-image" />
-              </div>
-              <div className="person-content">
-                <h3 className="person-name">Skyler Basco</h3>
-                <p className="person-title">Chief Operating Officer @ STEAM On</p>
-              </div>
-            </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
-                <img src="img/people/ashley.png" alt="Launch Tech LLC - Ashley Gauba" className="person-image" />
-              </div>
-              <div className="person-content">
-                <h3 className="person-name">Ashley Gauba</h3>
-                <p className="person-title">Former Product Design Intern @ eBay</p>
-              </div>
-            </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
-                <img src="img/people/harsh.png" alt="Launch Tech LLC - Harsh Tekwani" className="person-image" />
-              </div>
-              <div className="person-content">
-                <h3 className="person-name">Harsh Tekwani</h3>
-                <p className="person-title">Director of IT @ Alpha Kappa Psi - Iota Xi</p>
-              </div>
-            </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
-                <img src="img/people/rafael.png" alt="Launch Tech LLC - Rafael Cenzano" className="person-image" />
-              </div>
-              <div className="person-content">
-                <h3 className="person-name">Rafael Cenzano</h3>
-                <p className="person-title">Founder + Lead Director @ Hack the Fog</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

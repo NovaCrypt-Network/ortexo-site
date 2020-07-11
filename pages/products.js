@@ -35,11 +35,11 @@ export default () => {
                 </p>
                 <p>
                   Creator:
-                  <a href="https://www.calix.dev" target="_blank">@calixo888</a>
+                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
                 </p>
                 <p>
                   Partners:
-                  <a href="https://www.instagram.com/youngminds.global" target="_blank">Young Minds Global</a>
+                  <a href="https://www.instagram.com/youngminds.global" target="_blank"> Young Minds Global</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
@@ -72,7 +72,7 @@ export default () => {
                 </p>
                 <p>
                   Creator:
-                  <a href="https://www.calix.dev" target="_blank">@calixo888</a>
+                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
@@ -108,7 +108,7 @@ export default () => {
                 </p>
                 <p>
                   Creator:
-                  <a href="https://www.calix.dev" target="_blank">@calixo888</a>
+                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
@@ -136,9 +136,9 @@ export default () => {
 
             <div className="product">
               <div className="product-images" data-aos="zoom-in">
-                <img className="product-images-1" src="img/products/w3hacks/desktop.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
-                <img className="product-images-2" src="img/products/w3hacks/tablet.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
-                <img className="product-images-3" src="img/products/w3hacks/mobile.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
+                <img className="product-images-1" src="img/products/w3hacks/desktop2.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
+                <img className="product-images-2" src="img/products/w3hacks/tablet2.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
+                <img className="product-images-3" src="img/products/w3hacks/mobile2.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
               </div>
               <div className="product-content">
                 <h2>w3Hacks</h2>
@@ -147,7 +147,7 @@ export default () => {
                 </p>
                 <p>
                   Creator:
-                  <a href="https://www.calix.dev" target="_blank">@calixo888</a>
+                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
@@ -178,12 +178,12 @@ export default () => {
                 </p>
                 <p>
                   Creator:
-                  <a href="https://www.calix.dev" target="_blank">@calixo888</a>
+                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
                 </p>
                 <p>
                   Partners:
                   <a href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank">@plannrconsulting</a>,
-                  <a href="https://www.moderndivergence.com/" target="_blank">@moderndivergence</a>
+                  <a href="https://www.moderndivergence.com/" target="_blank"> @moderndivergence</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
@@ -216,12 +216,12 @@ export default () => {
                 </p>
                 <p>
                   Creator:
-                  <a href="https://www.calix.dev" target="_blank">@calixo888</a>
+                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
                 </p>
                 <p>
                   Partners:
                   <a href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank">@plannrconsulting</a>,
-                  <a href="https://www.moderndivergence.com/" target="_blank">@moderndivergence</a>
+                  <a href="https://www.moderndivergence.com/" target="_blank"> @moderndivergence</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
