@@ -86,12 +86,12 @@ export default () => {
                 </div>
               </a>
               <a className="product-link" href="https://www.w3hacks.com/" target="_blank">
-                <img className="product-image" style={{marginLeft: "50%", marginRight: "50%"}} src="img/products/w3hacks/desktop2.png" alt="Launch Tech LLC - W3Hacks - Website Image" />
+                <img className="product-image" src="img/products/w3hacks/desktop2.png" alt="Launch Tech LLC - W3Hacks - Website Image" />
+                <div className="text-center mt-3">
+                  <h2>w3Hacks</h2>
+                  <p>Learn by doing</p>
+                </div>
               </a>
-            </div>
-            <div className="text-center mt-3">
-              <h2 style={{marginLeft: "43%", marginRight: "50%"}}>W3Hacks</h2>
-              <p style={{marginLeft: "1%", marginRight: "3%"}}>Learn by doing</p>
             </div>
           </div>
         </div>
