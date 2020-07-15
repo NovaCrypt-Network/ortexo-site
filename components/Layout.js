@@ -23,7 +23,7 @@ export default ({ children }) => {
         <div className="container">
           <Link className="nav-link" href="/">
             <a className="navbar-brand">
-              <img className="navbar-brand-image" src="/img/logos/launchtech.png" alt="Launch Tech LLC logo" />
+              <img className="navbar-brand-image" src="/img/launchtech_white.png" alt="Launch Tech LLC logo" style={{width: "150px"}} />
             </a>
           </Link>
           <button className="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
