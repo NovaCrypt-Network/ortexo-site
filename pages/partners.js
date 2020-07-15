@@ -114,6 +114,9 @@ export default () => {
             <a className="partner" href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank">
               <img src="img/logos/plannrconsulting.png" />
             </a>
+            <a className="partner" href="https://medicalmindss.wixsite.com/everydaymed" target="_blank">
+              <img src="img/logos/everydaymed.png" />
+            </a>
             <a className="partner" href="https://www.instagram.com/girlsstemit/" target="_blank">
               <img src="img/logos/girls_stem_it.png" />
             </a>
@@ -162,6 +165,9 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/girlsinwhitecoats/" target="_blank">
               <img src="img/logos/girlsinwhitecoats.png" />
             </a>
+            <a className="partner p-2" href="https://stemherd.wixsite.com/site" target="_blank">
+              <img src="img/logos/stemherd.png" />
+            </a>
             <a className="partner" href="https://www.instagram.com/feminists4equality/" target="_blank">
               <img src="img/logos/femminists4equality.png" />
             </a>
@@ -170,6 +176,12 @@ export default () => {
             </a>
             <a className="partner p-4" href="https://empoweringeconomic.wixsite.com/empoweringeconomics" target="_blank">
               <img src="img/logos/empowering-economics.png" />
+            </a>
+            <a className="partner" href="https://teamtoothbooth.carrd.co/" target="_blank">
+              <img src="img/logos/toothbooth.png" />
+            </a>
+            <a className="partner p-4" href="https://sci4teenscontest.wixsite.com/sci4teens" target="_blank">
+              <img src="img/logos/sci4teens.png" />
             </a>
             <a className="partner p-4" href="http://thestudentperiodmovement.org/" target="_blank">
               <img src="img/logos/tspm.png" />
@@ -195,14 +207,29 @@ export default () => {
             <a className="partner p-3" href="https://www.instagram.com/stemupodcast/" target="_blank">
               <img src="img/logos/from_the_stem_up.png" />
             </a>
+            <a className="partner p-3" href="https://www.instagram.com/girltechboss/" target="_blank">
+              <img src="img/logos/girltechboss.png" />
+            </a>
             <a className="partner p-3" href="https://www.moderndivergence.com/" target="_blank">
               <img src="img/logos/moderndivergence.png" />
+            </a>
+            <a className="partner p-3" href="https://linktr.ee/neatmentality" target="_blank">
+              <img src="img/logos/neatmentality.png" />
+            </a>
+            <a className="partner p-3" href="https://www.instagram.com/halos_co/" target="_blank">
+              <img src="img/logos/halos.png" />
+            </a>
+            <a className="partner p-3" href="https://www.projectcros.org/" target="_blank">
+              <img src="img/logos/projectcros.png" />
             </a>
             <a className="partner p-3" href="https://www.instagram.com/techshare/" target="_blank">
               <img src="img/logos/techshare.png" />
             </a>
-            <a className="partner p-3" href="https://www.instagram.com/girltechboss/" target="_blank">
-              <img src="img/logos/girltechboss.png" />
+            <a className="partner p-3" href="https://linktr.ee/wesendhope" target="_blank">
+              <img src="img/logos/wesendhope.png" />
+            </a>
+            <a className="partner p-3" href="https://medicinebrightstars.wixsite.com/mysite-1" target="_blank">
+              <img src="img/logos/medicinebrightstars.png" />
             </a>
             <a className="partner p-3" href="https://linktr.ee/findingyourwhy" target="_blank">
               <img src="img/logos/finding-your-why.png" />
