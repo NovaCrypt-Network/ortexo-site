@@ -24,39 +24,29 @@ export default () => {
 
             <div className="product">
               <div className="product-images" data-aos="zoom-in">
-                <img className="product-images-1" src="img/products/npocore/desktop.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
-                <img className="product-images-2" src="img/products/npocore/tablet.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
-                <img className="product-images-3" src="img/products/npocore/mobile.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
+                <img className="product-images-1" src="img/products/w3hacks/desktop.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
+                <img className="product-images-2" src="img/products/w3hacks/tablet.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
+                <img className="product-images-3" src="img/products/w3hacks/mobile.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
               </div>
               <div className="product-content">
-                <h2>NPO Core</h2>
+                <h2>w3Hacks</h2>
                 <p>
-                  NPO Core is your one-stop shop for all things nonprofits. Whether you’re finding partners, volunteering, or creating your own nonprofit, you’ll find something for you here on NPO Core.
-                </p>
-                <p>
-                  Creator:
-                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
-                </p>
-                <p>
-                  Partners:
-                  <a href="https://www.instagram.com/youngminds.global" target="_blank"> Young Minds Global</a>
+                  w3Hacks is an online platform where anyone can learn how to code! Whether you're a seasoned programmer or a semi-beginner, everyone has something to learn here! We reinforce and teach good, real-world programming skills that are used in the software engineering industry, and crucial skills for any developer to know whether they're making a solo  or working with others!
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
-                    <span>Node.js</span>
-                    <span>Express.js</span>
-                    <span>React.js</span>
-                    <span>MongoDB</span>
-                    <span>Google Maps API</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                    <span>PostgreSQL</span>
                   </div>
                   <div className="product-content-cta-right">
-                    <a href="https://trello.com/b/4CKDufAT/npo-core" target="_blank">
+                    <a href="https://trello.com/b/1fKxWeZI/w3hacks" target="_blank">
                       <img src="img/icons/social-media/trello-dark.svg" alt="Launch Tech LLC - w3hacks - Trello" />
                     </a>
-                    <a href="https://github.com/launchtechllc/npocore" target="_blank">
+                    <a href="https://github.com/launchtechllc/w3hacks" target="_blank">
                       <img src="img/icons/social-media/github-dark.svg" alt="Launch Tech LLC - w3hacks - GitHub" />
                     </a>
-                    <a href="https://www.npocore.com/" target="_blank">
+                    <a href="http://w3hacks.com/" target="_blank">
                       <img src="img/icons/contact/out-dark.svg" alt="Launch Tech LLC - w3hacks - Website Application" />
                     </a>
                   </div>
@@ -69,10 +59,6 @@ export default () => {
                 <h2>Ano.js</h2>
                 <p>
                   Ano.js is a free, open-source web animation library, allowing anyone to integrate customizable web animations into any website with just two lines of code! You can customize the colors of the animation you want in real-time, and copy-paste the code into any HTML file. It has been transformed to an open-source , and animations are now being created and optimized by open-source contributors.
-                </p>
-                <p>
-                  Creator:
-                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
@@ -106,10 +92,6 @@ export default () => {
                 <p>
                   Ano.js is a free, open-source web animation library, allowing anyone to integrate customizable web animations into any website with just two lines of code! You can customize the colors of the animation you want in real-time, and copy-paste the code into any HTML file. It has been transformed to an open-source , and animations are now being created and optimized by open-source contributors.
                 </p>
-                <p>
-                  Creator:
-                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
-                </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
                     <span>Node.js</span>
@@ -136,33 +118,35 @@ export default () => {
 
             <div className="product">
               <div className="product-images" data-aos="zoom-in">
-                <img className="product-images-1" src="img/products/w3hacks/desktop2.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
-                <img className="product-images-2" src="img/products/w3hacks/tablet2.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
-                <img className="product-images-3" src="img/products/w3hacks/mobile2.png" alt="Launch Tech LLC - w3Hacks - Website Image" />
+                <img className="product-images-1" src="img/products/npocore/desktop.png" alt="Launch Tech LLC - NPO Core - Website Image" />
+                <img className="product-images-2" src="img/products/npocore/tablet.png" alt="Launch Tech LLC - NPO Core - Website Image" />
+                <img className="product-images-3" src="img/products/npocore/mobile.png" alt="Launch Tech LLC - NPO Core - Website Image" />
               </div>
               <div className="product-content">
-                <h2>w3Hacks</h2>
+                <h2>NPO Core</h2>
                 <p>
-                  w3Hacks is an online platform where anyone can learn how to code! Whether you're a seasoned programmer or a semi-beginner, everyone has something to learn here! We reinforce and teach good, real-world programming skills that are used in the software engineering industry, and crucial skills for any developer to know whether they're making a solo  or working with others!
+                  NPO Core is your one-stop shop for all things nonprofits. Whether you’re finding partners, volunteering, or creating your own nonprofit, you’ll find something for you here on NPO Core.
                 </p>
                 <p>
-                  Creator:
-                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
+                  Partners:
+                  <a href="https://www.instagram.com/youngminds.global" target="_blank"> Young Minds Global</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
-                    <span>Python</span>
-                    <span>Django</span>
-                    <span>PostgreSQL</span>
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>React.js</span>
+                    <span>MongoDB</span>
+                    <span>Google Maps API</span>
                   </div>
                   <div className="product-content-cta-right">
-                    <a href="https://trello.com/b/1fKxWeZI/w3hacks" target="_blank">
+                    <a href="https://trello.com/b/4CKDufAT/npo-core" target="_blank">
                       <img src="img/icons/social-media/trello-dark.svg" alt="Launch Tech LLC - w3hacks - Trello" />
                     </a>
-                    <a href="https://github.com/launchtechllc/w3hacks" target="_blank">
+                    <a href="https://github.com/launchtechllc/npocore" target="_blank">
                       <img src="img/icons/social-media/github-dark.svg" alt="Launch Tech LLC - w3hacks - GitHub" />
                     </a>
-                    <a href="http://w3hacks.com/" target="_blank">
+                    <a href="https://www.npocore.com/" target="_blank">
                       <img src="img/icons/contact/out-dark.svg" alt="Launch Tech LLC - w3hacks - Website Application" />
                     </a>
                   </div>
@@ -177,13 +161,9 @@ export default () => {
                   Avery is an AI chatbot embedded into a text-messaging application powered by Twilio. Avery is there for anyone struggling with mental health issues or just wanting rant about any of the problems in your life! Avery is a great way to just list out all your problems and gain some clarity.
                 </p>
                 <p>
-                  Creator:
-                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
-                </p>
-                <p>
                   Partners:
-                  <a href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank">@plannrconsulting</a>,
-                  <a href="https://www.moderndivergence.com/" target="_blank"> @moderndivergence</a>
+                  <a href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank"> Plannr Consulting</a>,
+                  <a href="https://www.moderndivergence.com/" target="_blank"> Modern Divergence</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
@@ -215,13 +195,9 @@ export default () => {
                   Avery is an AI chatbot embedded into a text-messaging application powered by Twilio. Avery is there for anyone struggling with mental health issues or just wanting rant about any of the problems in your life! Avery is a great way to just list out all your problems and gain some clarity.
                 </p>
                 <p>
-                  Creator:
-                  <a href="https://www.calix.dev" target="_blank"> @calixo888</a>
-                </p>
-                <p>
                   Partners:
-                  <a href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank">@plannrconsulting</a>,
-                  <a href="https://www.moderndivergence.com/" target="_blank"> @moderndivergence</a>
+                  <a href="https://plannrconsulting.wixsite.com/plannrconsulting" target="_blank"> Plannr Consulting</a>,
+                  <a href="https://www.moderndivergence.com/" target="_blank"> Modern Divergence</a>
                 </p>
                 <div className="product-content-cta">
                   <div className="product-content-cta-left">
