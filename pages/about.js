@@ -276,6 +276,54 @@ export default () => {
                 </small>
               </div>
             </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/elizabeth.png" alt="Launch Tech LLC - Elizabeth Field" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Elizabeth Field</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <div></div>
+                    <a href="mailto:elizabeth@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Content Writer</p>
+                <small className="person-description">
+                  None
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/katie.png" alt="Launch Tech LLC - Katie Li" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Katie Li</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/katieyli/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:katie@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Content Writer</p>
+                <small className="person-description">
+                  Katie Li is a content writer for Launch Tech who’s interested in exploring the intersection between writing and computer science. In her free time, she also loves to read, dance, and waste money on boba.
+                </small>
+              </div>
+            </div>
           </div>
 
           <h1 className="mt-5">Advisors</h1>
