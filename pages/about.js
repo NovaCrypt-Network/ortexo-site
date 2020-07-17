@@ -295,7 +295,7 @@ export default () => {
                 </div>
                 <p className="person-title">Content Writer</p>
                 <small className="person-description">
-                  None
+                  Elizabeth Field is a rising senior at Monticello High School in Virginia. She is an inspiring physicist, with passions in mathematical theory, writing/journalism, music, international politics, athletics, community service, research worm holes, and watching Netflix.
                 </small>
               </div>
             </div>
