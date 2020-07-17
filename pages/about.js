@@ -276,6 +276,31 @@ export default () => {
                 </small>
               </div>
             </div>
+                        <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/jaanavi.png" alt="Launch Tech LLC - Jaanavi Thanamala" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Jaanavi Thanamala</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a href="https://www.linkedin.com/in/jaanavi-thanamala" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:jaanavi.thanamala@gmail.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                </div>
+                <p className="person-title">Outreach</p>
+              </div>
+                <small className="person-description">
+                  Jaanavi Thanamala is a business management and information science enthusiast. She is highly involved in her community and loves learning about tech + entrepreneurship. In her free time, Jaanavi loves to spend time with friends, bike, and binge Netflix shows.
+                </small>
+            </div>
+            </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
                 <img src="img/people/elizabeth.png" alt="Launch Tech LLC - Elizabeth Field" className="person-image" />
