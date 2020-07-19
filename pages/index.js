@@ -28,7 +28,7 @@ export default () => {
               </div>
             </div>
             <div className="header-grid-right">
-              <img src="img/illustrations/header.png" alt="Launch Tech LLC header illustration - floating building" className="header-grid-right-illustration" />
+              <img src="img/illustrations/header.svg" className="header-grid-right-illustration" />
             </div>
           </div>
         </div>
