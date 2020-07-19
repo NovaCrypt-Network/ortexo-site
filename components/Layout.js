@@ -147,9 +147,6 @@ export default ({ children }) => {
                   <a href="https://www.instagram.com/launchtechllc/" target="_blank">
                     <img src="/img/icons/social-media/instagram-light.svg" alt="Launch Tech LLC Instagram" className="social-media-icon" />
                   </a>
-                  <a href="https://trello.com/launchtechllc/home" target="_blank">
-                    <img src="/img/icons/social-media/trello-light.svg" alt="Launch Tech LLC Trello organization" className="social-media-icon" />
-                  </a>
                   <a href="mailto:hello@launchtechllc.com" target="_blank">
                     <img src="/img/icons/contact/email-light.svg" alt="Launch Tech LLC Email" className="social-media-icon" />
                   </a>
