@@ -37,6 +37,9 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
+                  <a className="nav-link" href="https://blog.launchtechllc.com/" target="_blank">Blog</a>
+              </li>
+              <li className="nav-item">
                 <Link href="/about">
                   <a className="nav-link">About</a>
                 </Link>
