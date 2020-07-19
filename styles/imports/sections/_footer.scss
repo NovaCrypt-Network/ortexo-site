@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   background-color: $color-primary;
-  padding-bottom: 100px;
+  padding: 75px 0;
 
   *:not(a) {
     color: white;
@@ -9,8 +9,8 @@
 
   &-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 25px;
 
     & h3 {
       margin-bottom: 15px;
@@ -49,28 +49,25 @@
   }
 
   .copyright-container {
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
+    transform: translateY(-30px);
 
-    text-align: center;
+    & img {
+      width: 200px;
+    }
+  }
+}
 
-    .social-media {
-      display: grid;
-      grid-template-columns: repeat(4, 30px);
-      grid-gap: 10px;
-      justify-content: center;
-      margin-bottom: 15px;
+.social-media {
+  display: grid;
+  grid-template-columns: repeat(4, 30px);
+  grid-gap: 10px;
 
-      &-icon {
-        width: 100%;
-        transition: all .2s;
+  &-icon {
+    width: 100%;
+    transition: all .2s;
 
-        &:hover {
-          transform: scale(1.2);
-        }
-      }
+    &:hover {
+      transform: scale(1.2);
     }
   }
 }
@@ -78,10 +75,14 @@
 
 @media (max-width: 800px) {
   .footer {
-    padding-bottom: 150px;
+    padding: 50px 0;
 
     &-grid {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+      & div:nth-last-child(4) {
+        display: none;
+      }
     }
   }
 }
