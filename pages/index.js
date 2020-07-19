@@ -8,6 +8,10 @@ export default () => {
       <Head>
         <title>Launch Tech LLC - A SaaS product holding company</title>
         <meta name="description" content="Launch Tech is a SaaS (Software as a Service) product holding company, created for launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We try to build, market, and deploy software through partnerships, events, and sponsors." />
+
+        <link rel="stylesheet" href="/css/odometer.css" />
+        <script src="/js/odometer.js" />
+        <script src="/js/index.js" />
       </Head>
 
       <section className="header" id="header">
@@ -62,15 +66,15 @@ export default () => {
           <div className="statistics-grid">
             <div className="statistic">
               Total interactions
-              <span className="number">30,000+</span>
+              <span className="number"><span class="odometer" id="interactions_odometer">0</span>+</span>
             </div>
             <div className="statistic">
               Happy users
-              <span className="number">200+</span>
+              <span className="number"><span class="odometer" id="users_odometer">0</span>+</span>
             </div>
             <div className="statistic">
               Partners
-              <span className="number">75+</span>
+              <span className="number"><span class="odometer" id="partners_odometer">0</span>+</span>
             </div>
           </div>
         </div>
