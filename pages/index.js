@@ -51,28 +51,25 @@ export default () => {
       </section>
 
       <section className="about" id="about">
-        <div className="section-container">
-          <div className="container">
-            <div className="about-grid">
-              <div className="about-grid-left">
-                <img src="img/illustrations/about.png" className="about-grid-left-illustration" />
-              </div>
-              <div className="about-grid-right">
-                <h1 className="section-header">About Launch Tech</h1>
-                <p>
-                  Launch Tech LLC is a SaaS (Software as a Service) product holding company, dedicated to launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We also partner with other organizations to make this into a reality!
-                  <br/><br/>
-                  Though we are a SaaS product company, we try to be open with our processes, builds, and deadlines. We have a calendar that shares all of the things we're working on, and when certain events/product-builds will start, end, and be deployed.
-                </p>
-                <div className="cta-buttons mt-4">
-                  <Link href="/opportunities">
-                    <button className="button ghost-cta-button-dark">Job Opportunities</button>
-                  </Link>
-                  <Link href="/products">
-                    <a className="button solid-cta-button-dark">Check out our products!</a>
-                  </Link>
-                </div>
-              </div>
+        <div className="container">
+          <div className="about-container">
+            <h2>Software is changing the world.</h2>
+            <p>
+              Launch Tech LLC is a SaaS (Software as a Service) product holding company, dedicated to launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world.
+            </p>
+          </div>
+          <div className="statistics-grid">
+            <div className="statistic">
+              Total interactions
+              <span className="number">30,000+</span>
+            </div>
+            <div className="statistic">
+              Happy users
+              <span className="number">200+</span>
+            </div>
+            <div className="statistic">
+              Scaled applications
+              <span className="number">3</span>
             </div>
           </div>
         </div>
