@@ -8,27 +8,31 @@ export default () => {
       <Head>
         <title>Launch Tech LLC - A SaaS product holding company</title>
         <meta name="description" content="Launch Tech is a SaaS (Software as a Service) product holding company, created for launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We try to build, market, and deploy software through partnerships, events, and sponsors." />
+
+        <link rel="stylesheet" href="/css/odometer.css" />
+        <script src="/js/odometer.js" />
+        <script src="/js/index.js" />
       </Head>
 
       <section className="header" id="header">
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left">
-              <h1 style={{ "font-size": "60px", "font-weight": "bold" }}>Launch Tech LLC</h1>
+              <h1 style={{ "fontSize": "60px", "fontWeight": "bold" }}>Launch Tech LLC</h1>
               <h4 className="header-grid-left-sub-header">
                 Launch Tech is a SaaS product holding company, dedicated to launching real-world software applications.
               </h4>
               <div className="cta-buttons mt-4">
-                <Link href="/opportunities">
-                  <button className="button ghost-cta-button-light">Job Opportunities</button>
-                </Link>
+                <button onClick={() => {
+                  document.getElementById('about').scrollIntoView({behavior: 'smooth'});
+                }} className="button ghost-cta-button-light">Learn more</button>
                 <Link href="/products">
-                  <a className="button solid-cta-button-light">Check out our products!</a>
+                  <a className="button solid-cta-button-light">Our products!</a>
                 </Link>
               </div>
             </div>
             <div className="header-grid-right">
-              <img src="img/illustrations/header.png" alt="Launch Tech LLC header illustration - floating building" className="header-grid-right-illustration" />
+              <img src="img/illustrations/header.svg" className="header-grid-right-illustration" />
             </div>
           </div>
         </div>
@@ -38,29 +42,39 @@ export default () => {
         <img src="img/waves/header-wave.png" className="flipped-wave wave" />
       </div>
 
+      <section className="trusted-by" id="trusted-by">
+        <div className="container py-3">
+          <div className="trusted-by-statement">TRUSTED BY</div>
+          <div className="trusted-by-grid">
+            <img className="px-3" src="/img/logos/trusted-by/tks.png" alt="" />
+            <img className="" src="/img/logos/trusted-by/launchx.png" alt="" />
+            <img className="px-3" src="/img/logos/leangap.png" alt="" />
+            <img className="px-3" src="/img/logos/bluestampengineering.png" alt="" />
+            <img id="mobile-disappear" className="px-3" src="/img/logos/future-minds.png" alt="" />
+          </div>
+        </div>
+      </section>
+
       <section className="about" id="about">
-        <div className="section-container">
-          <div className="container">
-            <div className="about-grid">
-              <div className="about-grid-left">
-                <img src="img/illustrations/about.png" alt="Launch Tech LLC digital marketing illustration" className="about-grid-left-illustration" />
-              </div>
-              <div className="about-grid-right">
-                <h1 className="section-header">About Launch Tech</h1>
-                <p>
-                  Launch Tech LLC is a SaaS (Software as a Service) product holding company, dedicated to launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world. We also partner with other organizations to make this into a reality!
-                  <br/><br/>
-                  Though we are a SaaS product company, we try to be open with our processes, builds, and deadlines. We have a calendar that shares all of the things we're working on, and when certain events/product-builds will start, end, and be deployed.
-                </p>
-                <div className="cta-buttons mt-4">
-                  <Link href="/opportunities">
-                    <button className="button ghost-cta-button-dark">Job Opportunities</button>
-                  </Link>
-                  <Link href="/products">
-                    <a className="button solid-cta-button-dark">Check out our products!</a>
-                  </Link>
-                </div>
-              </div>
+        <div className="container">
+          <div className="about-container">
+            <h2>Software is changing the world.</h2>
+            <p>
+              That's why we aim to create products that are useful, meaningful, and applicable to different people and different situations around the world. We reach anyone and everyone with an internet connection, and continue to strive for quality user traction and satisfaction!
+            </p>
+          </div>
+          <div className="statistics-grid">
+            <div className="statistic">
+              Total interactions
+              <span className="number"><span class="odometer" id="interactions_odometer">0</span>+</span>
+            </div>
+            <div className="statistic">
+              Happy users
+              <span className="number"><span class="odometer" id="users_odometer">0</span>+</span>
+            </div>
+            <div className="statistic">
+              Partners
+              <span className="number"><span class="odometer" id="partners_odometer">0</span>+</span>
             </div>
           </div>
         </div>
@@ -118,9 +132,8 @@ export default () => {
               <div className="contact-us-grid-right">
                 <h4>We're completely open to:</h4>
                 <ul className="ml-5">
-                  <li>Product Partnerships</li>
-                  <li>Community/Corporate partnerships</li>
-                  <li>Collaborating on events</li>
+                  <li>Community/Product partnerships</li>
+                  <li>Events Collaborations</li>
                   <li>Product ideas/requests</li>
                   <li>Inquiries and questions</li>
                 </ul>

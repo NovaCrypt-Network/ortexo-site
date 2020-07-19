@@ -93,6 +93,9 @@ export default () => {
             <a className="partner" href="https://www.instagram.com/intern_net/" target="_blank">
               <img src="img/logos/intern_net.png" />
             </a>
+            <a className="partner p-4" href="https://startonai.com/" target="_blank">
+              <img src="img/logos/startonai.png" />
+            </a>
             <a className="partner" href="https://www.eeinj.org/" target="_blank">
               <img src="img/logos/eei.png" />
             </a>

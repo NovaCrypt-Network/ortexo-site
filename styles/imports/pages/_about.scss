@@ -1,20 +1,39 @@
 .about {
-  .section-container {
-    padding-bottom: 50px;
+  padding: 50px 0;
+
+  &-container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+    & h2 {
+      font-weight: bold;
+    }
+
+    & p {
+      margin-top: 25px;
+      font-size: 17.5px;
+    }
   }
 
-  &-grid {
+  .statistics-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 100px;
-    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
 
-    height: 100%;
+    & .statistic {
+      background-color: white;
+      padding: 20px;
+      border-radius: 7.5px;
+      box-shadow: 0 5px 25px rgba(0,0,0,.1);
+      text-align: center;
 
-    &-left {
-
-      &-illustration {
-        width: 100%;
+      & .number {
+        display: block;
+        font-size: 50px;
+        font-weight: bold;
+        color: $color-primary;
       }
     }
   }
@@ -51,7 +70,7 @@
           justify-self: flex-end;
 
           display: grid;
-          grid-template-columns: repeat(3, 25px);
+          grid-template-columns: repeat(2, 25px);
           grid-gap: 5px;
           justify-content: flex-end;
 
@@ -80,24 +99,32 @@
 @media (max-width: 800px) {
   .about {
 
-    &-grid {
-      grid-template-columns: repeat(auto-fill, 100%);
-      grid-gap: 15px;
+    &-container {
+      width: 100%;
+    }
 
-      &-left {
-        text-align: center;
+    & .statistics-grid {
+      grid-gap: 25px;
 
-        &-illustration {
-          display: none;
-        }
+      .statistic .number {
+        font-size: 35px;
       }
     }
   }
+}
 
+@media (max-width: 600px) {
   .about-us {
-
     .persons {
       grid-template-columns: repeat(auto-fill, 100%);
+
+      .person:not(.advisor) {
+        grid-template-columns: repeat(auto-fill, 100%) !important;
+
+        .image-cropper {
+          width: 100px;
+        }
+      }
     }
   }
 }

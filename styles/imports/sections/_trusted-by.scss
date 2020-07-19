@@ -1,0 +1,32 @@
+.trusted-by {
+  &-statement {
+    text-align: center;
+    color: #6a6a6a;
+    font-size: 12.5px;
+    letter-spacing: 0.5px;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+
+    & img {
+      width: 100%;
+      opacity: 0.75;
+      filter: alpha(opacity=40);
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .trusted-by-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+
+  #mobile-disappear {
+    display: none;
+  }
+}

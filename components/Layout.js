@@ -21,7 +21,7 @@ export default ({ children }) => {
       </div>
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
-          <Link className="nav-link" href="/">
+          <Link href="/">
             <a className="navbar-brand">
               <img className="navbar-brand-image" src="/img/launchtech_white.png" alt="Launch Tech LLC logo" style={{width: "150px"}} />
             </a>
@@ -52,11 +52,6 @@ export default ({ children }) => {
               <li className="nav-item">
                 <Link href="/products">
                   <a className="nav-link">Products</a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="/opportunities">
-                  <a className="nav-link">Opportunities</a>
                 </Link>
               </li>
             </ul>
@@ -94,11 +89,6 @@ export default ({ children }) => {
                 <li className="footer-grid-links-item">
                   <Link href="/products">
                     <a>Products</a>
-                  </Link>
-                </li>
-                <li className="footer-grid-links-item">
-                  <Link href="/opportunities">
-                    <a>Opportunities</a>
                   </Link>
                 </li>
               </div>
@@ -157,7 +147,8 @@ export default ({ children }) => {
                     <img src="/img/icons/contact/email-light.svg" alt="Launch Tech LLC Email" className="social-media-icon" />
                   </a>
                 </div>
-                <small className="copyright">&copy; 2020 Launch Tech LLC. Built by <a href="https://www.calix.dev" target="_blank">Calix Huang</a>. All rights reserved.</small>
+
+                <small className="copyright">&copy; 2020 Launch Tech LLC. All rights reserved.</small>
               </div>
             </div>
           </div>
