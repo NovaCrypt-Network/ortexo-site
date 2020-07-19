@@ -46,7 +46,7 @@ export default () => {
             <img className="" src="/img/logos/trusted-by/launchx.png" alt="" />
             <img className="px-3" src="/img/logos/leangap.png" alt="" />
             <img className="px-3" src="/img/logos/bluestampengineering.png" alt="" />
-            <img className="px-3" src="/img/logos/future-minds.png" alt="" />
+            <img id="mobile-disappear" className="px-3" src="/img/logos/future-minds.png" alt="" />
           </div>
         </div>
       </section>
