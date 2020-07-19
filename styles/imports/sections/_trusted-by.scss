@@ -1,0 +1,23 @@
+.trusted-by-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 50px;
+  align-items: center;
+
+  & img {
+    width: 100%;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+  }
+}
+
+@media (max-width: 800px) {
+  .trusted-by-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+
+  #girlswhocode {
+    display: none;
+  }
+}

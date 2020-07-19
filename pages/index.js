@@ -14,7 +14,7 @@ export default () => {
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left">
-              <h1 style={{ "font-size": "60px", "font-weight": "bold" }}>Launch Tech LLC</h1>
+              <h1 style={{ "fontSize": "60px", "fontWeight": "bold" }}>Launch Tech LLC</h1>
               <h4 className="header-grid-left-sub-header">
                 Launch Tech is a SaaS product holding company, dedicated to launching real-world software applications.
               </h4>
@@ -37,6 +37,18 @@ export default () => {
       <div className="waves">
         <img src="img/waves/header-wave.png" className="flipped-wave wave" />
       </div>
+
+      <section className="trusted-by" id="trusted-by">
+        <div className="container py-3">
+          <div className="trusted-by-grid">
+            <img className="px-2" src="/img/logos/trusted-by/tks.png" alt="" />
+            <img className="" src="/img/logos/trusted-by/launchx.png" alt="" />
+            <img id="girlswhocode" className="px-4" src="/img/logos/trusted-by/girlswhocode.png" alt="" />
+            <img className="" src="/img/logos/trusted-by/codeninjas.png" alt="" />
+            <img className="" src="/img/logos/trusted-by/deca.png" alt="" />
+          </div>
+        </div>
+      </section>
 
       <section className="about" id="about">
         <div className="section-container">

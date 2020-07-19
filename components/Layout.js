@@ -13,15 +13,19 @@ export default ({ children }) => {
   });
 
   return (
+<<<<<<< HEAD
     <>
       <div style={{ "background-color": "white" }}>
         <div className="container text-center py-3">
           <p className="mb-0" style={{ "font-size": "17.5px", "font-weight": "600" }}>Want to learn how to expand your organization? <a style={{ "color": "black", "text-decoration": "underline" }} href="https://zmurl.com/SSN" target="_blank">Register For Secrets of Successful NPOs</a> 🚀</p>
         </div>
       </div>
+=======
+    <div>
+>>>>>>> trusted-by
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
-          <Link className="nav-link" href="/">
+          <Link href="/">
             <a className="navbar-brand">
               <img className="navbar-brand-image" src="/img/launchtech_white.png" alt="Launch Tech LLC logo" style={{width: "150px"}} />
             </a>
@@ -158,6 +162,6 @@ export default ({ children }) => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
