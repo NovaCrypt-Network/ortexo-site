@@ -152,7 +152,7 @@ export default ({ children }) => {
                   </a>
                 </div>
 
-                <small className="copyright">&copy; 2020 Launch Tech LLC. Built by <a href="https://www.calix.dev" target="_blank">Calix Huang</a>. All rights reserved.</small>
+                <small className="copyright">&copy; 2020 Launch Tech LLC. All rights reserved.</small>
               </div>
             </div>
           </div>

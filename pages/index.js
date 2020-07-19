@@ -43,7 +43,7 @@ export default () => {
           <div className="container">
             <div className="about-grid">
               <div className="about-grid-left">
-                <img src="img/illustrations/about.png" alt="Launch Tech LLC digital marketing illustration" className="about-grid-left-illustration" />
+                <img src="img/illustrations/about.png" className="about-grid-left-illustration" />
               </div>
               <div className="about-grid-right">
                 <h1 className="section-header">About Launch Tech</h1>
