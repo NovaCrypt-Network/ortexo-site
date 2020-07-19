@@ -19,11 +19,11 @@ export default () => {
                 Launch Tech is a SaaS product holding company, dedicated to launching real-world software applications.
               </h4>
               <div className="cta-buttons mt-4">
-                <Link href="/opportunities">
-                  <button className="button ghost-cta-button-light">Job Opportunities</button>
-                </Link>
+                <button onClick={() => {
+                  document.getElementById('about').scrollIntoView({behavior: 'smooth'});
+                }} className="button ghost-cta-button-light">Learn more</button>
                 <Link href="/products">
-                  <a className="button solid-cta-button-light">Check out our products!</a>
+                  <a className="button solid-cta-button-light">Our products!</a>
                 </Link>
               </div>
             </div>
