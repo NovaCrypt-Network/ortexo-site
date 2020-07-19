@@ -14,11 +14,11 @@ export default ({ children }) => {
 
   return (
     <>
-      <div style={{ "background-color": "white" }}>
+      {/* <div style={{ "background-color": "white" }}>
         <div className="container text-center py-3">
           <p className="mb-0" style={{ "fontSize": "17.5px", "fontWeight": "600" }}>Want to learn how to expand your organization? <a style={{ "color": "black", "textDecoration": "underline" }} href="https://zmurl.com/SSN" target="_blank">Register For Secrets of Successful NPOs</a> 🚀</p>
         </div>
-      </div>
+      </div> */}
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
           <Link href="/">
