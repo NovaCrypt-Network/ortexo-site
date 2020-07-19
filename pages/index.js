@@ -20,7 +20,7 @@ export default () => {
             <div className="header-grid-left">
               <h1 style={{ "fontSize": "60px", "fontWeight": "bold" }}>Launch Tech LLC</h1>
               <h4 className="header-grid-left-sub-header">
-                Launch Tech is a SaaS product holding company, dedicated to launching real-world software applications.
+                A SaaS product accelerator, dedicated to launching real-world software applications!
               </h4>
               <div className="cta-buttons mt-4">
                 <button onClick={() => {
@@ -60,7 +60,7 @@ export default () => {
           <div className="about-container">
             <h2>Software is changing the world.</h2>
             <p>
-              That's why we aim to create products that are useful, meaningful, and applicable to different people and different situations around the world. We reach anyone and everyone with an internet connection, and continue to strive for quality user traction and satisfaction!
+              That's why we aim to build, improve, and accelerate the growth of products that are applicable to different people and different situations around the world. We reach anyone and everyone with an internet connection, and continue to strive for quality user traction and satisfaction!
             </p>
           </div>
           <div className="statistics-grid">
