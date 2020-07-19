@@ -51,11 +51,6 @@ export default ({ children }) => {
                   <a className="nav-link">Products</a>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link href="/opportunities">
-                  <a className="nav-link">Opportunities</a>
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
@@ -88,11 +83,6 @@ export default ({ children }) => {
                 <li className="footer-grid-links-item">
                   <Link href="/products">
                     <a>Products</a>
-                  </Link>
-                </li>
-                <li className="footer-grid-links-item">
-                  <Link href="/opportunities">
-                    <a>Opportunities</a>
                   </Link>
                 </li>
               </div>
