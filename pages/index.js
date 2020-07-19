@@ -69,8 +69,8 @@ export default () => {
               <span className="number">200+</span>
             </div>
             <div className="statistic">
-              Scaled applications
-              <span className="number">3</span>
+              Partners
+              <span className="number">75+</span>
             </div>
           </div>
         </div>
