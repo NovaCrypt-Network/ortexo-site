@@ -56,7 +56,7 @@ export default () => {
           <div className="about-container">
             <h2>Software is changing the world.</h2>
             <p>
-              Launch Tech LLC is a SaaS (Software as a Service) product holding company, dedicated to launching real-world software applications. We create products that are useful, meaningful, and applicable to different people and different situations around the world.
+              That's why we aim to create products that are useful, meaningful, and applicable to different people and different situations around the world. We reach anyone and everyone with an internet connection, and continue to strive for quality user traction and satisfaction!
             </p>
           </div>
           <div className="statistics-grid">
