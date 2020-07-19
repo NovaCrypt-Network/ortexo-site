@@ -148,9 +148,6 @@ export default () => {
         </div>
       </section>
 
-      <div className="waves">
-        <img src="img/waves/header-wave.png" className="wave" />
-      </div>
     </Layout>
   )
 }
