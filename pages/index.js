@@ -128,9 +128,8 @@ export default () => {
               <div className="contact-us-grid-right">
                 <h4>We're completely open to:</h4>
                 <ul className="ml-5">
-                  <li>Product Partnerships</li>
-                  <li>Community/Corporate partnerships</li>
-                  <li>Collaborating on events</li>
+                  <li>Community/Product partnerships</li>
+                  <li>Events Collaborations</li>
                   <li>Product ideas/requests</li>
                   <li>Inquiries and questions</li>
                 </ul>

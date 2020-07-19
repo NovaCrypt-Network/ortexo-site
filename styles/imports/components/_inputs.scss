@@ -10,11 +10,8 @@
 
   &:focus {
     outline: none;
-    background-color: rgba($color-primary, .5);
-    color: white;
-
-    &::placeholder {
-      color: white;
-    }
+    border-color: $color-primary-dark;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
   }
 }
