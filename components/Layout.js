@@ -37,6 +37,9 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
+                  <a className="nav-link" href="https://blog.launchtechllc.com/" target="_blank">Blog</a>
+              </li>
+              <li className="nav-item">
                 <Link href="/about">
                   <a className="nav-link">About</a>
                 </Link>
@@ -74,6 +77,9 @@ export default ({ children }) => {
                   <Link href="/">
                     <a>Home</a>
                   </Link>
+                </li>
+                <li className="footer-grid-links-item">
+                    <a href="https://blog.launchtechllc.com/" target="_blank">Blog</a>
                 </li>
                 <li className="footer-grid-links-item">
                   <Link href="/about">
@@ -151,7 +157,6 @@ export default ({ children }) => {
                     <img src="/img/icons/contact/email-light.svg" alt="Launch Tech LLC Email" className="social-media-icon" />
                   </a>
                 </div>
-
                 <small className="copyright">&copy; 2020 Launch Tech LLC. Built by <a href="https://www.calix.dev" target="_blank">Calix Huang</a>. All rights reserved.</small>
               </div>
             </div>
