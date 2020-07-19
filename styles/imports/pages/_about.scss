@@ -70,7 +70,7 @@
           justify-self: flex-end;
 
           display: grid;
-          grid-template-columns: repeat(3, 25px);
+          grid-template-columns: repeat(2, 25px);
           grid-gap: 5px;
           justify-content: flex-end;
 
@@ -111,11 +111,20 @@
       }
     }
   }
+}
 
+@media (max-width: 600px) {
   .about-us {
-
     .persons {
       grid-template-columns: repeat(auto-fill, 100%);
+
+      .person:not(.advisor) {
+        grid-template-columns: repeat(auto-fill, 100%) !important;
+
+        .image-cropper {
+          width: 100px;
+        }
+      }
     }
   }
 }
