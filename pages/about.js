@@ -144,28 +144,6 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/jasmine.png" alt="Launch Tech LLC - Jasmine Cho" className="person-image" />
-              </div>
-              <div className="person-content">
-                <div className="person-info">
-                  <div>
-                    <h3 className="person-name">Jasmine Cho</h3>
-                  </div>
-                  <div className="person-info-links">
-                    <a href="https://www.linkedin.com/in/eunsuh-jasmine-cho-408874166/" target="_blank">
-                      <img src="img/icons/social-media/linkedin-dark.svg" />
-                    </a>
-                  <div></div>
-                  </div>
-                </div>
-                <p className="person-title">Graphic Design</p>
-                <small className="person-description">
-                  Jasmine Cho is a prospective computer science major, and is currently the team captain of her Varsity tennis team and the Concertmaster for the Symphony Orchestra. Aside from academics, you can find her food adventuring, paddle boarding or hiking.
-                </small>
-              </div>
-            </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
                 <img src="img/people/jinhao.png" alt="Launch Tech LLC - Jinhao Xie" className="person-image" />
               </div>
               <div className="person-content">
@@ -174,10 +152,10 @@ export default () => {
                     <h3 className="person-name">Jinhao Xie</h3>
                   </div>
                   <div className="person-info-links">
+                    <div></div>
                     <a href="https://www.linkedin.com/in/jinhaoxie/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">Software Engineer</p>
@@ -196,10 +174,10 @@ export default () => {
                     <h3 className="person-name">Angela Chen</h3>
                   </div>
                   <div className="person-info-links">
+                    <div></div>
                     <a href="https://www.linkedin.com/in/angela-chen-8235521a9/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">QA Tester</p>
@@ -218,6 +196,7 @@ export default () => {
                     <h3 className="person-name">Rex Liu</h3>
                   </div>
                   <div className="person-info-links">
+                    <div></div>
                     <a href="https://www.linkedin.com/in/rexliu3/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
@@ -240,10 +219,10 @@ export default () => {
                     <h3 className="person-name">Molly Xu</h3>
                   </div>
                   <div className="person-info-links">
+                    <div></div>
                     <a href="https://www.linkedin.com/in/mollyxu9/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">QA Tester</p>
@@ -262,10 +241,10 @@ export default () => {
                     <h3 className="person-name">Jaanavi Thanamala</h3>
                   </div>
                   <div className="person-info-links">
+                    <div></div>
                     <a href="https://www.linkedin.com/in/jaanavi-thanamala" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <div></div>
                 </div>
                 <p className="person-title">Outreach</p>
               </div>
@@ -304,11 +283,10 @@ export default () => {
                      <h3 className="person-name">Katie Li</h3>
                   </div>
                   <div className="person-info-links">
-
+                    <div></div>
                      <a href="https://www.linkedin.com/in/katieyli/" target="_blank">
-                     <img src="img/icons/social-media/linkedin-dark.svg" />
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
                      </a>
-                     <div></div>
                   </div>
                </div>
                <p className="person-title">Content Writer</p>
