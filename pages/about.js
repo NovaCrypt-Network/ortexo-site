@@ -155,9 +155,7 @@ export default () => {
                     <a href="https://www.linkedin.com/in/eunsuh-jasmine-cho-408874166/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:jasmine@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" />
-                    </a>
+                  <div></div>
                   </div>
                 </div>
                 <p className="person-title">Graphic Design</p>
@@ -179,9 +177,7 @@ export default () => {
                     <a href="https://www.linkedin.com/in/jinhaoxie/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:jinhao@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" />
-                    </a>
+                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">Software Engineer</p>
@@ -203,9 +199,7 @@ export default () => {
                     <a href="https://www.linkedin.com/in/angela-chen-8235521a9/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:angela@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" />
-                    </a>
+                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">QA Tester</p>
@@ -227,9 +221,7 @@ export default () => {
                     <a href="https://www.linkedin.com/in/rexliu3/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:rex@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" />
-                    </a>
+                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">QA Tester</p>
@@ -251,9 +243,7 @@ export default () => {
                     <a href="https://www.linkedin.com/in/mollyxu9/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:neha@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" />
-                    </a>
+                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">QA Tester</p>
@@ -262,7 +252,7 @@ export default () => {
                 </small>
               </div>
             </div>
-                        <div className="person" data-aos="zoom-in">
+             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
                 <img src="img/people/jaanavi.png" alt="Launch Tech LLC - Jaanavi Thanamala" className="person-image" />
               </div>
@@ -275,9 +265,7 @@ export default () => {
                     <a href="https://www.linkedin.com/in/jaanavi-thanamala" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:jaanavi.thanamala@gmail.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" />
-                    </a>
+                    <div></div>
                 </div>
                 <p className="person-title">Outreach</p>
               </div>
@@ -297,9 +285,7 @@ export default () => {
                   </div>
                   <div className="person-info-links">
                     <div></div>
-                    <a href="mailto:elizabeth@launchtechllc.com" target="_blank">
-                      <img src="img/icons/contact/email-dark.svg" />
-                    </a>
+                    <div></div>
                   </div>
                 </div>
                 <p className="person-title">Content Writer</p>
@@ -322,9 +308,7 @@ export default () => {
                      <a href="https://www.linkedin.com/in/katieyli/" target="_blank">
                      <img src="img/icons/social-media/linkedin-dark.svg" />
                      </a>
-                     <a href="mailto:katie@launchtechllc.com" target="_blank">
-                     <img src="img/icons/contact/email-dark.svg" />
-                     </a>
+                     <div></div>
                   </div>
                </div>
                <p className="person-title">Content Writer</p>
