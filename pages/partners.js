@@ -246,9 +246,13 @@ export default () => {
             <a className="partner p-3" href="https://linktr.ee/hk_youth_opps" target="_blank">
               <img src="img/logos/youth-opps.png" />
             </a>
+            <a className="partner p-3" href="https://yepinitiative.wixsite.com/website" target="_blank">
+              <img src="img/logos/yepi.png" />
+            </a>
           </div>
         </div>
       </section>
     </Layout>
   )
 }
+
