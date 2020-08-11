@@ -201,11 +201,31 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img
-                  src="img/people/jinhao.png"
-                  alt="Launch Tech LLC - Jinhao Xie"
-                  className="person-image"
-                />
+                <img src="img/people/malvika.PNG" alt="Launch Tech LLC - Malvika Patel" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Malvika Patel</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <a href="https://www.linkedin.com/in/malvika-patel-b325431b2/" target="_blank">
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                    <a href="mailto:malvika@launchtechllc.com" target="_blank">
+                      <img src="img/icons/contact/email-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Director of Public Relations</p>
+                <small className="person-description">
+                Malvika Patel is a high school student in Ontario, Canada. She's strongly passionate about computer software and she enjoys learning about revolutionizing computer technologies. In my free time, I enjoy acrylic and oil painting as well as playing badminton.
+                </small>
+              </div>
+            </div>
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/jinhao.png" alt="Launch Tech LLC - Jinhao Xie" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
