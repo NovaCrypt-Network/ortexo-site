@@ -226,11 +226,6 @@ export default () => {
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
                 <img src="img/people/jinhao.png" alt="Launch Tech LLC - Jinhao Xie" className="person-image" />
-                <img
-                  src="img/people/jinhao.png"
-                  alt="Launch Tech LLC - Jinhao Xie"
-                  className="person-image"
-                />
               </div>
               <div className="person-content">
                 <div className="person-info">
