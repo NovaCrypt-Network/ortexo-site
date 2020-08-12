@@ -5,7 +5,7 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Launch Tech LLC - Credits</title>
+        <title>Ortexo - Credits</title>
       </Head>
 
       <div className="waves">

@@ -5,7 +5,7 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Launch Tech LLC - Our Products</title>
+        <title>Ortexo - Our Products</title>
         <meta
           name="description"
           content="Accelerating student success by providing access to new knowledge, insights and opportunities."
@@ -29,17 +29,17 @@ export default () => {
                 <img
                   className="product-images-1"
                   src="img/products/npocore/desktop.png"
-                  alt="Launch Tech LLC - NPO Core - Website Image"
+                  alt="Ortexo - NPO Core - Website Image"
                 />
                 <img
                   className="product-images-2"
                   src="img/products/npocore/tablet.png"
-                  alt="Launch Tech LLC - NPO Core - Website Image"
+                  alt="Ortexo - NPO Core - Website Image"
                 />
                 <img
                   className="product-images-3"
                   src="img/products/npocore/mobile.png"
-                  alt="Launch Tech LLC - NPO Core - Website Image"
+                  alt="Ortexo - NPO Core - Website Image"
                 />
               </div>
               <div className="product-content">
@@ -70,18 +70,18 @@ export default () => {
                   </div>
                   <div className="product-content-cta-right">
                     <a
-                      href="https://github.com/launchtechllc/npocore"
+                      href="https://github.com/ortexo/npocore"
                       target="_blank"
                     >
                       <img
                         src="img/icons/social-media/github-dark.svg"
-                        alt="Launch Tech LLC - w3hacks - GitHub"
+                        alt="Ortexo - w3hacks - GitHub"
                       />
                     </a>
                     <a href="https://www.npocore.com/" target="_blank">
                       <img
                         src="img/icons/contact/out-dark.svg"
-                        alt="Launch Tech LLC - w3hacks - Website Application"
+                        alt="Ortexo - w3hacks - Website Application"
                       />
                     </a>
                   </div>
@@ -112,18 +112,18 @@ export default () => {
                   </div>
                   <div className="product-content-cta-right">
                     <a
-                      href="https://github.com/launchtechllc/anojs"
+                      href="https://github.com/ortexo/anojs"
                       target="_blank"
                     >
                       <img
                         src="img/icons/social-media/github-dark.svg"
-                        alt="Launch Tech LLC - Ano.js - GitHub"
+                        alt="Ortexo - Ano.js - GitHub"
                       />
                     </a>
                     <a href="http://anojs.com/" target="_blank">
                       <img
                         src="img/icons/contact/out-dark.svg"
-                        alt="Launch Tech LLC - Ano.js - Website Application"
+                        alt="Ortexo - Ano.js - Website Application"
                       />
                     </a>
                   </div>
@@ -133,17 +133,17 @@ export default () => {
                 <img
                   className="product-images-1"
                   src="img/products/anojs/desktop.png"
-                  alt="Launch Tech LLC - Ano.js - Website Image"
+                  alt="Ortexo - Ano.js - Website Image"
                 />
                 <img
                   className="product-images-2"
                   src="img/products/anojs/tablet.png"
-                  alt="Launch Tech LLC - Ano.js - Website Image"
+                  alt="Ortexo - Ano.js - Website Image"
                 />
                 <img
                   className="product-images-3"
                   src="img/products/anojs/mobile.png"
-                  alt="Launch Tech LLC - Ano.js - Website Image"
+                  alt="Ortexo - Ano.js - Website Image"
                 />
               </div>
               <div className="product-content-hidden">
@@ -168,18 +168,18 @@ export default () => {
                   </div>
                   <div className="product-content-cta-right">
                     <a
-                      href="https://github.com/launchtechllc/anojs"
+                      href="https://github.com/ortexo/anojs"
                       target="_blank"
                     >
                       <img
                         src="img/icons/social-media/github-dark.svg"
-                        alt="Launch Tech LLC - Ano.js - GitHub"
+                        alt="Ortexo - Ano.js - GitHub"
                       />
                     </a>
                     <a href="http://anojs.com/" target="_blank">
                       <img
                         src="img/icons/contact/out-dark.svg"
-                        alt="Launch Tech LLC - Ano.js - Website Application"
+                        alt="Ortexo - Ano.js - Website Application"
                       />
                     </a>
                   </div>
@@ -192,17 +192,17 @@ export default () => {
                 <img
                   className="product-images-1"
                   src="img/products/w3hacks/desktop.png"
-                  alt="Launch Tech LLC - w3Hacks - Website Image"
+                  alt="Ortexo - w3Hacks - Website Image"
                 />
                 <img
                   className="product-images-2"
                   src="img/products/w3hacks/tablet.png"
-                  alt="Launch Tech LLC - w3Hacks - Website Image"
+                  alt="Ortexo - w3Hacks - Website Image"
                 />
                 <img
                   className="product-images-3"
                   src="img/products/w3hacks/mobile.png"
-                  alt="Launch Tech LLC - w3Hacks - Website Image"
+                  alt="Ortexo - w3Hacks - Website Image"
                 />
               </div>
               <div className="product-content">
@@ -224,18 +224,18 @@ export default () => {
                   </div>
                   <div className="product-content-cta-right">
                     <a
-                      href="https://github.com/launchtechllc/w3hacks"
+                      href="https://github.com/ortexo/w3hacks"
                       target="_blank"
                     >
                       <img
                         src="img/icons/social-media/github-dark.svg"
-                        alt="Launch Tech LLC - w3hacks - GitHub"
+                        alt="Ortexo - w3hacks - GitHub"
                       />
                     </a>
                     <a href="http://w3hacks.com/" target="_blank">
                       <img
                         src="img/icons/contact/out-dark.svg"
-                        alt="Launch Tech LLC - w3hacks - Website Application"
+                        alt="Ortexo - w3hacks - Website Application"
                       />
                     </a>
                   </div>

@@ -5,7 +5,7 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Launch Tech LLC - Our Partners</title>
+        <title>Ortexo - Our Partners</title>
         <meta name="description" content="Accelerating student success by providing access to new knowledge, insights and opportunities." />
       </Head>
 

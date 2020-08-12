@@ -5,7 +5,7 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Launch Tech LLC - About Us</title>
+        <title>Ortexo - About Us</title>
         <meta
           name="description"
           content="Accelerating student success by providing access to new knowledge, insights and opportunities."
@@ -29,7 +29,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/calix.png"
-                  alt="Launch Tech LLC - Calix Huang - Founder and CEO"
+                  alt="Ortexo - Calix Huang - Founder and CEO"
                   className="person-image"
                 />
               </div>
@@ -45,7 +45,7 @@ export default () => {
                     >
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:calix@launchtechllc.com" target="_blank">
+                    <a href="mailto:calix@ortexo.com" target="_blank">
                       <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
@@ -64,7 +64,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/kenny.png"
-                  alt="Launch Tech LLC - Kenny Wu - COO"
+                  alt="Ortexo - Kenny Wu - COO"
                   className="person-image"
                 />
               </div>
@@ -80,7 +80,7 @@ export default () => {
                     >
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:kenny@launchtechllc.com" target="_blank">
+                    <a href="mailto:kenny@ortexo.com" target="_blank">
                       <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
@@ -99,7 +99,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/neha.png"
-                  alt="Launch Tech LLC - Neha Washikar"
+                  alt="Ortexo - Neha Washikar"
                   className="person-image"
                 />
               </div>
@@ -115,7 +115,7 @@ export default () => {
                     >
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:neha@launchtechllc.com" target="_blank">
+                    <a href="mailto:neha@ortexo.com" target="_blank">
                       <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
@@ -123,7 +123,7 @@ export default () => {
                 <p className="person-title">Chief Marketing Officer</p>
                 <small className="person-description">
                   Neha Washikar works with the Outreach/ Social Media team in
-                  Launch Tech. She is currently the Vice President of Digital
+                  Ortexo. She is currently the Vice President of Digital
                   Marketing at her school’s DECA chapter, and was the Director
                   of Outreach last year. In her free time, Neha enjoys playing
                   volleyball and painting.
@@ -134,7 +134,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/adelyn.png"
-                  alt="Launch Tech LLC - Adelyn Chen"
+                  alt="Ortexo - Adelyn Chen"
                   className="person-image"
                 />
               </div>
@@ -150,7 +150,7 @@ export default () => {
                     >
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:adelyn@launchtechllc.com" target="_blank">
+                    <a href="mailto:adelyn@ortexo.com" target="_blank">
                       <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
@@ -158,7 +158,7 @@ export default () => {
                 <p className="person-title">Director of Outreach</p>
                 <small className="person-description">
                   Adelyn Chen is a student at the Wharton School and works on
-                  Launch Tech's outreach team. She loves navigating the
+                  Ortexo's outreach team. She loves navigating the
                   intersection of business and computer science. Her hobbies are
                   calligraphy, bullet journaling, drinking bubble tea, and
                   watching Korean dramas.
@@ -169,7 +169,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/mitchell.png"
-                  alt="Launch Tech LLC - Mitchell Artz"
+                  alt="Ortexo - Mitchell Artz"
                   className="person-image"
                 />
               </div>
@@ -185,7 +185,7 @@ export default () => {
                     >
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:mitchell@launchtechllc.com" target="_blank">
+                    <a href="mailto:mitchell@ortexo.com" target="_blank">
                       <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
@@ -201,7 +201,7 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/malvika.PNG" alt="Launch Tech LLC - Malvika Patel" className="person-image" />
+                <img src="img/people/malvika.PNG" alt="Ortexo - Malvika Patel" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -212,7 +212,7 @@ export default () => {
                     <a href="https://www.linkedin.com/in/malvika-patel-b325431b2/" target="_blank">
                       <img src="img/icons/social-media/linkedin-dark.svg" />
                     </a>
-                    <a href="mailto:malvika@launchtechllc.com" target="_blank">
+                    <a href="mailto:malvika@ortexo.com" target="_blank">
                       <img src="img/icons/contact/email-dark.svg" />
                     </a>
                   </div>
@@ -225,7 +225,7 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/jinhao.png" alt="Launch Tech LLC - Jinhao Xie" className="person-image" />
+                <img src="img/people/jinhao.png" alt="Ortexo - Jinhao Xie" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -245,7 +245,7 @@ export default () => {
                 <p className="person-title">Software Engineer</p>
                 <small className="person-description">
                   Jinhao Xie is a HS student in Toronto working on developing
-                  Launch Tech's software products. He enjoys listening to music,
+                  Ortexo's software products. He enjoys listening to music,
                   playing basketball, and gaming on occasion. He hopes to pursue
                   a degree computer science and eventually work in software/web
                   development.
@@ -256,7 +256,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/angela.png"
-                  alt="Launch Tech LLC - Angela Chen"
+                  alt="Ortexo - Angela Chen"
                   className="person-image"
                 />
               </div>
@@ -289,7 +289,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/rex.png"
-                  alt="Launch Tech LLC - Rex Liu"
+                  alt="Ortexo - Rex Liu"
                   className="person-image"
                 />
               </div>
@@ -322,7 +322,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/molly.png"
-                  alt="Launch Tech LLC - Molly Xu"
+                  alt="Ortexo - Molly Xu"
                   className="person-image"
                 />
               </div>
@@ -354,7 +354,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/jaanavi.png"
-                  alt="Launch Tech LLC - Jaanavi Thanamala"
+                  alt="Ortexo - Jaanavi Thanamala"
                   className="person-image"
                 />
               </div>
@@ -387,7 +387,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/elizabeth.png"
-                  alt="Launch Tech LLC - Elizabeth Field"
+                  alt="Ortexo - Elizabeth Field"
                   className="person-image"
                 />
               </div>
@@ -415,7 +415,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/katie.png"
-                  alt="Launch Tech LLC - Katie Li"
+                  alt="Ortexo - Katie Li"
                   className="person-image"
                 />
               </div>
@@ -436,7 +436,7 @@ export default () => {
                 </div>
                 <p className="person-title">Content Writer</p>
                 <small className="person-description">
-                  Katie Li is a content writer for Launch Tech who’s interested
+                  Katie Li is a content writer for Ortexo who’s interested
                   in exploring the intersection between writing and computer
                   science. In her free time, she also loves to read, dance, and
                   waste money on boba.
@@ -451,7 +451,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/jack.png"
-                  alt="Launch Tech LLC - Jack Chen"
+                  alt="Ortexo - Jack Chen"
                   className="person-image"
                 />
               </div>
@@ -464,7 +464,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/nathaniel.png"
-                  alt="Launch Tech LLC - Nathaniel Diong"
+                  alt="Ortexo - Nathaniel Diong"
                   className="person-image"
                 />
               </div>
@@ -477,7 +477,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/chinmayi.png"
-                  alt="Launch Tech LLC - Chinmayi Balusu"
+                  alt="Ortexo - Chinmayi Balusu"
                   className="person-image"
                 />
               </div>

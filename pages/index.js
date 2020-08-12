@@ -6,7 +6,7 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Launch Tech LLC - A SaaS product holding company</title>
+        <title>Ortexo - A SaaS product holding company</title>
         <meta
           name="description"
           content="Accelerating student success by providing access to new knowledge, insights and opportunities."
@@ -22,7 +22,7 @@ export default () => {
           <div className="header-grid">
             <div className="header-grid-left">
               <h1 style={{ fontSize: "60px", fontWeight: "bold" }}>
-                Launch Tech LLC
+              Ortexo
               </h1>
               <h4 className="header-grid-left-sub-header">
                 Providing opportunities and resources for success
@@ -84,7 +84,7 @@ export default () => {
           <div className="about-container">
             <h2>Software is changing the world.</h2>
             <p>
-              Launch Tech accelerates success by exposing students to new
+            Ortexo accelerates success by exposing students to new
               knowledge, opportunities, and innovative software technologies.
             </p>
           </div>
@@ -133,7 +133,7 @@ export default () => {
                 <img
                   className="product-image"
                   src="img/products/w3hacks/desktop.png"
-                  alt="Launch Tech LLC - w3Hacks - Website Image"
+                  alt="Ortexo - w3Hacks - Website Image"
                 />
                 <div className="text-center mt-3">
                   <h2>w3Hacks</h2>
@@ -148,7 +148,7 @@ export default () => {
                 <img
                   className="product-image"
                   src="img/products/npocore/desktop.png"
-                  alt="Launch Tech LLC - NPO Core - Website Image"
+                  alt="Ortexo - NPO Core - Website Image"
                 />
                 <div className="text-center mt-3">
                   <h2>NPO Core</h2>
@@ -163,7 +163,7 @@ export default () => {
                 <img
                   className="product-image"
                   src="img/products/anojs/desktop.png"
-                  alt="Launch Tech LLC - Ano.js - Website Image"
+                  alt="Ortexo - Ano.js - Website Image"
                 />
                 <div className="text-center mt-3">
                   <h2>Ano.js</h2>
@@ -182,7 +182,7 @@ export default () => {
             <div className="contact-us-grid">
               <div className="contact-us-grid-left">
                 <form
-                  action="https://formspree.io/hello@launchtechllc.com"
+                  action="https://formspree.io/hello@ortexo.com"
                   method="post"
                 >
                   <label>Name:</label>
@@ -231,13 +231,13 @@ export default () => {
 
                 <div className="ml-4">
                   <p className="contact-us-grid-left-contact-item">
-                    <a href="mailto:hello@launchtechllc.com" target="_blank">
+                    <a href="mailto:hello@ortexo.com" target="_blank">
                       <img src="img/icons/contact/email-dark.svg" />
-                      <span>hello@launchtechllc.com</span>
+                      <span>hello@ortexo.com</span>
                     </a>
                   </p>
                   <p className="contact-us-grid-left-contact-item">
-                    <a href="https://calendly.com/launch-tech" target="_blank">
+                    <a href="https://calendly.com/ortexo" target="_blank">
                       <img src="img/icons/contact/calendar-dark.svg" />
                       <span>Schedule a Call</span>
                     </a>
