@@ -24,7 +24,7 @@ export default ({ children }) => {
         <div className="container">
           <Link href="/">
             <a className="navbar-brand">
-              <img className="navbar-brand-image" src="http://cdn.ortexo.com/OrtexoLogo2.png" alt="Ortexo logo" style={{width: "150px"}} />
+              <img className="navbar-brand-image" src="https://cdn.ortexo.com/OrtexoLogo2.png" alt="Ortexo logo" style={{width: "150px"}} />
             </a>
           </Link>
           <button className="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
@@ -66,7 +66,7 @@ export default ({ children }) => {
         <div className="container">
           <div className="footer-grid">
             <div className="copyright-container">
-              <img src="http://cdn.ortexo.com/OrtexoLogo2.png" alt="Ortexo logo" />
+              <img src="https://cdn.ortexo.com/OrtexoLogo2.png" alt="Ortexo logo" />
               <br/>
               <small className="copyright">&copy; 2020 Ortexo All rights reserved.</small>
             </div>
