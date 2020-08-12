@@ -37,7 +37,7 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="https://blog.ortexzo.com/" target="_blank">Blog</a>
+                  <a className="nav-link" href="https://blog.ortexo.com/" target="_blank">Blog</a>
               </li>
               <li className="nav-item">
                 <Link href="/about">
@@ -65,7 +65,7 @@ export default ({ children }) => {
         <div className="container">
           <div className="footer-grid">
             <div className="copyright-container">
-              <img src="/img/launchtech_white.png" alt="Ortexzo logo" />
+              <img src="/img/launchtech_white.png" alt="Ortexo logo" />
               <br/>
               <small className="copyright">&copy; 2020 Ortexo All rights reserved.</small>
             </div>
