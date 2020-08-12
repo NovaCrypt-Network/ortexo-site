@@ -19,11 +19,12 @@ export default ({ children }) => {
           <p className="mb-0" style={{ "fontSize": "17.5px", "fontWeight": "600" }}>Want to learn how to expand your organization? <a style={{ "color": "black", "textDecoration": "underline" }} href="https://zmurl.com/SSN" target="_blank">Register For Secrets of Successful NPOs</a> 🚀</p>
         </div>
       </div> */}
+      
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
           <Link href="/">
             <a className="navbar-brand">
-              <img className="navbar-brand-image" src="/img/launchtech_white.png" alt="Ortexo logo" style={{width: "150px"}} />
+              <img className="navbar-brand-image" src="/img/ortexo_logo.gif" alt="Ortexo logo" style={{width: "150px"}} />
             </a>
           </Link>
           <button className="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
@@ -65,7 +66,7 @@ export default ({ children }) => {
         <div className="container">
           <div className="footer-grid">
             <div className="copyright-container">
-              <img src="/img/launchtech_white.png" alt="Ortexo logo" />
+              <img src="/img/ortexo_logo.gif" alt="Ortexo logo" />
               <br/>
               <small className="copyright">&copy; 2020 Ortexo All rights reserved.</small>
             </div>
@@ -125,10 +126,10 @@ export default ({ children }) => {
                 <a href="https://github.com/ortexo" target="_blank">
                   <img src="/img/icons/social-media/github-light.svg" alt="Ortexo GitHub organization" className="social-media-icon" />
                 </a>
-                <a href="https://www.instagram.com/ortexo/" target="_blank">
+                <a href="https://www.instagram.com/ortexotech/" target="_blank">
                   <img src="/img/icons/social-media/instagram-light.svg" alt="Ortexo Instagram" className="social-media-icon" />
                 </a>
-                <a href="mailto:hello@rtexo.com" target="_blank">
+                <a href="mailto:hello@ortexo.com" target="_blank">
                   <img src="/img/icons/contact/email-light.svg" alt="Ortexo Email" className="social-media-icon" />
                 </a>
               </div>

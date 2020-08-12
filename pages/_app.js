@@ -15,7 +15,7 @@ export default ({ Component, pageProps }) => {
           content="vbJIiVW2eeS2cBkP-gysxwVg7swck8zzi4ZURi1QZG4"
         />
 
-        <link rel="icon" href="img/logos/launchtech.png" />
+        <link rel="icon" href="img/ortexo_logo.gif" />
         <link rel="stylesheet" href="./styles/css/styles.css" />
 
         <link
