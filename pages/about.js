@@ -341,6 +341,36 @@ export default () => {
                 </small>
               </div>
             </div>
+
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img
+                  src="img/people/jesse.png"
+                  alt="Ortexo - Jesse Cheng"
+                  className="person-image"
+                />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Jesse Cheng</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a
+                      href="https://www.linkedin.com/in/jesse-cheng-271a98103/"
+                      target="_blank"
+                    >
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Outreach</p>
+                <small className="person-description">
+                  Jesse Cheng is a HS student, working on Orexto 's outreach team. He enjoys learning about new tech and cares deeply about the environment. In his free time, he loves to do Taekwondo/MMA, play the ukulele, and hang out with friends.
+                </small>
+              </div>
+            </div>
           </div>
 
           <h1 className="mt-5">Advisory Board</h1>
