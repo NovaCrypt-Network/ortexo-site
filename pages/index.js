@@ -2,6 +2,8 @@ import Head from "next/head";
 import Layout from "../components/Layout.js";
 import Link from "next/link";
 
+
+
 export default () => {
   return (
     <Layout>
@@ -15,9 +17,20 @@ export default () => {
         <link rel="stylesheet" href="/css/odometer.css" />
         <script src="/js/odometer.js" />
         <script src="/js/index.js" />
+        
       </Head>
 
       <section className="header" id="header">
+      <div class="alert">
+        <span class="closebtn" onClick={() => {
+                    document
+                      .getElementById("alert")
+                      .hideComponent()
+                  }}>
+                    
+                    </span>
+        Launch Tech LLC is now Ortexo!
+      </div>
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left">
@@ -25,7 +38,7 @@ export default () => {
               Ortexo
               </h1>
               <h4 className="header-grid-left-sub-header">
-Launching innovative technologies
+              Launching innovative technologies
               </h4>
               <div className="cta-buttons mt-4">
                 <button
