@@ -25,7 +25,7 @@ export default () => {
               Ortexo
               </h1>
               <h4 className="header-grid-left-sub-header">
-                Providing opportunities and resources for success
+Launching innovative technologies
               </h4>
               <div className="cta-buttons mt-4">
                 <button
