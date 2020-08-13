@@ -125,21 +125,7 @@ export default () => {
           <div className="container">
             <h1 className="section-header">Featured Products</h1>
             <div className="products-grid mt-5">
-              <a
-                className="product-link"
-                href="https://www.w3hacks.com"
-                target="_blank"
-              >
-                <img
-                  className="product-image"
-                  src="img/products/w3hacks/desktop.png"
-                  alt="Ortexo - w3Hacks - Website Image"
-                />
-                <div className="text-center mt-3">
-                  <h2>w3Hacks</h2>
-                  <p>Learn by doing</p>
-                </div>
-              </a>
+              
               <a
                 className="product-link"
                 href="https://npocore.com"
@@ -154,22 +140,7 @@ export default () => {
                   <h2>NPO Core</h2>
                   <p>Your one-stop shop for all things non-profits</p>
                 </div>
-              </a>
-              <a
-                className="product-link"
-                href="https://anojs.com"
-                target="_blank"
-              >
-                <img
-                  className="product-image"
-                  src="img/products/anojs/desktop.png"
-                  alt="Ortexo - Ano.js - Website Image"
-                />
-                <div className="text-center mt-3">
-                  <h2>Ano.js</h2>
-                  <p>Web Animation made easy</p>
-                </div>
-              </a>
+                </a>
             </div>
           </div>
         </div>
