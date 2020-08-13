@@ -122,11 +122,7 @@ export default () => {
                 </div>
                 <p className="person-title">Chief Marketing Officer</p>
                 <small className="person-description">
-                  Neha Washikar works with the Outreach/ Social Media team in
-                  Ortexo. She is currently the Vice President of Digital
-                  Marketing at her school’s DECA chapter, and was the Director
-                  of Outreach last year. In her free time, Neha enjoys playing
-                  volleyball and painting.
+                  Neha Washikar is a CS and marketing enthusiast. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
                 </small>
               </div>
             </div>
