@@ -20,6 +20,11 @@ export default ({ children }) => {
         </div>
       </div> */}
       
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">x</span> 
+        Launch Tech LLC is now Ortexo!
+      </div>
+
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
           <Link href="/">
@@ -65,12 +70,13 @@ export default ({ children }) => {
       <section className="footer" id="footer">
         <div className="container">
           <div className="footer-grid">
+          
             <div className="copyright-container">
               <img src="https://cdn.ortexo.com/OrtexoLogo2.png" alt="Ortexo logo" />
               <br/>
               <small className="copyright">&copy; 2020 Ortexo All rights reserved.</small>
             </div>
-
+            
             <div></div>
 
             <div className="footer-grid-links">
@@ -150,6 +156,9 @@ export default ({ children }) => {
           </div>
         </div>
       </section>
+
+      
     </>
+    
   )
 }
