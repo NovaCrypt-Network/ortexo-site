@@ -122,11 +122,7 @@ export default () => {
                 </div>
                 <p className="person-title">Chief Marketing Officer</p>
                 <small className="person-description">
-                  Neha Washikar works with the Outreach/ Social Media team in
-                  Ortexo. She is currently the Vice President of Digital
-                  Marketing at her school’s DECA chapter, and was the Director
-                  of Outreach last year. In her free time, Neha enjoys playing
-                  volleyball and painting.
+                  Neha Washikar is a CS and marketing enthusiast. She is currently the Vice President of Digital Marketing at her school’s DECA chapter, and was the Director of Outreach last year. In her free time, Neha enjoys playing volleyball and painting.
                 </small>
               </div>
             </div>
@@ -190,7 +186,7 @@ export default () => {
                     </a>
                   </div>
                 </div>
-                <p className="person-title">Director of Testing</p>
+                <p className="person-title">Director of Software Development</p>
                 <small className="person-description">
                   Mitchell Artz is a QA tester and security enthusiast,
                   currently studying to get his High School diploma online. He
@@ -283,106 +279,6 @@ export default () => {
                   In her free time, Angela enjoys running, hurdling and
                   listening to music.
                 </small>
-              </div>
-            </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
-                <img
-                  src="img/people/rex.png"
-                  alt="Ortexo - Rex Liu"
-                  className="person-image"
-                />
-              </div>
-              <div className="person-content">
-                <div className="person-info">
-                  <div>
-                    <h3 className="person-name">Rex Liu</h3>
-                  </div>
-                  <div className="person-info-links">
-                    <div></div>
-                    <a
-                      href="https://www.linkedin.com/in/rexliu3/"
-                      target="_blank"
-                    >
-                      <img src="img/icons/social-media/linkedin-dark.svg" />
-                    </a>
-                    <div></div>
-                  </div>
-                </div>
-                <p className="person-title">QA Tester</p>
-                <small className="person-description">
-                  Rex Liu is an independent software engineer developing web and
-                  mobile applications for clients and creating personal projects
-                  to dive deeper into the world of CS. He is also an avid
-                  badminton and tennis player.
-                </small>
-              </div>
-            </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
-                <img
-                  src="img/people/molly.png"
-                  alt="Ortexo - Molly Xu"
-                  className="person-image"
-                />
-              </div>
-              <div className="person-content">
-                <div className="person-info">
-                  <div>
-                    <h3 className="person-name">Molly Xu</h3>
-                  </div>
-                  <div className="person-info-links">
-                    <div></div>
-                    <a
-                      href="https://www.linkedin.com/in/mollyxu9/"
-                      target="_blank"
-                    >
-                      <img src="img/icons/social-media/linkedin-dark.svg" />
-                    </a>
-                  </div>
-                </div>
-                <p className="person-title">QA Tester</p>
-                <small className="person-description">
-                  Molly is a prospective Computer Science and Business
-                  Administration double degree student at the University of
-                  Waterloo. When she isn’t coding, you can find her listening to
-                  Latin pop or binge-watching La Casa de Papel (Money Heist).
-                </small>
-              </div>
-            </div>
-            <div className="person" data-aos="zoom-in">
-              <div className="image-cropper">
-                <img
-                  src="img/people/jaanavi.png"
-                  alt="Ortexo - Jaanavi Thanamala"
-                  className="person-image"
-                />
-              </div>
-              <div className="person-content">
-                <div className="person-info">
-                  <div>
-                    <h3 className="person-name">Jaanavi Thanamala</h3>
-                  </div>
-                  <div className="person-info-links">
-                    <div></div>
-                    <a
-                      href="https://www.linkedin.com/in/jaanavi-thanamala"
-                      target="_blank"
-                    >
-                      <img src="img/icons/social-media/linkedin-dark.svg" />
-                    </a>
-                  </div>
-                  <p className="person-title">Outreach</p>
-                </div>
-                <small className="person-description">
-                  Jaanavi Thanamala is a business management and information
-                  science enthusiast. She is highly involved in her community
-                  and loves learning about tech + entrepreneurship. In her free
-                  time, Jaanavi loves to spend time with friends, bike, and
-                  binge Netflix shows.
-                </small>
-              </div>
-            </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
                 <img

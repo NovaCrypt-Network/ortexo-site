@@ -8,7 +8,7 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Ortexo - A SaaS product holding company</title>
+        <title>Ortexo - A Launching innovative technologies</title>
         <meta
           name="description"
           content="Accelerating student success by providing access to new knowledge, insights and opportunities."
