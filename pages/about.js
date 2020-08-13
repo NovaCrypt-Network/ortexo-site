@@ -279,6 +279,8 @@ export default () => {
                   In her free time, Angela enjoys running, hurdling and
                   listening to music.
                 </small>
+    </div>
+            </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
                 <img
