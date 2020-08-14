@@ -23,6 +23,11 @@ export default () => {
 
       <section className="about-us">
         <div className="page-container container">
+          <h1>Who We Are</h1>
+            <p style={{lineHeight: '2em'}}>Ortexo is a software-as-a-service product holding company, run by a dedicated group of individuals from all over the world, many of whom are students. Our tagline is “launching innovative technologies”, which is both an homage to our pre-rebranding company name “Launch Tech” and also a concise way to explain exactly what we do: create software that serves the needs of our communities, and help expand our peers’ horizons.
+            <br/>
+            Ortexo’s mission is to accelerate success by exposing students to new knowledge, opportunities, and innovative software technologies. Our team actively builds and tests products, maintaining a customer-centric mindset, to ensure their effectiveness and overall impact. We hope that what we launch can be a catalyst for growth in many students’ lives.
+            </p>
           <h1>Our Team</h1>
           <div className="persons mt-3">
             <div className="person" data-aos="zoom-in">
