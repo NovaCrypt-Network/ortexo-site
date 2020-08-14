@@ -73,7 +73,7 @@ export default ({ children }) => {
             <div className="copyright-container">
               <img src="https://cdn.ortexo.com/OrtexoLogo2.png" alt="Ortexo logo" />
               <br/>
-              <small className="copyright">&copy; 2020 Ortexo All rights reserved.</small>
+              <small className="copyright">&copy; 2020 Launch Tech LLC All rights reserved.</small>
             </div>
             
             <div></div>
