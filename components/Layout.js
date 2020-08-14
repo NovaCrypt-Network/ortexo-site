@@ -20,9 +20,8 @@ export default ({ children }) => {
         </div>
       </div> */}
       
-      <div class="alert">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">x</span> 
-        Launch Tech LLC is now Ortexo!
+      <div className="banner">
+      We've officially rebranded Launch Tech LLC to Ortexo!
       </div>
 
       <nav className="navbar navbar-expand-sm navbar-dark">

@@ -21,16 +21,6 @@ export default () => {
       </Head>
 
       <section className="header" id="header">
-      <div class="alert">
-        <span class="closebtn" onClick={() => {
-                    document
-                      .getElementById("alert")
-                      .hideComponent()
-                  }}>
-                    
-                    </span>
-        Launch Tech LLC is now Ortexo!
-      </div>
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left">
@@ -136,9 +126,10 @@ export default () => {
       <section className="featured-products-section" id="featured-products">
         <div className="section-container">
           <div className="container">
-            <h1 className="section-header">Featured Products</h1>
+            <h1 className="featured-products">Featured Products</h1>
             <div className="products-grid mt-5">
               
+
               <a
                 className="product-link"
                 href="https://npocore.com"
@@ -155,6 +146,7 @@ export default () => {
                 </div>
                 </a>
             </div>
+            
           </div>
         </div>
       </section>
