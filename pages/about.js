@@ -372,7 +372,7 @@ export default () => {
                 </div>
                 <p className="person-title">Outreach</p>
                 <small className="person-description">
-                  Jesse Cheng is a HS student, working on Orexto 's outreach team. He enjoys learning about new tech and cares deeply about the environment. In his free time, he loves to do Taekwondo/MMA, play the ukulele, and hang out with friends.
+                  Jesse Cheng is a HS student, working on Ortexo's outreach team. He enjoys learning about new tech and cares deeply about the environment. In his free time, he loves to do Taekwondo/MMA, play the ukulele, and hang out with friends.
                 </small>
               </div>
             </div>
