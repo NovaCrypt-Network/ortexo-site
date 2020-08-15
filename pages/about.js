@@ -255,7 +255,7 @@ export default () => {
 
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/ruijia.png" alt="Ortexo - Ruijia Xing" className="person-image" />
+                <img src="img/people/ruijia.jpg" alt="Ortexo - Ruijia Xing" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
