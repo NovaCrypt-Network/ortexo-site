@@ -224,6 +224,35 @@ export default () => {
                 </small>
               </div>
             </div>
+
+
+
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/andrew.png" alt="Ortexo - Andrew Vuong" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Andrew Vuong</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a
+                      href="https://www.linkedin.com/in/andrew-vuong-68ba4518a/"
+                      target="_blank"
+                    >
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Software Engineer</p>
+                <small className="person-description">
+                  Andrew Vuong, is an incoming freshman in college studying CS and thinking about getting a minor/major in Cognitive Science. He is part of the development team and enjoys developing games and software. In his free time, Andrew enjoys swimming, dragon boat and playing the viola.
+                </small>
+              </div>
+            </div>
+
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
                 <img src="img/people/jinhao.png" alt="Ortexo - Jinhao Xie" className="person-image" />
