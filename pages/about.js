@@ -255,6 +255,34 @@ export default () => {
 
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
+                <img src="img/people/ruijia.png" alt="Ortexo - Ruijia Xing" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Ruijia Xing</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a
+                      href="https://www.linkedin.com/in/ruijia-xing-236752155"
+                      target="_blank"
+                    >
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Software Engineer</p>
+                <small className="person-description">
+                  Ruijia Xing is part of Ortexo's software development team and is currently studying at Carnegie Mellon University. She is interested in artificial intelligence, and she loves to create art, do robotics, and play table tennis in her free time.
+                </small>
+              </div>
+            </div>
+
+
+
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
                 <img src="img/people/jinhao.png" alt="Ortexo - Jinhao Xie" className="person-image" />
               </div>
               <div className="person-content">
