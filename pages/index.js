@@ -24,12 +24,12 @@ export default () => {
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left">
-              <h1 style={{ fontSize: "60px", fontWeight: "bold" }}>
-              Ortexo
-              </h1>
-              <h4 className="header-grid-left-sub-header">
+              <h1 style={{ fontSize: "30px", fontWeight: "bold" , marginBottom: "20px" }}>
               Launching innovative technologies
-              </h4>
+              </h1>
+              <h6 className="header-grid-left-sub-header">
+              Ortexo accelerates success by exposing students to new knowledge, opportunities, and innovative software technologies.
+              </h6>
               <div className="cta-buttons mt-4">
                 <button
                   onClick={() => {
@@ -87,8 +87,7 @@ export default () => {
           <div className="about-container">
             <h2>Software is changing the world.</h2>
             <p>
-            Ortexo accelerates success by exposing students to new
-              knowledge, opportunities, and innovative software technologies.
+              Students today are a fundamental part of a triad consisting of themselves, technology, and the world—they use technology to change the world; the way the world integrates with technology shapes their experiences; and their quick and easy access to the rest of the world helps them continue to help technology advance.
             </p>
           </div>
           <div className="statistics-grid">
