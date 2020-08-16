@@ -27,7 +27,7 @@ export default () => {
               <h1 style={{ fontSize: "40px", fontWeight: "bold" , marginBottom: "20px" }}>
                 Launching Innovative Technologies
               </h1>
-              <h4 className="header-grid-left-sub-header">
+              <h4 className="header-grid-left-sub-header" style={{ fontSize: "20px" }}>
                 Ortexo accelerates success by exposing students to new knowledge, opportunities, and innovative software technologies.
               </h4>
               <div className="cta-buttons mt-4">
