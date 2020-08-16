@@ -24,10 +24,10 @@ export default () => {
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left">
-              <h1 style={{ fontSize: "30px", fontWeight: "bold" , marginBottom: "20px" }}>
-              Launching innovative technologies
+              <h1 style={{ fontSize: "60px", fontWeight: "bold" , marginBottom: "20px" }}>
+                Launching Innovative Technologies
               </h1>
-              <h6 className="header-grid-left-sub-header">
+              <h6 className="header-grid-left-sub-header" style={{ marginBottom: "20px" }}>
               Ortexo accelerates success by exposing students to new knowledge, opportunities, and innovative software technologies.
               </h6>
               <div className="cta-buttons mt-4">
