@@ -24,12 +24,12 @@ export default () => {
         <div className="container">
           <div className="header-grid">
             <div className="header-grid-left">
-              <h1 style={{ fontSize: "60px", fontWeight: "bold" , marginBottom: "20px" }}>
+              <h1 style={{ fontSize: "40px", fontWeight: "bold" , marginBottom: "20px" }}>
                 Launching Innovative Technologies
               </h1>
-              <h6 className="header-grid-left-sub-header" style={{ marginBottom: "20px" }}>
-              Ortexo accelerates success by exposing students to new knowledge, opportunities, and innovative software technologies.
-              </h6>
+              <h4 className="header-grid-left-sub-header">
+                Ortexo accelerates success by exposing students to new knowledge, opportunities, and innovative software technologies.
+              </h4>
               <div className="cta-buttons mt-4">
                 <button
                   onClick={() => {
