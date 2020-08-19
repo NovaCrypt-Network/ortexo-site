@@ -310,6 +310,38 @@ export default () => {
                 </small>
               </div>
             </div>
+
+
+
+                        <div className="person" data-aos="zoom-in">
+                          <div className="image-cropper">
+                            <img src="img/people/mark.png" alt="Ortexo - Mark Liu" className="person-image" />
+                          </div>
+                          <div className="person-content">
+                            <div className="person-info">
+                              <div>
+                                <h3 className="person-name">Mark Liu</h3>
+                              </div>
+                              <div className="person-info-links">
+                                <div></div>
+                                <a
+                                  href="https://www.linkedin.com/in/markliu2002/"
+                                  target="_blank"
+                                >
+                                  <img src="img/icons/social-media/linkedin-dark.svg" />
+                                </a>
+                              </div>
+                            </div>
+                            <p className="person-title">Software Engineer</p>
+                            <small className="person-description">
+                            Mark Liu is an incoming freshman at the University of Waterloo, studying computer science and finance. He is a member of Ortexo's development team, developing both client and server software. In his free time, he enjoys running and playing basketball.
+                            </small>
+                          </div>
+                        </div>
+
+
+
+
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
                 <img
