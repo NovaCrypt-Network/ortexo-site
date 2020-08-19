@@ -225,6 +225,31 @@ export default () => {
               </div>
             </div>
 
+            <div className="person" data-aos="zoom-in">
+              <div className="image-cropper">
+                <img src="img/people/sophia.png" alt="Ortexo - Sophia Tong" className="person-image" />
+              </div>
+              <div className="person-content">
+                <div className="person-info">
+                  <div>
+                    <h3 className="person-name">Sophia Tong</h3>
+                  </div>
+                  <div className="person-info-links">
+                    <div></div>
+                    <a
+                      href="http://www.linkedin.com/in/sophia-tong-1029241b0"
+                      target="_blank"
+                    >
+                      <img src="img/icons/social-media/linkedin-dark.svg" />
+                    </a>
+                  </div>
+                </div>
+                <p className="person-title">Human Resources</p>
+                <small className="person-description">
+                Sophia is an incoming freshman at UC Irvine in their honors program. She loves meeting new people, and greatly enjoys spending time exploring the outdoors and going to the beach with her friends. She is often found swimming, coaching synchronized swimming, dancing, or simply getting milk tea.
+                </small>
+              </div>
+            </div>
 
 
             <div className="person" data-aos="zoom-in">
