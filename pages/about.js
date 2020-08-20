@@ -34,7 +34,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/calix.png"
-                  alt="Ortexo - Calix Huang - Founder and CEO"
+                  loading="auto" alt="Ortexo - Calix Huang - Founder and CEO"
                   className="person-image"
                 />
               </div>
@@ -69,7 +69,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/kenny.png"
-                  alt="Ortexo - Kenny Wu - COO"
+                  loading="auto" alt="Ortexo - Kenny Wu - COO"
                   className="person-image"
                 />
               </div>
@@ -104,7 +104,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/neha.png"
-                  alt="Ortexo - Neha Washikar"
+                  loading="auto" alt="Ortexo - Neha Washikar"
                   className="person-image"
                 />
               </div>
@@ -135,7 +135,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/adelyn.png"
-                  alt="Ortexo - Adelyn Chen"
+                  loading="auto" alt="Ortexo - Adelyn Chen"
                   className="person-image"
                 />
               </div>
@@ -170,7 +170,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/mitchell.png"
-                  alt="Ortexo - Mitchell Artz"
+                  loading="auto" alt="Ortexo - Mitchell Artz"
                   className="person-image"
                 />
               </div>
@@ -202,7 +202,7 @@ export default () => {
             </div>
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/malvika.PNG" alt="Ortexo - Malvika Patel" className="person-image" />
+                <img src="img/people/malvika.PNG" loading="auto" alt="Ortexo - Malvika Patel" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -227,7 +227,7 @@ export default () => {
 
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/sophia.png" alt="Ortexo - Sophia Tong" className="person-image" />
+                <img src="img/people/sophia.png" loading="auto" alt="Ortexo - Sophia Tong" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -254,7 +254,7 @@ export default () => {
 
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/andrew.png" alt="Ortexo - Andrew Vuong" className="person-image" />
+                <img src="img/people/andrew.png" loading="auto" loading="auto" alt="Ortexo - Andrew Vuong" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -280,7 +280,7 @@ export default () => {
 
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/ruijia.jpg" alt="Ortexo - Ruijia Xing" className="person-image" />
+                <img src="img/people/ruijia.jpg" loading="auto" alt="Ortexo - Ruijia Xing" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -308,7 +308,7 @@ export default () => {
 
             <div className="person" data-aos="zoom-in">
               <div className="image-cropper">
-                <img src="img/people/jinhao.png" alt="Ortexo - Jinhao Xie" className="person-image" />
+                <img src="img/people/jinhao.png" loading="auto" alt="Ortexo - Jinhao Xie" className="person-image" />
               </div>
               <div className="person-content">
                 <div className="person-info">
@@ -340,7 +340,7 @@ export default () => {
 
                         <div className="person" data-aos="zoom-in">
                           <div className="image-cropper">
-                            <img src="img/people/mark.jpg" alt="Ortexo - Mark Liu" className="person-image" />
+                            <img src="img/people/mark.jpg" loading="auto" alt="Ortexo - Mark Liu" className="person-image" />
                           </div>
                           <div className="person-content">
                             <div className="person-info">
@@ -371,7 +371,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/angela.png"
-                  alt="Ortexo - Angela Chen"
+                  loading="auto" alt="Ortexo - Angela Chen"
                   className="person-image"
                 />
               </div>
@@ -404,7 +404,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/elizabeth.png"
-                  alt="Ortexo - Elizabeth Field"
+                  loading="auto" alt="Ortexo - Elizabeth Field"
                   className="person-image"
                 />
               </div>
@@ -432,7 +432,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/katie.png"
-                  alt="Ortexo - Katie Li"
+                  loading="auto" alt="Ortexo - Katie Li"
                   className="person-image"
                 />
               </div>
@@ -465,7 +465,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/jesse.png"
-                  alt="Ortexo - Jesse Cheng"
+                  loading="auto" alt="Ortexo - Jesse Cheng"
                   className="person-image"
                 />
               </div>
@@ -498,7 +498,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/jack.png"
-                  alt="Ortexo - Jack Chen"
+                  loading="auto" alt="Ortexo - Jack Chen"
                   className="person-image"
                 />
               </div>
@@ -511,7 +511,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/nathaniel.png"
-                  alt="Ortexo - Nathaniel Diong"
+                  loading="auto" alt="Ortexo - Nathaniel Diong"
                   className="person-image"
                 />
               </div>
@@ -524,7 +524,7 @@ export default () => {
               <div className="image-cropper">
                 <img
                   src="img/people/chinmayi.png"
-                  alt="Ortexo - Chinmayi Balusu"
+                  loading="auto" alt="Ortexo - Chinmayi Balusu"
                   className="person-image"
                 />
               </div>
