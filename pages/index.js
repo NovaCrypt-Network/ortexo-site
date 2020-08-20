@@ -8,16 +8,19 @@ export default () => {
   return (
     <Layout>
       <Head>
-        <title>Ortexo - A Launching innovative technologies</title>
+        <title>Ortexo - Launching innovative technologies</title>
         <meta
           name="description"
           content="Accelerating student success by providing access to new knowledge, insights and opportunities."
         />
+        
+//Keywords
+<meta name="keywords" content="student, software, SAAS, startup, Ortexo, NPOCore, Non-profit, students"/>
 
         <link rel="stylesheet" href="/css/odometer.css" />
         <script src="/js/odometer.js" />
         <script src="/js/index.js" />
-        
+
       </Head>
 
       <section className="header" id="header">
@@ -127,7 +130,7 @@ export default () => {
           <div className="container">
             <h1 className="featured-products">Featured Products</h1>
             <div className="products-grid mt-5">
-              
+
 
               <a
                 className="product-link"
@@ -145,7 +148,7 @@ export default () => {
                 </div>
                 </a>
             </div>
-            
+
           </div>
         </div>
       </section>
