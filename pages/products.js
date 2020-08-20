@@ -66,7 +66,6 @@ export default () => {
                     <span>Express.js</span>
                     <span>React.js</span>
                     <span>MongoDB</span>
-                    <span>Google Maps API</span>
                   </div>
                   <div className="product-content-cta-right">
                     <a
