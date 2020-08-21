@@ -11,7 +11,7 @@ export default () => {
         <title>Ortexo - Launching innovative technologies</title>
         <meta
           name="description"
-          content="Accelerating student success by providing access to new knowledge, insights and opportunities."
+          content="Get access to a library of applications dedicated to accelerate your success as a student. Find up-to-date knowledge, insights, and opportunities all in one place with Ortexo."
         />
         
 //Keywords
@@ -53,6 +53,7 @@ export default () => {
               <img
                 src="img/illustrations/header.svg"
                 className="header-grid-right-illustration"
+                alt="Student Succeeding with Ortexo"
               />
             </div>
           </div>
@@ -67,19 +68,19 @@ export default () => {
         <div className="container py-3">
           <div className="trusted-by-statement">TRUSTED BY</div>
           <div className="trusted-by-grid">
-            <img className="px-3" src="/img/logos/trusted-by/tks.png" alt="" />
-            <img className="" src="/img/logos/trusted-by/launchx.png" alt="" />
-            <img className="px-3" src="/img/logos/leangap.png" alt="" />
+            <img className="px-3" src="/img/logos/trusted-by/tks.png" alt="Ortexo Trusted by: The Knowledge Society" />
+            <img className="" src="/img/logos/trusted-by/launchx.png" alt="Ortexo Trusted by: LaunchX" />
+            <img className="px-3" src="/img/logos/leangap.png" alt="Ortexo Trusted by: leangap" />
             <img
               className="px-3"
               src="/img/logos/bluestampengineering.png"
-              alt=""
+              alt="Ortexo Trusted by: Bluestamp Engineering"
             />
             <img
               id="mobile-disappear"
               className="px-3"
               src="/img/logos/future-minds.png"
-              alt=""
+              alt="Ortexo Trusted by: Future Minds Network"
             />
           </div>
         </div>
@@ -140,7 +141,7 @@ export default () => {
                 <img
                   className="product-image"
                   src="img/products/npocore/desktop.png"
-                  alt="Ortexo - NPO Core - Website Image"
+                  alt="NPO Core by Ortexo"
                 />
                 <div className="text-center mt-3">
                   <h2>NPO Core</h2>
@@ -214,12 +215,12 @@ export default () => {
                       <span>hello@ortexo.com</span>
                     </a>
                   </p>
-                  <p className="contact-us-grid-left-contact-item">
+                  {/* <p className="contact-us-grid-left-contact-item">
                     <a href="https://calendly.com/ortexo" target="_blank">
                       <img src="img/icons/contact/calendar-dark.svg" />
                       <span>Schedule a Call</span>
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

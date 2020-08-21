@@ -145,12 +145,12 @@ export default ({ children }) => {
                   <span>hello@ortexo.com</span>
                 </a>
               </p>
-              <p className="footer-grid-contact-item">
+              {/* <p className="footer-grid-contact-item">
                 <a href="https://calendly.com/ortexo" target="_blank">
                   <img src="/img/icons/contact/calendar.svg" />
                   <span>Schedule a Call</span>
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

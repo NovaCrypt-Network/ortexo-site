@@ -8,7 +8,7 @@ export default () => {
         <title>Ortexo - About Us</title>
         <meta
           name="description"
-          content="Accelerating student success by providing access to new knowledge, insights and opportunities."
+          content="Get access to a library of applications dedicated to accelerate your success as a student. Find up-to-date knowledge, insights, and opportunities all in one place with Ortexo."
         />
       </Head>
 

@@ -6,7 +6,7 @@ export default () => {
     <Layout>
       <Head>
         <title>Ortexo - Our Partners</title>
-        <meta name="description" content="Accelerating student success by providing access to new knowledge, insights and opportunities." />
+        <meta name="description" content="Get access to a library of applications dedicated to accelerate your success as a student. Find up-to-date knowledge, insights, and opportunities all in one place with Ortexo." />
       </Head>
 
       <div className="waves">
