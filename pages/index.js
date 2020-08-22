@@ -2,8 +2,6 @@ import Head from "next/head";
 import Layout from "../components/Layout.js";
 import Link from "next/link";
 
-
-
 export default () => {
   return (
     <Layout>
@@ -13,9 +11,12 @@ export default () => {
           name="description"
           content="Get access to a library of applications dedicated to accelerate your success as a student. Find up-to-date knowledge, insights, and opportunities all in one place with Ortexo."
         />
-        
+
 //Keywords
 <meta name="keywords" content="student, software, SAAS, startup, Ortexo, NPOCore, Non-profit, students"/>
+
+//Set viewport
+<meta name="viewport"content="width+device-width, initial-scale=1"/>
 
         <link rel="stylesheet" href="/css/odometer.css" />
         <script src="/js/odometer.js" />

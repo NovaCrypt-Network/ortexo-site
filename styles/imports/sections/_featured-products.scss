@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     justify-items: center;
-    
+
     grid-gap: 50px;
 
     .product-link {
@@ -24,7 +24,7 @@
       .product-image {
 
         &:hover {
-          transform: scale(1.1);
+          transform: scale(1.05);
         }
       }
 
