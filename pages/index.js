@@ -70,17 +70,17 @@ export default () => {
           <div className="trusted-by-statement">TRUSTED BY</div>
           <div className="trusted-by-grid">
             <img className="px-3" src="/img/logos/trusted-by/tks.png" alt="Ortexo Trusted by: The Knowledge Society" />
-            <img className="" src="/img/logos/trusted-by/launchx.webp" alt="Ortexo Trusted by: LaunchX" />
-            <img className="px-3" src="/img/logos/leangap.webp" alt="Ortexo Trusted by: leangap" />
+            <img className="" src="/img/logos/trusted-by/launchx.png" alt="Ortexo Trusted by: LaunchX" />
+            <img className="px-3" src="/img/logos/leangap.png" alt="Ortexo Trusted by: leangap" />
             <img
               className="px-3"
-              src="/img/logos/bluestampengineering.webp"
+              src="/img/logos/bluestampengineering.png"
               alt="Ortexo Trusted by: Bluestamp Engineering"
             />
             <img
               id="mobile-disappear"
               className="px-3"
-              src="/img/logos/future-minds.webp"
+              src="/img/logos/future-minds.png"
               alt="Ortexo Trusted by: Future Minds Network"
             />
           </div>
@@ -141,7 +141,7 @@ export default () => {
               >
                 <img
                   className="product-image"
-                  src="img/products/npocore/desktop.webp"
+                  src="img/products/npocore/desktop.png"
                   alt="NPO Core by Ortexo"
                 />
                 <div className="text-center mt-3">
