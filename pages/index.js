@@ -9,7 +9,7 @@ export default () => {
         <title>Ortexo - Launching innovative technologies</title>
         <meta
           name="description"
-          content="Get access to a library of applications dedicated to accelerate your success as a student. Find up-to-date knowledge, insights, and opportunities all in one place with Ortexo."
+          content="Get access to a library of applications dedicated to accelerate your success as a student. Find up-to-date knowledge, insights, and opportunities all in one place!"
         />
 
 //Keywords
