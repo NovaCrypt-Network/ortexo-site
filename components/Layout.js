@@ -19,10 +19,10 @@ export default ({ children }) => {
           <p className="mb-0" style={{ "fontSize": "17.5px", "fontWeight": "600" }}>Want to learn how to expand your organization? <a style={{ "color": "black", "textDecoration": "underline" }} href="https://zmurl.com/SSN" target="_blank">Register For Secrets of Successful NPOs</a> 🚀</p>
         </div>
       </div> */}
-      
-      <div className="banner">
-      We've officially rebranded Launch Tech LLC to Ortexo!
-      </div>
+
+      // <div className="banner">
+      // We've officially rebranded Launch Tech LLC to Ortexo!
+      // </div>
 
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
@@ -69,13 +69,13 @@ export default ({ children }) => {
       <section className="footer" id="footer">
         <div className="container">
           <div className="footer-grid">
-          
+
             <div className="copyright-container">
               <img src="https://cdn.ortexo.com/OrtexoLogo2.png" alt="Ortexo logo" />
               <br/>
               <small className="copyright">&copy; 2020 Launch Tech LLC All rights reserved.</small>
             </div>
-            
+
             <div></div>
 
             <div className="footer-grid-links">
@@ -156,8 +156,8 @@ export default ({ children }) => {
         </div>
       </section>
 
-      
+
     </>
-    
+
   )
 }
