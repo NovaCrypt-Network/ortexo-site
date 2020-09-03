@@ -20,9 +20,6 @@ export default ({ children }) => {
         </div>
       </div> */}
 
-      // <div className="banner">
-      // We've officially rebranded Launch Tech LLC to Ortexo!
-      // </div>
 
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container">
