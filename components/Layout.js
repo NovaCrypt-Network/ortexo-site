@@ -39,7 +39,7 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" href="https://blog.ortexo.com/" target="_blank">Blog</a>
+                  <a className="nav-link" href="https://blog.npocore.com/" target="_blank">Blog</a>
               </li>
               <li className="nav-item">
                 <Link href="/about">
