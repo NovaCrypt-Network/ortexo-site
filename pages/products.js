@@ -90,6 +90,67 @@ export default () => {
             </div>
           </div>
       </section>
+
+
+
+            <section className="products-section">
+              <div className="page-container container">
+                <div className="products">
+                  <div className="product">
+                    <div className="product-images" data-aos="zoom-in">
+                      <img
+                        className="product-images-1"
+                        src="img/products/w3hacks/desktop.png"
+                        alt="Ortexo - W3Hacks - Website Image"
+                      />
+                      <img
+                        className="product-images-2"
+                        src="img/products/w3hacks/tablet.png"
+                        alt="Ortexo - W3Hacks - Website Image"
+                      />
+                      <img
+                        className="product-images-3"
+                        src="img/products/w3hacks/mobile.png"
+                        alt="Ortexo - W3Hacks - Website Image"
+                      />
+                    </div>
+                    <div className="product-content">
+                      <h2>W3Hacks</h2>
+                      <p>
+                      w3Hacks is a platform where anyone can learn to code through real-world practices.
+
+                      </p>
+                      <div className="product-content-cta">
+                        <div className="product-content-cta-left">
+                          <span>DJango</span>
+                        </div>
+                        <div className="product-content-cta-right">
+                          <a
+                            href="https://github.com/ortexo/"
+                            target="_blank"
+                          >
+                            <img
+                              src="img/icons/social-media/github-dark.svg"
+                              alt="Ortexo - w3hacks - GitHub"
+                            />
+                          </a>
+                          <a href="https://www.w3hacks.com/" target="_blank">
+                            <img
+                              src="img/icons/contact/out-dark.svg"
+                              alt="Ortexo - w3hacks - Website Application"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+            </section>
+
+
+
+
     </Layout>
   );
 };

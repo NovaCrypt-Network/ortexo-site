@@ -149,6 +149,25 @@ export default () => {
                   <p>Your one-stop shop for all things non-profits</p>
                 </div>
                 </a>
+
+
+                <a
+                  className="product-link"
+                  href="https://W3Hacks.com"
+                  target="_blank"
+                >
+                  <img
+                    className="product-image"
+                    src="img/products/w3hacks/desktop.png"
+                    alt="W3Hacks by Ortexo"
+                  />
+                  <div className="text-center mt-3">
+                    <h2>W3Hacks</h2>
+                    <p>w3Hacks is a platform where anyone can learn to code through real-world practices.</p>
+                  </div>
+                  </a>
+
+
             </div>
 
           </div>
