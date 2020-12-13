@@ -1,5 +1,5 @@
 {
-  "name": "site",
+  "name": "ortexo-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.4.4",
+    "next": "^10.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-ga": "^3.0.0",
-    "sass": "^1.26.8"
+    "react-ga": "^3.3.0",
+    "sass": "^1.30.0"
   }
 }
